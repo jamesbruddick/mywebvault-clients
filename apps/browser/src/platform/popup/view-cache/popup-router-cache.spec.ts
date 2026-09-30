@@ -152,4 +152,28 @@ describe("Popup router cache guard", () => {
       },
     ]);
   });
+
+  it("drops later routes when returning to a route already in the history", async () => {
+    await router.navigate(["a"]);
+    await router.navigate(["b"]);
+    await router.navigate(["a"]);
+
+    await flushPromises();
+
+    const history = await firstValueFrom(service.history$());
+    expect(history.map((entry) => entry.url)).toEqual(["/a"]);
+  });
+
+  it("keeps at most the 10 most recent routes", async () => {
+    for (let i = 0; i < 15; i++) {
+      await router.navigate(["a"], { queryParams: { n: i } });
+    }
+
+    await flushPromises();
+
+    const history = await firstValueFrom(service.history$());
+    expect(history.map((entry) => entry.url)).toEqual(
+      Array.from({ length: 10 }, (_, i) => `/a?n=${i + 5}`),
+    );
+  });
 });

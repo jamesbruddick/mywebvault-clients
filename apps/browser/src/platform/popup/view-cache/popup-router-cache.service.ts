@@ -21,6 +21,9 @@ import {
 } from "../../../platform/services/popup-view-cache-background.service";
 import BrowserPopupUtils from "../../browser/browser-popup-utils";
 
+/** myWebVault: most route history entries kept (and replayed) when the popup reopens. */
+const MAX_ROUTE_HISTORY = 10;
+
 /**
  * Preserves route history when opening and closing the popup
  *
@@ -112,9 +115,17 @@ export class PopupRouterCacheService {
       },
     };
 
-    await this.state.update((prevState) =>
-      prevState == null ? [routeEntry] : prevState.concat(routeEntry),
-    );
+    // myWebVault: every entry is replayed as a browser navigation each time the popup opens, and
+    // each one takes Chrome tens of milliseconds, so keep the stack short. Returning to a page that
+    // is already in the stack (e.g. the bookmarks tab after saving) drops everything after it,
+    // like a back navigation, and the stack is capped.
+    await this.state.update((prevState) => {
+      const history = prevState ?? [];
+      const existing = history.findIndex((entry) => entry.url === url);
+      const next =
+        existing >= 0 ? history.slice(0, existing).concat(routeEntry) : history.concat(routeEntry);
+      return next.slice(-MAX_ROUTE_HISTORY);
+    });
   }
 
   /**
