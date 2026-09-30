@@ -462,6 +462,10 @@ const routes: Routes = [
           pageIcon: LockIcon,
           elevation: 1,
           showBackButton: true,
+          // myWebVault: match the sign-up start page so the form fits the popup without scrolling.
+          contentVerticalPadding: "compact",
+          footerVerticalPadding: "compact",
+          hideFooter: true,
         } satisfies RouteDataProperties & ExtensionAnonLayoutWrapperData,
         children: [
           {
