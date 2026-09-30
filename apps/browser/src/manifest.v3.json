@@ -44,38 +44,26 @@
   "__firefox__permissions": [
     "activeTab",
     "alarms",
-    "clipboardRead",
     "clipboardWrite",
     "contextMenus",
     "idle",
     "scripting",
     "storage",
-    "tabs",
-    "unlimitedStorage",
-    "webNavigation",
-    "webRequest",
-    "webRequestAuthProvider",
-    "notifications"
+    "unlimitedStorage"
   ],
   "__safari__permissions": [
     "activeTab",
     "alarms",
-    "clipboardRead",
     "clipboardWrite",
     "contextMenus",
     "idle",
-    "nativeMessaging",
     "offscreen",
     "scripting",
     "storage",
-    "tabs",
-    "unlimitedStorage",
-    "webNavigation",
-    "webRequest",
-    "webRequestAuthProvider"
+    "unlimitedStorage"
   ],
   "optional_permissions": ["bookmarks", "nativeMessaging"],
-  "__firefox__optional_permissions": ["bookmarks", "nativeMessaging"],
+  "__firefox__optional_permissions": ["bookmarks"],
   "__safari__optional_permissions": null,
   "content_security_policy": {
     "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'",
@@ -111,8 +99,11 @@
   },
   "__firefox__browser_specific_settings": {
     "gecko": {
-      "id": "{446900e4-71c2-419f-a6a7-df9c091e268b}",
-      "strict_min_version": "91.0"
+      "id": "{a612e095-ebd7-4df1-a9df-aa4322e433eb}",
+      "strict_min_version": "128.0",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
     }
   },
   "__firefox__sidebar_action": {

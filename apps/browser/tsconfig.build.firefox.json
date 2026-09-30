@@ -1,0 +1,5 @@
+{
+  "extends": "./tsconfig.build.json",
+  // Replaces the Manifest V3 `files` (the offscreen document, which Firefox doesn't support).
+  "files": []
+}
