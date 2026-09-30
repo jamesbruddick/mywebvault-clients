@@ -1,6 +1,6 @@
 name: Release
 
-# Push a tag such as v1.0.0 to build every extension and the web app and publish a GitHub Release.
+# Push a tag such as v1.0.0 to build every extension and publish a GitHub Release.
 on:
   push:
     tags: ["v*"]
@@ -14,14 +14,9 @@ jobs:
     with:
       name-suffix: ${{ github.ref_name }}
 
-  web:
-    uses: ./.github/workflows/build-web.yml
-    with:
-      name-suffix: ${{ github.ref_name }}
-
   release:
     name: Publish release
-    needs: [extensions, web]
+    needs: extensions
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -43,7 +38,6 @@ jobs:
           | `mywebvault-edge-*.zip` | Edge: same as Chrome at `edge://extensions`, or upload to Microsoft Edge Add-ons. |
           | `mywebvault-firefox-*.zip` | Firefox: upload to addons.mozilla.org to have it signed. For testing, load it from `about:debugging`. |
           | `mywebvault-safari-*.zip` | Safari: the web extension files. Safari needs them wrapped in an app with Xcode (`xcrun safari-web-extension-converter`) and signed with an Apple Developer account. |
-          | `mywebvault-web-*.zip` | The web app, ready to host as static files. |
 
           Built on Bitwarden's open source code. Not affiliated with or endorsed by Bitwarden, Inc.
           EOF
