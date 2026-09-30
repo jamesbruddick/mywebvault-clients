@@ -1,0 +1,66 @@
+name: Build web app
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "apps/web/**"
+      - "libs/**"
+      - "package.json"
+      - "package-lock.json"
+      - "tsconfig.base.json"
+      - ".github/workflows/build-web.yml"
+  pull_request:
+    paths:
+      - "apps/web/**"
+      - "libs/**"
+      - "package.json"
+      - "package-lock.json"
+      - "tsconfig.base.json"
+      - ".github/workflows/build-web.yml"
+  workflow_dispatch:
+  workflow_call:
+    inputs:
+      name-suffix:
+        description: Added to the zip name, e.g. the release tag
+        type: string
+        default: ""
+
+permissions:
+  contents: read
+
+env:
+  HUSKY: 0
+  NODE_OPTIONS: --max-old-space-size=8192
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+
+      - name: Build
+        working-directory: apps/web
+        env:
+          NODE_ENV: production
+        run: npm run build:oss
+
+      - name: Zip
+        id: zip
+        run: |
+          suffix="${{ inputs.name-suffix }}"
+          name="mywebvault-web${suffix:+-$suffix}"
+          (cd apps/web/build && zip -qr "$GITHUB_WORKSPACE/$name.zip" . -x "*.map")
+          echo "name=$name" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ steps.zip.outputs.name }}
+          path: ${{ steps.zip.outputs.name }}.zip
+          if-no-files-found: error

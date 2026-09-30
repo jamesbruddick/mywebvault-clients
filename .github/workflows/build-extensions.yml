@@ -1,0 +1,91 @@
+name: Build extensions
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "apps/browser/**"
+      - "libs/**"
+      - "package.json"
+      - "package-lock.json"
+      - "tsconfig.base.json"
+      - ".github/workflows/build-extensions.yml"
+  pull_request:
+    paths:
+      - "apps/browser/**"
+      - "libs/**"
+      - "package.json"
+      - "package-lock.json"
+      - "tsconfig.base.json"
+      - ".github/workflows/build-extensions.yml"
+  workflow_dispatch:
+  workflow_call:
+    inputs:
+      name-suffix:
+        description: Added to the zip names, e.g. the release tag
+        type: string
+        default: ""
+
+permissions:
+  contents: read
+
+env:
+  HUSKY: 0
+  NODE_OPTIONS: --max-old-space-size=8192
+
+jobs:
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+      - name: Run browser extension tests
+        working-directory: apps/browser
+        run: npx jest --ci
+
+  build:
+    name: Build ${{ matrix.name }}
+    needs: test
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { browser: chrome, name: Chrome }
+          - { browser: edge, name: Edge }
+          - { browser: firefox, name: Firefox }
+          - { browser: safari, name: Safari }
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+
+      # Every browser uses the Manifest V3 build (manifest.v3.json), which carries myWebVault's
+      # name and minimal permissions.
+      - name: Build
+        working-directory: apps/browser
+        env:
+          MANIFEST_VERSION: 3
+        run: npm run build:prod:${{ matrix.browser }}
+
+      - name: Zip
+        id: zip
+        run: |
+          suffix="${{ inputs.name-suffix }}"
+          name="mywebvault-${{ matrix.browser }}${suffix:+-$suffix}"
+          (cd apps/browser/build && zip -qr "$GITHUB_WORKSPACE/$name.zip" .)
+          echo "name=$name" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ steps.zip.outputs.name }}
+          path: ${{ steps.zip.outputs.name }}.zip
+          if-no-files-found: error

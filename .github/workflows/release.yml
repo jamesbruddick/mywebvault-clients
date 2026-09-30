@@ -1,0 +1,53 @@
+name: Release
+
+# Push a tag such as v1.0.0 to build every extension and the web app and publish a GitHub Release.
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: read
+
+jobs:
+  extensions:
+    uses: ./.github/workflows/build-extensions.yml
+    with:
+      name-suffix: ${{ github.ref_name }}
+
+  web:
+    uses: ./.github/workflows/build-web.yml
+    with:
+      name-suffix: ${{ github.ref_name }}
+
+  release:
+    name: Publish release
+    needs: [extensions, web]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@v5
+        with:
+          path: dist
+          merge-multiple: true
+
+      - name: Create release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ github.ref_name }}
+        run: |
+          cat > notes.md <<'EOF'
+          | File | Install |
+          | --- | --- |
+          | `mywebvault-chrome-*.zip` | Chrome: unzip, open `chrome://extensions`, turn on Developer mode, **Load unpacked**. For the Chrome Web Store, upload the zip as is. |
+          | `mywebvault-edge-*.zip` | Edge: same as Chrome at `edge://extensions`, or upload to Microsoft Edge Add-ons. |
+          | `mywebvault-firefox-*.zip` | Firefox: upload to addons.mozilla.org to have it signed. For testing, load it from `about:debugging`. |
+          | `mywebvault-safari-*.zip` | Safari: the web extension files. Safari needs them wrapped in an app with Xcode (`xcrun safari-web-extension-converter`) and signed with an Apple Developer account. |
+          | `mywebvault-web-*.zip` | The web app, ready to host as static files. |
+
+          Built on Bitwarden's open source code. Not affiliated with or endorsed by Bitwarden, Inc.
+          EOF
+          gh release create "$TAG" dist/*.zip \
+            --repo "$GITHUB_REPOSITORY" \
+            --title "myWebVault $TAG" \
+            --notes-file notes.md
