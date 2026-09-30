@@ -71,6 +71,8 @@ function render() {
       const icon = el("img", "favicon");
       icon.src = faviconUrl(bookmark.url);
       icon.alt = "";
+      // Chrome's local favicon cache (`_favicon`) doesn't exist in Firefox or Safari.
+      icon.addEventListener("error", () => (icon.style.visibility = "hidden"));
 
       const text = el("div", "text");
       text.append(

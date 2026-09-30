@@ -110,6 +110,11 @@ export class BookmarksComponent implements OnInit {
     }
   }
 
+  /** Chrome's local favicon cache (`_favicon`) doesn't exist in Firefox or Safari; hide the gap. */
+  protected hideFavicon(event: Event) {
+    (event.target as HTMLImageElement).style.visibility = "hidden";
+  }
+
   protected faviconUrl(url: string): string {
     return BrowserApi.getRuntimeURL(`/_favicon/?pageUrl=${encodeURIComponent(url)}&size=32`);
   }

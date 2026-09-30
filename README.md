@@ -57,6 +57,14 @@ encryption and sync, with the password manager parts switched off.
 | `bookmarks` _(optional)_       | Requested only when you import your browser bookmarks                          |
 | `nativeMessaging` _(optional)_ | Inherited from Bitwarden's desktop app integration; never requested            |
 
+## Download
+
+Builds for Chrome, Edge, Firefox and Safari are attached to each
+[release](https://github.com/jamesbruddick/mywebvault-clients/releases). Chrome and Edge are the
+supported browsers for now; the Firefox and Safari builds are experimental and haven't been tested
+in those browsers yet. Safari also needs the files wrapped in an app with Xcode before it can load
+them.
+
 ## Getting started
 
 You'll need Node.js 24.17 or later and npm 11.
