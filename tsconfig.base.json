@@ -13,7 +13,7 @@
     "emitDecoratorMetadata": true,
     "declaration": false,
     "outDir": "dist",
-    "baseUrl": ".",
+    "rootDir": ".",
     "resolveJsonModule": true,
     "allowJs": true,
     "sourceMap": true,
