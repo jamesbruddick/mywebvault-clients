@@ -82,7 +82,10 @@ export class RegistrationEnvSelectorComponent implements OnInit, OnDestroy {
     this.isDesktopOrBrowserExtension =
       clientType === ClientType.Desktop || clientType === ClientType.Browser;
 
-    this.hideEnvSelector = clientType === ClientType.Web && this.platformUtilsService.isSelfHost();
+    // myWebVault: the extension only talks to the myWebVault server, so there is nothing to pick.
+    this.hideEnvSelector =
+      clientType === ClientType.Browser ||
+      (clientType === ClientType.Web && this.platformUtilsService.isSelfHost());
   }
 
   async ngOnInit() {

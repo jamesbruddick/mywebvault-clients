@@ -3,7 +3,6 @@ import { ActivatedRouteSnapshot, RouteReuseStrategy, RouterModule, Routes } from
 
 import { AuthenticationTimeoutComponent } from "@bitwarden/angular/auth/components/authentication-timeout.component";
 import { AuthRoute } from "@bitwarden/angular/auth/constants";
-import { EnvironmentSelectorComponent } from "@bitwarden/angular/auth/environment-selector/environment-selector.component";
 import {
   activeAuthGuard,
   authGuard,
@@ -501,11 +500,6 @@ const routes: Routes = [
         children: [
           { path: "", component: LoginComponent },
           { path: "", component: LoginSecondaryContentComponent, outlet: "secondary" },
-          {
-            path: "",
-            component: EnvironmentSelectorComponent,
-            outlet: "environment-selector",
-          },
         ],
       },
       {
@@ -523,14 +517,7 @@ const routes: Routes = [
           heroTextAlignment: "left",
           secondaryContentLocation: "footer",
         } satisfies RouteDataProperties & ExtensionAnonLayoutWrapperData,
-        children: [
-          { path: "", component: LoginViaWebAuthnComponent },
-          {
-            path: "",
-            component: EnvironmentSelectorComponent,
-            outlet: "environment-selector",
-          },
-        ],
+        children: [{ path: "", component: LoginViaWebAuthnComponent }],
       },
       {
         path: AuthRoute.Sso,
@@ -545,14 +532,7 @@ const routes: Routes = [
           },
           elevation: 1,
         } satisfies RouteDataProperties & ExtensionAnonLayoutWrapperData,
-        children: [
-          { path: "", component: SsoComponent },
-          {
-            path: "",
-            component: EnvironmentSelectorComponent,
-            outlet: "environment-selector",
-          },
-        ],
+        children: [{ path: "", component: SsoComponent }],
       },
       {
         path: AuthRoute.LoginWithDevice,
@@ -568,14 +548,7 @@ const routes: Routes = [
           showBackButton: true,
           elevation: 1,
         } satisfies RouteDataProperties & ExtensionAnonLayoutWrapperData,
-        children: [
-          { path: "", component: LoginViaAuthRequestComponent },
-          {
-            path: "",
-            component: EnvironmentSelectorComponent,
-            outlet: "environment-selector",
-          },
-        ],
+        children: [{ path: "", component: LoginViaAuthRequestComponent }],
       },
       {
         path: AuthRoute.PasswordHint,
@@ -591,14 +564,7 @@ const routes: Routes = [
           showBackButton: true,
           elevation: 1,
         } satisfies RouteDataProperties & ExtensionAnonLayoutWrapperData,
-        children: [
-          { path: "", component: PasswordHintComponent },
-          {
-            path: "",
-            component: EnvironmentSelectorComponent,
-            outlet: "environment-selector",
-          },
-        ],
+        children: [{ path: "", component: PasswordHintComponent }],
       },
       {
         path: AuthRoute.AdminApprovalRequested,
