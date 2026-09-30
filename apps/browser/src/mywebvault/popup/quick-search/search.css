@@ -48,6 +48,8 @@ body {
     sans-serif;
   color: var(--mwv-text);
   overflow: hidden;
+  /* Don't let scrolling in the overlay reach the page underneath. */
+  overscroll-behavior: none;
 }
 
 .backdrop {
@@ -131,6 +133,7 @@ body.window-mode .panel {
   margin: 0;
   padding: 6px;
   overflow-y: auto;
+  overscroll-behavior: contain;
 }
 .results:empty {
   display: none;

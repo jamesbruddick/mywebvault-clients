@@ -208,6 +208,17 @@ document.addEventListener("keydown", (e) => {
 
 backdrop.addEventListener("mousedown", close);
 
+// Scrolling anywhere in the overlay except the results list would otherwise scroll the page
+// underneath (the iframe passes scrolls it can't use on to its parent). The list itself stops at its
+// ends via `overscroll-behavior: contain`.
+const blockPageScroll = (e: Event) => {
+  if (!(e.target instanceof Node && list.contains(e.target))) {
+    e.preventDefault();
+  }
+};
+document.addEventListener("wheel", blockPageScroll, { passive: false });
+document.addEventListener("touchmove", blockPageScroll, { passive: false });
+
 window.focus();
 input.focus();
 void load();
