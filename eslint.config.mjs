@@ -354,12 +354,6 @@ export default tseslint.config(
     },
   },
   {
-    files: ["bitwarden_license/bit-common/src/**/*.ts"],
-    rules: {
-      "no-restricted-imports": buildNoRestrictedImports(["@bitwarden/bit-common/*"]),
-    },
-  },
-  {
     files: ["apps/**/*.ts"],
     rules: {
       // Catches static imports
@@ -419,12 +413,7 @@ export default tseslint.config(
   },
   // Tailwind migrated clients & libs
   {
-    files: [
-      "apps/web/**/*.html",
-      "apps/browser/**/*.html",
-      "bitwarden_license/bit-web/**/*.html",
-      "libs/**/*.html",
-    ],
+    files: ["apps/web/**/*.html", "apps/browser/**/*.html", "libs/**/*.html"],
     rules: {
       "tailwindcss/no-custom-classname": [
         "error",
@@ -683,7 +672,7 @@ export default tseslint.config(
   // `@bitwarden/*` alias. Scoped to libs here; the rule self-limits to the file's owning package.
   // https://contributing.bitwarden.com/contributing/code-style/web/typescript#imports-within-the-same-package
   {
-    files: ["libs/**/*.ts", "bitwarden_license/bit-common/src/**/*.ts"],
+    files: ["libs/**/*.ts"],
     rules: {
       "@bitwarden/platform/no-self-package-import": "error",
     },
@@ -694,8 +683,6 @@ export default tseslint.config(
     files: [
       "apps/cli/src/admin-console/**/*.ts",
       "apps/web/src/app/admin-console/**/*.ts",
-      "bitwarden_license/bit-cli/src/admin-console/**/*.ts",
-      "bitwarden_license/bit-web/src/app/admin-console/**/*.ts",
       "libs/admin-console/src/**/*.ts",
     ],
     rules: {

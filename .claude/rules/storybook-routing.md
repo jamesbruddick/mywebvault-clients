@@ -41,8 +41,6 @@ export default {
 export const Edit: Story = { decorators: [atUrl("/organizations/org-1/access-rules/rule-1")] };
 ```
 
-Full example: `bitwarden_license/bit-web/src/app/pam/access-rules/access-rule-edit/access-rule-edit.component.stories.ts`.
-
 ## Give the story a URL, not just a router
 
 `provideRouter([])` / `RouterModule.forRoot([])` can never match Storybook's own `/iframe.html?…`,

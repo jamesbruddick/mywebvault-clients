@@ -6,10 +6,8 @@ import { SafeInjectionToken } from "@bitwarden/ui-common";
 /**
  * The Health tab's entry in the popup's bottom navigation, rendered between Send and Settings.
  *
- * The Health report feature ships only with the commercial extension, which provides this token
- * from `bitwarden_license/bit-browser`. It emits `undefined` when the active User does not have
- * access to the feature, and is not provided at all in the open source extension; in both cases the
- * Health tab is hidden.
+ * The Health report feature is part of upstream Bitwarden's commercial extension and is not included
+ * in this fork, so this token is never provided and the Health tab is always hidden.
  */
 export const HEALTH_TAB_NAV_BUTTON = new SafeInjectionToken<
   Observable<BottomNavigationButton | undefined>

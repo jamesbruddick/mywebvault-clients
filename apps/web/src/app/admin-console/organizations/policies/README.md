@@ -31,12 +31,7 @@ export enum PolicyType {
 
 ### Policy Licensing and Location
 
-The location where you create your policy depends on its licensing:
-
-- **Open Source (OSS) Policies**: Create in `apps/web/src/app/admin-console/organizations/policies/policy-edit-definitions/`
-- **Bitwarden Licensed Policies**: Create in `bitwarden_license/bit-web/src/app/admin-console/policies/`
-
-Most policies should be OSS licensed unless they specifically relate to premium/enterprise features that are part of Bitwarden's commercial offerings.
+Create policies in `apps/web/src/app/admin-console/organizations/policies/policy-edit-definitions/`.
 
 Create a new component file in the appropriate `policy-edit-definitions/` folder following the naming pattern `your-policy-name.component.ts`.
 

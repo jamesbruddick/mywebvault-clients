@@ -30,15 +30,15 @@ nx affected --target=build --base=origin/main
 # Build, lint, and test every project at once
 npx nx run-many --target=build,test,lint --all
 
-# Most projects default to the "oss-dev" build, so if you need the bitwarden license build add a --configuration
-npx nx build cli --configuration=commercial-dev
+# Most projects default to the "oss-dev" build
+npx nx build cli --configuration=oss-dev
 
 # If you need a production build drop the "dev" suffix
-npx nx build cli --configuration=oss # or "commercial"
+npx nx build cli --configuration=oss
 
 # Configurations can also be passed to run-many
-# For example: to run all Bitwarden licensed builds
-npx nx run-many --target=build,test,lint --all --configuration=commercial
+# For example: to run all production builds
+npx nx run-many --target=build,test,lint --all --configuration=oss
 
 # Outputs are distributed in a root level /dist/ folder
 
@@ -147,7 +147,7 @@ flowchart TD
     FacadeOutput --> CacheResults1[Nx caches results in .nx/cache/]
 
     %% Webpack Executor Flow
-    WebpackExecutor --> ReadWebpackConfig[Webpack config read from apps/cli/webpack.config.js or bit-cli/webpack.config.js]
+    WebpackExecutor --> ReadWebpackConfig[Webpack config read from apps/cli/webpack.config.js]
     ReadWebpackConfig --> ConfigureWebpack[Webpack configured with entry points, TypeScript paths, and plugins]
     ConfigureWebpack --> WebpackProcess[Webpack resolves paths, compiles TypeScript, bundles dependencies, and applies optimizations]
     WebpackProcess --> WebpackOutput[Single executable bundle written to dist/apps/cli/]

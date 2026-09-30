@@ -25,12 +25,6 @@
         },
         "oss-dev": {
           "command": "cross-env NODE_ENV=development webpack --config webpack.config.js --config-name main"
-        },
-        "commercial": {
-          "command": "cross-env NODE_ENV=production webpack --config ../../bitwarden_license/bit-desktop/webpack.config.js --config-name main"
-        },
-        "commercial-dev": {
-          "command": "cross-env NODE_ENV=development webpack --config ../../bitwarden_license/bit-desktop/webpack.config.js --config-name main"
         }
       }
     },
@@ -47,12 +41,6 @@
         },
         "oss-dev": {
           "command": "cross-env NODE_ENV=development webpack --config webpack.config.js --config-name preload"
-        },
-        "commercial": {
-          "command": "cross-env NODE_ENV=production webpack --config ../../bitwarden_license/bit-desktop/webpack.config.js --config-name preload"
-        },
-        "commercial-dev": {
-          "command": "cross-env NODE_ENV=development webpack --config ../../bitwarden_license/bit-desktop/webpack.config.js --config-name preload"
         }
       }
     },
@@ -69,12 +57,6 @@
         },
         "oss-dev": {
           "command": "cross-env NODE_ENV=development webpack --config webpack.config.js --config-name renderer"
-        },
-        "commercial": {
-          "command": "cross-env NODE_ENV=production webpack --config ../../bitwarden_license/bit-desktop/webpack.config.js --config-name renderer"
-        },
-        "commercial-dev": {
-          "command": "cross-env NODE_ENV=development webpack --config ../../bitwarden_license/bit-desktop/webpack.config.js --config-name renderer"
         }
       }
     },
@@ -104,20 +86,6 @@
             "nx run desktop:build-preload --configuration=oss-dev",
             "nx run desktop:build-renderer --configuration=oss-dev"
           ]
-        },
-        "commercial": {
-          "commands": [
-            "nx run desktop:build-main --configuration=commercial",
-            "nx run desktop:build-preload --configuration=commercial",
-            "nx run desktop:build-renderer --configuration=commercial"
-          ]
-        },
-        "commercial-dev": {
-          "commands": [
-            "nx run desktop:build-main --configuration=commercial-dev",
-            "nx run desktop:build-preload --configuration=commercial-dev",
-            "nx run desktop:build-renderer --configuration=commercial-dev"
-          ]
         }
       }
     },
@@ -138,9 +106,6 @@
       "configurations": {
         "oss": {
           "jestConfig": "apps/desktop/jest.config.js"
-        },
-        "commercial": {
-          "jestConfig": "bitwarden_license/bit-desktop/jest.config.js"
         }
       }
     },

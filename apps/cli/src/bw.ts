@@ -28,7 +28,7 @@ async function main() {
 
     await registerOssPrograms(serviceContainer);
 
-    // ServeProgram is registered separately so it can be overridden by bit-cli
+    // ServeProgram is registered separately so its configurator can be swapped
     const serveConfigurator = new OssServeConfigurator(serviceContainer);
     new ServeProgram(serviceContainer, serveConfigurator).register();
 
