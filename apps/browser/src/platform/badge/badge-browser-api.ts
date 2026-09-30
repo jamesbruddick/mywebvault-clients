@@ -2,6 +2,7 @@ import {
   concat,
   concatMap,
   defer,
+  EMPTY,
   filter,
   map,
   merge,
@@ -35,7 +36,8 @@ export interface Tab {
 function tabFromChromeTab(tab: chrome.tabs.Tab): Tab {
   return {
     tabId: tab.id!,
-    url: tab.url!,
+    // Empty without the "tabs" permission (myWebVault doesn't request it); lock state doesn't need it.
+    url: tab.url ?? "",
   };
 }
 
@@ -93,10 +95,7 @@ export class DefaultBadgeBrowserApi implements BadgeBrowserApi {
     merge(
       this.onTabActivated$.pipe(
         switchMap(async (activeInfo) => await BrowserApi.getTab(activeInfo.tabId)),
-        filter(
-          (tab): tab is chrome.tabs.Tab =>
-            !(tab == undefined || tab.id == undefined || tab.url == undefined),
-        ),
+        filter((tab): tab is chrome.tabs.Tab => !(tab == undefined || tab.id == undefined)),
         switchMap(async (tab) => {
           return { type: "activated", tab: tabFromChromeTab(tab) } satisfies TabEvent;
         }),
@@ -112,15 +111,18 @@ export class DefaultBadgeBrowserApi implements BadgeBrowserApi {
             ({ type: "updated", tab: tabFromChromeTab(tab) }) satisfies TabEvent,
         ),
       ),
-      fromChromeEvent(chrome.webNavigation.onCommitted).pipe(
-        filter(([details]) => details.transitionType === "reload"),
-        map(([details]) => {
-          return {
-            type: "updated",
-            tab: { tabId: details.tabId, url: details.url },
-          } satisfies TabEvent;
-        }),
-      ),
+      // chrome.webNavigation only exists when the extension has that permission (myWebVault doesn't).
+      chrome.webNavigation
+        ? fromChromeEvent(chrome.webNavigation.onCommitted).pipe(
+            filter(([details]) => details.transitionType === "reload"),
+            map(([details]) => {
+              return {
+                type: "updated",
+                tab: { tabId: details.tabId, url: details.url },
+              } satisfies TabEvent;
+            }),
+          )
+        : EMPTY,
       // NOTE: We're only sharing the active tab changes, not the full list of active tabs.
       // This is so that any new subscriber will get the latest active tabs immediately, but
       // doesn't re-subscribe to chrome events.
@@ -160,7 +162,7 @@ export class DefaultBadgeBrowserApi implements BadgeBrowserApi {
 
   private async getActiveTabs(): Promise<Tab[]> {
     const tabs = await BrowserApi.getActiveTabs();
-    return tabs.filter((tab) => tab.id != undefined && tab.url != undefined).map(tabFromChromeTab);
+    return tabs.filter((tab) => tab.id != undefined).map(tabFromChromeTab);
   }
 
   constructor(private platformUtilsService: PlatformUtilsService) {}

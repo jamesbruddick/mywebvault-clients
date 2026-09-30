@@ -12,6 +12,7 @@ import { PasswordGenerationServiceAbstraction } from "@bitwarden/generator-legac
 // eslint-disable-next-line no-restricted-imports
 import { CryptoFunctionService } from "@bitwarden/legacy-crypto";
 
+import { MYWEBVAULT_PASSWORD_FEATURES } from "../../../mywebvault/features";
 import { ExtensionAnonLayoutWrapperDataService } from "../../../popup/components/extension-anon-layout-wrapper/extension-anon-layout-wrapper-data.service";
 
 @Injectable()
@@ -83,6 +84,7 @@ export class ExtensionLoginComponentService
    * https://developer.apple.com/forums/thread/774351
    */
   isLoginWithPasskeySupported(): boolean {
-    return this.platformUtilsService.isChromium();
+    // The myWebVault server doesn't support passkey login.
+    return MYWEBVAULT_PASSWORD_FEATURES && this.platformUtilsService.isChromium();
   }
 }

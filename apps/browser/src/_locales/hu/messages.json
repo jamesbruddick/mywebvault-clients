@@ -1,20 +1,20 @@
 {
   "appName": {
-    "message": "Bitwarden"
+    "message": "myWebVault"
   },
   "appLogoLabel": {
-    "message": "Bitwarden logó"
+    "message": "myWebVault logó"
   },
   "extName": {
-    "message": "Bitwarden Jelszókezelő",
+    "message": "myWebVault – Bookmark Manager",
     "description": "Extension name, MUST be less than 40 characters (Safari restriction)"
   },
   "extNameBeta": {
-    "message": "Bitwarden jelszókezelő béta",
+    "message": "myWebVault – Bookmark Manager Beta",
     "description": "Extension name for the beta channel, MUST be less than 40 characters (Safari restriction)"
   },
   "extDesc": {
-    "message": "Legyen otthon, munkában, vagy úton, a Bitwarden könnyen biztosítja jelszavát, kulcsait, és kényes információit",
+    "message": "Your bookmarks, encrypted and synced everywhere. Built on Bitwarden's open source code.",
     "description": "Extension description, MUST be less than 112 characters (Safari restriction)"
   },
   "loginOrCreateNewAccount": {
@@ -27,7 +27,7 @@
     "message": "Fiók létrehozása"
   },
   "newToBitwarden": {
-    "message": "Új vagyunk a Bitwardenben?"
+    "message": "Új vagyunk a myWebVaultben?"
   },
   "logInWithPasskey": {
     "message": "Bejelentkezés hozzáférési kulccsal"
@@ -324,22 +324,22 @@
     "message": "Tovább a webes alkalmazáshoz?"
   },
   "continueToWebAppDesc": {
-    "message": "Fedezzük fel a Bitwarden-fiók további funkcióit a webalkalmazásban."
+    "message": "Fedezzük fel a myWebVault-fiók további funkcióit a webalkalmazásban."
   },
   "continueToHelpCenter": {
     "message": "Tovább a Segítség Központhoz?"
   },
   "continueToHelpCenterDesc": {
-    "message": "További információ a Bitwarden használatáról a Segítség Központban."
+    "message": "További információ a myWebVault használatáról a Segítség Központban."
   },
   "continueToBrowserExtensionStore": {
     "message": "Továbblépés a böngésző bővítmények áruházba?"
   },
   "continueToBrowserExtensionStoreDesc": {
-    "message": "Segítsünk másoknak megtudni, hogy a Bitwarden megfelelő-e számukra. Látogassunk el a böngésző bővítmény áruházba és értékeljük most."
+    "message": "Segítsünk másoknak megtudni, hogy a myWebVault megfelelő-e számukra. Látogassunk el a böngésző bővítmény áruházba és értékeljük most."
   },
   "changeMasterPasswordOnWebConfirmation": {
-    "message": "A mesterjelszó a Bitwarden webalkalmazásban módosítható."
+    "message": "A mesterjelszó a myWebVault webalkalmazásban módosítható."
   },
   "fingerprintPhrase": {
     "message": "Ujjlenyomat kifejezés",
@@ -356,13 +356,13 @@
     "message": "Kijelentkezés"
   },
   "aboutBitwarden": {
-    "message": "Bitwarden névjegy"
+    "message": "myWebVault névjegy"
   },
   "about": {
     "message": "Névjegy"
   },
   "moreFromBitwarden": {
-    "message": "További infó a Bitwardenről"
+    "message": "További infó a myWebVaultről"
   },
   "continueToBitwardenDotCom": {
     "message": "Folytatás a bitwarden.com webhelyen?"
@@ -461,10 +461,10 @@
     "message": "Bitwardsn Segítségközpont"
   },
   "communityForums": {
-    "message": "Bitwarden közösségi fórum felfedezése"
+    "message": "myWebVault közösségi fórum felfedezése"
   },
   "contactSupport": {
-    "message": "Kapcsolatfelvétel a Bitwarden támogatással"
+    "message": "Kapcsolatfelvétel a myWebVault támogatással"
   },
   "sync": {
     "message": "Szinkronizálás"
@@ -486,7 +486,7 @@
     "message": "Automatikusan létrehoz erős, egyedi jelszavakat a bejelentkezéseidhez."
   },
   "bitWebVaultApp": {
-    "message": "Bitwarden webes alkalmazás"
+    "message": "myWebVault webes alkalmazás"
   },
   "select": {
     "message": "Kiválaszt"
@@ -846,7 +846,7 @@
     "message": "Töltsük le, majd osszuk meg a diagnosztikai jelentést:"
   },
   "bitwardenSupport": {
-    "message": "Bitwarden támogatás",
+    "message": "myWebVault támogatás",
     "description": "Link text following the troubleshooting description sentence. 'Bitwarden' should not be translated."
   },
   "download": {
@@ -1063,10 +1063,10 @@
     "message": "Tegyük zökkenőmentessé a kétlépcsős azonosítást."
   },
   "totpHelper": {
-    "message": "A Bitwarden képes tárolni és kitölteni a kétlépcsős ellenőrző kódokat. Másoljuk ki és illesszük be a kulcsot ebbe a mezőbe."
+    "message": "A myWebVault képes tárolni és kitölteni a kétlépcsős ellenőrző kódokat. Másoljuk ki és illesszük be a kulcsot ebbe a mezőbe."
   },
   "totpHelperWithCapture": {
-    "message": "A Bitwarden képes tárolni és kitölteni a kétlépcsős ellenőrző kódokat. Válasszuk a kamera ikont, hogy képernyőképet készítsünk a webhely hitelesítő QR kódjáról vagy másoljuk ki és illesszük be a kulcsot ebbe a mezőbe."
+    "message": "A myWebVault képes tárolni és kitölteni a kétlépcsős ellenőrző kódokat. Válasszuk a kamera ikont, hogy képernyőképet készítsünk a webhely hitelesítő QR kódjáról vagy másoljuk ki és illesszük be a kulcsot ebbe a mezőbe."
   },
   "learnMoreAboutAuthenticators": {
     "message": "További információ a hitelesítőkről"
@@ -1156,7 +1156,7 @@
     "message": "A kétlépcsős bejelentkezés biztonságosabbá teszi a fiókot azáltal, hogy ellenőrizni kell a bejelentkezést egy másik olyan eszközzel mint például biztonsági kulcs, hitelesítő alkalmazás, SMS, telefon hívás vagy email. A kétlépcsős bejelentkezést a bitwarden.com webes széfben lehet engedélyezni. Felkeressük a webhelyet most?"
   },
   "twoStepLoginConfirmationContent": {
-    "message": "Tegyük biztonságosabbá a fiókot a kétlépcsős bejelentkezés beállításával a Bitwarden webalkalmazásban."
+    "message": "Tegyük biztonságosabbá a fiókot a kétlépcsős bejelentkezés beállításával a myWebVault webalkalmazásban."
   },
   "twoStepLoginConfirmationTitle": {
     "message": "Tovább a webes alkalmazáshoz?"
@@ -1312,7 +1312,7 @@
     "message": "Ugrás a beállításhoz"
   },
   "notificationAddDesc": {
-    "message": "A Bitwarden megjegyezze ezt a jelszót?"
+    "message": "A myWebVault megjegyezze ezt a jelszót?"
   },
   "notificationAddSave": {
     "message": "Mentés"
@@ -1348,11 +1348,11 @@
     }
   },
   "notificationLoginSaveConfirmation": {
-    "message": "mentésre került a Bitwardenbe.",
+    "message": "mentésre került a myWebVaultbe.",
     "description": "Shown to user after item is saved."
   },
   "notificationLoginUpdatedConfirmation": {
-    "message": "frissítésre került a Bitwardenben.",
+    "message": "frissítésre került a myWebVaultben.",
     "description": "Shown to user after item is updated."
   },
   "selectItemAriaLabel": {
@@ -1450,13 +1450,13 @@
     "message": "Kérés az új hozzáféréi kulcsok mentésére vagy bejelentkezés a széfben tárolt hozzáférési kulcsokkal. Minden bejelentkezett fiókra vonatkozik."
   },
   "notificationChangeDesc": {
-    "message": "Frissítésre kerüljön a jelszó a Bitwardenben?"
+    "message": "Frissítésre kerüljön a jelszó a myWebVaultben?"
   },
   "notificationChangeSave": {
     "message": "Frissítés"
   },
   "notificationUnlockDesc": {
-    "message": "A Bitwarden széf feloldása az automatikus kitöltési kérés teljesítéséhez."
+    "message": "A myWebVault széf feloldása az automatikus kitöltési kérés teljesítéséhez."
   },
   "notificationUnlock": {
     "message": "Feloldás"
@@ -1556,10 +1556,10 @@
     "message": "Ezt a jelszó kerül használatba a fájl exportálására és importálására."
   },
   "accountRestrictedOptionDescription": {
-    "message": "Használjuk a fiók felhasználónevéből és mesterjelszavából származó fióktitkosítási kulcsot az exportálás titkosításához és az importálást csak az aktuális Bitwarden fiókra korlátozzuk."
+    "message": "Használjuk a fiók felhasználónevéből és mesterjelszavából származó fióktitkosítási kulcsot az exportálás titkosításához és az importálást csak az aktuális myWebVault fiókra korlátozzuk."
   },
   "passwordProtectedOptionDescription": {
-    "message": "Állítsunk be egy fájl jelszót az exportálás titkosításához és importáljuk azt bármely Bitwarden fiókba a visszafejtéshez használt jelszó használatával."
+    "message": "Állítsunk be egy fájl jelszót az exportálás titkosításához és importáljuk azt bármely myWebVault fiókba a visszafejtéshez használt jelszó használatával."
   },
   "exportTypeHeading": {
     "message": "Exportálási típus"
@@ -1588,7 +1588,7 @@
     "message": "Ez az exportálás titkosítja az adatokat a fiók titkosítási kulcsával. Ha valaha a diók forgatási kulcsa más lesz, akkor újra exportálni kell, mert nem lehet visszafejteni ezt az exportálási fájlt."
   },
   "encExportAccountWarningDesc": {
-    "message": "A fiók titkosítási kulcsai minden Bitwarden felhasználói fiókhoz egyediek, ezért nem importálhatunk titkosított exportálást egy másik fiókba."
+    "message": "A fiók titkosítási kulcsai minden myWebVault felhasználói fiókhoz egyediek, ezért nem importálhatunk titkosított exportálást egy másik fiókba."
   },
   "exportMasterPassword": {
     "message": "Add meg a jelszavad a széf adataid exportálásához."
@@ -1796,7 +1796,7 @@
     "message": "Prémium funkció megvásárlása"
   },
   "premiumPurchaseAlertV2": {
-    "message": "Prémium szolgáltatást vásárolhatunk a Bitwarden webalkalmazás fiókbeállításai között."
+    "message": "Prémium szolgáltatást vásárolhatunk a myWebVault webalkalmazás fiókbeállításai között."
   },
   "premiumFeatures": {
     "message": "Áttérés prémium verzióra és fogadás:"
@@ -1935,7 +1935,7 @@
     "message": "Saját üzemeltetésű környezet"
   },
   "selfHostedBaseUrlHint": {
-    "message": "Adjuk meg a helyileg tárolt Bitwarden telepítés alap webcímét. Példa: https://bitwarden.company.com"
+    "message": "Adjuk meg a helyileg tárolt myWebVault telepítés alap webcímét. Példa: https://bitwarden.company.com"
   },
   "selfHostedCustomEnvHeader": {
     "message": "Speciális konfigurációhoz külön-külön megadhatjuk az egyes szolgáltatások alap webcímét."
@@ -1988,7 +1988,7 @@
     "message": "Az automatikus kitöltési javaslatok könnyű megtalálása"
   },
   "autofillSpotlightDesc": {
-    "message": "Kapcsoljuk ki a böngésző automatikus kitöltési beállításait, így azok nem ütköznek a Bitwardennel."
+    "message": "Kapcsoljuk ki a böngésző automatikus kitöltési beállításait, így azok nem ütköznek a myWebVaultnel."
   },
   "turnOffBrowserAutofill": {
     "message": "$BROWSER$ automatikus kitöltés kikapcsolása",
@@ -2045,7 +2045,7 @@
     "message": "Automatikus kitöltési javaslatok megjelenítése űrlapmezőknél"
   },
   "howDoesBitwardenProtectFromPhishing": {
-    "message": "Hogyan védi meg a Bitwarden az adathalászattól az adatokat?"
+    "message": "Hogyan védi meg a myWebVault az adathalászattól az adatokat?"
   },
   "currentWebsite": {
     "message": "Jelenlegi webhely"
@@ -3006,7 +3006,7 @@
     "message": "Gyenge mesterjelszó"
   },
   "weakMasterPasswordDesc": {
-    "message": "A választott mesterjelszó gyenge. Erős jelszót (vagy kifejezést) kell használni a Bitwarden fiók megfelelő védelme érdekében. Biztosan ezt a mesterjelszót szeretnénk használni?"
+    "message": "A választott mesterjelszó gyenge. Erős jelszót (vagy kifejezést) kell használni a myWebVault fiók megfelelő védelme érdekében. Biztosan ezt a mesterjelszót szeretnénk használni?"
   },
   "rotateAccountEncKey": {
     "message": "A felhasználói fiókom titkosítókódját is cseréljük le"
@@ -3018,7 +3018,7 @@
     "message": "Biztosan cserére kerüljön a fiók titkosító kulcsa?"
   },
   "updateEncryptionKeyWarning": {
-    "message": "A titkosítási kulcs frissítése után ki kell jelentkezni és vissza kell jelentkezni az összes jelenleg használt Bitwarden alkalmazásba (például a mobilalkalmazás vagy a böngésző bővítmények). A kijelentkezés és a bejelentkezés elmulasztása (amely letölti az új titkosítási kulcsot) adatvesztést okozhat. Megkíséreljük az automatikusan kijelentkeztetést, azonban ez késhet."
+    "message": "A titkosítási kulcs frissítése után ki kell jelentkezni és vissza kell jelentkezni az összes jelenleg használt myWebVault alkalmazásba (például a mobilalkalmazás vagy a böngésző bővítmények). A kijelentkezés és a bejelentkezés elmulasztása (amely letölti az új titkosítási kulcsot) adatvesztést okozhat. Megkíséreljük az automatikusan kijelentkeztetést, azonban ez késhet."
   },
   "updateEncryptionKeyAccountExportWarning": {
     "message": "A fiókhoz korlátozottan mentett exportálások érvénytelenek lesznek."
@@ -3046,10 +3046,10 @@
     "message": "PIN kód beállítása"
   },
   "setYourPinCode": {
-    "message": "A pinkód beállítása a Bitwarden feloldásához. A pinkód beállítás alaphelyzetbe kerül, ha teljesen kijelentkezünk az alkalmazásból."
+    "message": "A pinkód beállítása a myWebVault feloldásához. A pinkód beállítás alaphelyzetbe kerül, ha teljesen kijelentkezünk az alkalmazásból."
   },
   "setPinCode": {
-    "message": "Ezt a PIN kódot használhatjuk a Bitwarden feloldásához. A PIN kód alaphelyzetbe kerül, ha valaha is teljesen kijelentkezünk az alkalmazásból."
+    "message": "Ezt a PIN kódot használhatjuk a myWebVault feloldásához. A PIN kód alaphelyzetbe kerül, ha valaha is teljesen kijelentkezünk az alkalmazásból."
   },
   "pinRequired": {
     "message": "A pinkód szükséges."
@@ -3070,7 +3070,7 @@
     "message": "Várakozás megerősítésre az asztali alkalmazásból"
   },
   "awaitDesktopDesc": {
-    "message": "Erősítsük meg a biometrikus adatok használatát a Bitwarden asztali alkalmazásban a biometrikus adatok engedélyezéséhez a böngészőben."
+    "message": "Erősítsük meg a biometrikus adatok használatát a myWebVault asztali alkalmazásban a biometrikus adatok engedélyezéséhez a böngészőben."
   },
   "lockWithMasterPassOnRestart": {
     "message": "Lezárás mesterjelszóval a böngésző újraindításakor"
@@ -3185,7 +3185,7 @@
     "message": "Az űrlapot egy másik domain tárolja, mint a mentett bejelentkezés URI-ja. Az automatikus kitöltéshez válasszuk az OK gombot, a leállításhoz pedig a Mégsem lehetőséget."
   },
   "autofillIframeWarningTip": {
-    "message": "Ennek a figyelmeztetésnek a jövőbeni elkerülése érdekében mentsük el ezt az URI-t - $HOSTNAME$ - a Bitwarden bejelentkezési elemébe ennél a webhelynél.",
+    "message": "Ennek a figyelmeztetésnek a jövőbeni elkerülése érdekében mentsük el ezt az URI-t - $HOSTNAME$ - a myWebVault bejelentkezési elemébe ennél a webhelynél.",
     "placeholders": {
       "hostname": {
         "content": "$1",
@@ -3194,7 +3194,7 @@
     }
   },
   "topLayerHijackWarning": {
-    "message": "Ez az oldal zavarja a Bitwarden élményt. Biztonsági intézkedésként ideiglenesen letiltásra került a Bitwarden belső menü."
+    "message": "Ez az oldal zavarja a myWebVault élményt. Biztonsági intézkedésként ideiglenesen letiltásra került a myWebVault belső menü."
   },
   "setMasterPassword": {
     "message": "Mesterjelszó beállítása"
@@ -3251,7 +3251,7 @@
     "message": "Az új mesterjelszó nem felel meg a szabály követelményeknek."
   },
   "receiveMarketingEmails": {
-    "message": "Frissítések fogadása a Bitwardentől a postaládában."
+    "message": "Frissítések fogadása a myWebVaulttől a postaládában."
   },
   "unsubscribe": {
     "message": "Leiratkozás"
@@ -3296,13 +3296,13 @@
     "message": "A böngésző integráció nincs beüzemelve."
   },
   "desktopIntegrationDisabledDesc": {
-    "message": "A böngésző integráció nincs beüzemelve a Bitwarden asztali alkalmazásban. Engedélyezzük az asztali alkalmazás beállításai között."
+    "message": "A böngésző integráció nincs beüzemelve a myWebVault asztali alkalmazásban. Engedélyezzük az asztali alkalmazás beállításai között."
   },
   "startDesktopTitle": {
-    "message": "A Bitwarden asztali alkalmazás indítása"
+    "message": "A myWebVault asztali alkalmazás indítása"
   },
   "startDesktopDesc": {
-    "message": "A Bitwarden asztali alkalmazást el kell indítani a biometrikus adatokkal feloldás használatához."
+    "message": "A myWebVault asztali alkalmazást el kell indítani a biometrikus adatokkal feloldás használatához."
   },
   "errorEnableBiometricTitle": {
     "message": "Nem lehet beüzemelni a biometrikus adatokat."
@@ -3356,13 +3356,13 @@
     "message": "A biometria nem sikerült."
   },
   "biometricsFailedDesc": {
-    "message": "A biometrikus adatokat nem lehet kitölteni, fontoljuk meg a mesterjelszó használatát vagy a kijelentkezést. Ha ez továbbra is fennáll, forduljunk a Bitwarden ügyfélszolgálatához."
+    "message": "A biometrikus adatokat nem lehet kitölteni, fontoljuk meg a mesterjelszó használatát vagy a kijelentkezést. Ha ez továbbra is fennáll, forduljunk a myWebVault ügyfélszolgálatához."
   },
   "nativeMessagingPermissionErrorTitle": {
     "message": "A jogosultság nincs megadva."
   },
   "nativeMessagingPermissionErrorDesc": {
-    "message": "A Bitwarden Desktop Application alkalmazással kommunikáció engedély nélkül nem lehet biometrikus adatokat biztosítani a böngésző bővítményben. Próbáljuk újra."
+    "message": "A myWebVault Desktop Application alkalmazással kommunikáció engedély nélkül nem lehet biometrikus adatokat biztosítani a böngésző bővítményben. Próbáljuk újra."
   },
   "nativeMessagingPermissionSidebarTitle": {
     "message": "Jogosultság kérési hiba történt."
@@ -3399,7 +3399,7 @@
     "message": "Kizárt domainek"
   },
   "excludedDomainsDesc": {
-    "message": "A Bitwarden nem fogja kérni a domainek bejelentkezési adatainak mentését. A változások életbe lépéséhez frissíteni kell az oldalt."
+    "message": "A myWebVault nem fogja kérni a domainek bejelentkezési adatainak mentését. A változások életbe lépéséhez frissíteni kell az oldalt."
   },
   "blockedDomainsDesc": {
     "message": "Az automatikus kitöltés és az egyéb kapcsolódó funkciók ezeken a webhelyeken nincsenek a kínálatban. A változtatások életbe lépéséhez frissíteni kell az oldalt."
@@ -3531,24 +3531,24 @@
     "message": "A kockázatos bejelentkezések listájának illusztrációja."
   },
   "welcomeDialogGraphicAlt": {
-    "message": "A Bitwarden széf oldal elrendezésének illusztrációja."
+    "message": "A myWebVault széf oldal elrendezésének illusztrációja."
   },
   "generatePasswordSlideDesc": {
-    "message": "Gyorsan generálhatunk erős, egyedi jelszót a Bitwarden automatikus kitöltési menüjével a kockázatos webhelyen.",
+    "message": "Gyorsan generálhatunk erős, egyedi jelszót a myWebVault automatikus kitöltési menüjével a kockázatos webhelyen.",
     "description": "Description of the generate password slide on the at-risk password page carousel"
   },
   "generatePasswordSlideImgAltPeriod": {
-    "message": "A Bitwarden automatikus kitöltési menüjének illusztrációja, amely egy generált jelszót jelenít meg."
+    "message": "A myWebVault automatikus kitöltési menüjének illusztrációja, amely egy generált jelszót jelenít meg."
   },
   "updateInBitwarden": {
-    "message": "Frissítés a Bitwardenben"
+    "message": "Frissítés a myWebVaultben"
   },
   "updateInBitwardenSlideDesc": {
-    "message": "A Bitwarden ezután felkér a jelszó frissítésére a jelszókezelőben.",
+    "message": "A myWebVault ezután felkér a jelszó frissítésére a jelszókezelőben.",
     "description": "Description of the update in Bitwarden slide on the at-risk password page carousel"
   },
   "updateInBitwardenSlideImgAltPeriod": {
-    "message": "Illusztráció a Bitwarden értesítéséről, amely felszólítja a felhasználót a bejelentkezési adatok frissítésére."
+    "message": "Illusztráció a myWebVault értesítéséről, amely felszólítja a felhasználót a bejelentkezési adatok frissítésére."
   },
   "turnOnAutofill": {
     "message": "Automatikus kitöltés bekapcsolása"
@@ -4063,10 +4063,10 @@
     "message": "Hiba történt az automatikus kitöltési adatok beolvasásakor."
   },
   "couldNotDecryptVaultItem": {
-    "message": "A Bitwarden nem tudta visszafejteni a lentebb felsorolt széf elemet. Lépjünk kapcsolatba a Bitwarden ügyfélszolgálatával és adjuk meg az alábbi elem azonosítót, hogy megtudjuk, helyreállítható-e."
+    "message": "A myWebVault nem tudta visszafejteni a lentebb felsorolt széf elemet. Lépjünk kapcsolatba a myWebVault ügyfélszolgálatával és adjuk meg az alábbi elem azonosítót, hogy megtudjuk, helyreállítható-e."
   },
   "couldNotDecryptVaultItems": {
-    "message": "A Bitwarden nem tudta visszafejteni a lentebb felsorolt széf elemeket. Lépjünk kapcsolatba a Bitwarden ügyfélszolgálatával és adjuk meg az alábbi elemek azonosítót, hogy megtudjuk, helyreállíthatók-e."
+    "message": "A myWebVault nem tudta visszafejteni a lentebb felsorolt széf elemeket. Lépjünk kapcsolatba a myWebVault ügyfélszolgálatával és adjuk meg az alábbi elemek azonosítót, hogy megtudjuk, helyreállíthatók-e."
   },
   "itemId": {
     "message": "Elem azonosító",
@@ -4176,11 +4176,11 @@
     }
   },
   "forwarderGeneratedBy": {
-    "message": "Generálta: Bitwarden.",
+    "message": "Generálta: myWebVault.",
     "description": "Displayed with the address on the forwarding service's configuration screen."
   },
   "forwarderGeneratedByWithWebsite": {
-    "message": "Webhely: $WEBSITE$. Generálta: Bitwarden.",
+    "message": "Webhely: $WEBSITE$. Generálta: myWebVault.",
     "description": "Displayed with the address on the forwarding service's configuration screen.",
     "placeholders": {
       "WEBSITE": {
@@ -4378,7 +4378,7 @@
     "message": "Egy értesítés lett elküldve az eszközre."
   },
   "notificationSentDevicePart1": {
-    "message": "A Bitwarden zárolás feloldása az eszközön vagy: "
+    "message": "A myWebVault zárolás feloldása az eszközön vagy: "
   },
   "notificationSentDeviceAnchor": {
     "message": "webalkalmazás"
@@ -4878,15 +4878,15 @@
     "message": "Ugrás a tartalomra"
   },
   "bitwardenOverlayButton": {
-    "message": "Bitwarden automatikus kitöltés menü gomb",
+    "message": "myWebVault automatikus kitöltés menü gomb",
     "description": "Page title for the iframe containing the overlay button"
   },
   "toggleBitwardenVaultOverlay": {
-    "message": "Bitwarden automatikus kitöltés menü váltás",
+    "message": "myWebVault automatikus kitöltés menü váltás",
     "description": "Screen reader and tool tip label for the overlay button"
   },
   "bitwardenVault": {
-    "message": "Bitwarden automatikus kitöltési menü",
+    "message": "myWebVault automatikus kitöltési menü",
     "description": "Page title in overlay"
   },
   "unlockYourAccountToViewMatchingLogins": {
@@ -4958,7 +4958,7 @@
     "description": "Screen reader text (aria-label) for new identity button within inline menu"
   },
   "bitwardenOverlayMenuAvailable": {
-    "message": "Bitwarden automatikus kitöltés menü elérhető. Nyomja meg a lefele nyilat a kiválasztáshoz.",
+    "message": "myWebVault automatikus kitöltés menü elérhető. Nyomja meg a lefele nyilat a kiválasztáshoz.",
     "description": "Screen reader text for announcing when the overlay opens on the page"
   },
   "turnOn": {
@@ -5377,7 +5377,7 @@
     "description": "Followed by a literal filename (my_passwords.json) rendered as code."
   },
   "importGnomeInstructionsFileHere": {
-    "message": "fájlt ide a Bitwardenhez.",
+    "message": "fájlt ide a myWebVaulthez.",
     "description": "Follows the my_passwords.json filename."
   },
   "importPasswordagentInstructions": {
@@ -5849,7 +5849,7 @@
     "message": "Aktív fiók"
   },
   "bitwardenAccount": {
-    "message": "Bitwarden fiók"
+    "message": "myWebVault fiók"
   },
   "availableAccounts": {
     "message": "Elérhető fiókok"
@@ -5895,7 +5895,7 @@
     "description": "Label indicating the most common import formats"
   },
   "uriMatchDefaultStrategyHint": {
-    "message": "Az URI egyezés észlelése az, ahogyan a Bitwarden azonosítja az automatikus kitöltési javaslatokat.",
+    "message": "Az URI egyezés észlelése az, ahogyan a myWebVault azonosítja az automatikus kitöltési javaslatokat.",
     "description": "Explains to the user that URI match detection determines how Bitwarden suggests autofill options, and clarifies that this default strategy applies when no specific match detection is set for a login item."
   },
   "regExAdvancedOptionWarning": {
@@ -5939,15 +5939,15 @@
     "description": "Body content for dialog which asks if the user wants to proceed to the browser's keyboard shortcut settings page"
   },
   "overrideDefaultBrowserAutofillTitle": {
-    "message": "Legyen a Bitwarden az alapértelmezett jelszókezelő?",
+    "message": "Legyen a myWebVault az alapértelmezett jelszókezelő?",
     "description": "Dialog title facilitating the ability to override a chrome browser's default autofill behavior"
   },
   "overrideDefaultBrowserAutofillDescription": {
-    "message": "Ennek az opciónak a figyelmen kívül hagyása ütközést okozhat a Bitwarden automatikus kitöltési menü és a böngésző között.",
+    "message": "Ennek az opciónak a figyelmen kívül hagyása ütközést okozhat a myWebVault automatikus kitöltési menü és a böngésző között.",
     "description": "Dialog message facilitating the ability to override a chrome browser's default autofill behavior"
   },
   "overrideDefaultBrowserAutoFillSettings": {
-    "message": "Legyen a Bitwarden az alapértelmezett jelszókezelő",
+    "message": "Legyen a myWebVault az alapértelmezett jelszókezelő",
     "description": "Label for the setting that allows overriding the default browser autofill settings"
   },
   "defaultPasswordManagerCalloutTitle": {
@@ -5955,7 +5955,7 @@
     "description": "Title for the callout that prompts users to set Bitwarden as their default password manager"
   },
   "defaultPasswordManagerCalloutDesc": {
-    "message": "Felkérést kapunk, hogy adjunk $BROWSER$ böngésző jogosultságote a Bitwarden alapértelmezett jelszókezelőjévé alakításához.",
+    "message": "Felkérést kapunk, hogy adjunk $BROWSER$ böngésző jogosultságote a myWebVault alapértelmezett jelszókezelőjévé alakításához.",
     "description": "Description for the callout that prompts users to set Bitwarden as their default password manager",
     "placeholders": {
       "browser": {
@@ -5965,11 +5965,11 @@
     }
   },
   "privacyPermissionAdditionNotGrantedTitle": {
-    "message": "A Bitwarden nem állítható be alapértelmezett jelszókezelőként.",
+    "message": "A myWebVault nem állítható be alapértelmezett jelszókezelőként.",
     "description": "Title for the dialog that appears when the user has not granted the extension permission to set privacy settings"
   },
   "privacyPermissionAdditionNotGrantedDescription": {
-    "message": "Ki kell osztani a böngésző adatvédelmi jogosultságait a Bitwardennek az alapértelmezett jelszókezelőként történő beállításhoz.",
+    "message": "Ki kell osztani a böngésző adatvédelmi jogosultságait a myWebVaultnek az alapértelmezett jelszókezelőként történő beállításhoz.",
     "description": "Description for the dialog that appears when the user has not granted the extension permission to set privacy settings"
   },
   "makeDefault": {
@@ -5977,10 +5977,10 @@
     "description": "Button text for the setting that allows overriding the default browser autofill settings"
   },
   "defaultPasswordManagerPromptTitle": {
-    "message": "Legyen a Bitwarden az alapértelmezett böngésző jelszókezelő."
+    "message": "Legyen a myWebVault az alapértelmezett böngésző jelszókezelő."
   },
   "defaultPasswordManagerPromptTitleV2": {
-    "message": "Legyen a Bitwarden az alapértelmezett jelszókezelő",
+    "message": "Legyen a myWebVault az alapértelmezett jelszókezelő",
     "description": "Label for the setting to make Bitwarden the default password manager"
   },
   "defaultPasswordManagerSettingHintV2": {
@@ -5992,13 +5992,13 @@
     "description": "Link text to browser autofill settings in the default password manager setting hint."
   },
   "defaultPasswordManagerPromptStep2AfterAllow": {
-    "message": "a böngésző felszólításából, hogy adjunk engedélyt a Bitwardennek a beállítások módosítására."
+    "message": "a böngésző felszólításából, hogy adjunk engedélyt a myWebVaultnek a beállítások módosítására."
   },
   "defaultPasswordManagerPromptStep3": {
     "message": "A böngésző beépített jelszókezelője kikapcsolásra kerül, hogy biztonságos bejelentkezési élményt kapjunk."
   },
   "defaultPasswordManagerSuccessToast": {
-    "message": "Legyen a Bitwarden az alapértelmezett jelszókezelő"
+    "message": "Legyen a myWebVault az alapértelmezett jelszókezelő"
   },
   "allow": {
     "message": "Engedélyezés",
@@ -6406,16 +6406,16 @@
     "message": "Melléklet letöltése"
   },
   "downloadBitwarden": {
-    "message": "Bitwarden letöltése"
+    "message": "myWebVault letöltése"
   },
   "downloadBitwardenOnAllDevices": {
-    "message": "Bitwarden letöltése minden eszközön"
+    "message": "myWebVault letöltése minden eszközön"
   },
   "getTheMobileApp": {
     "message": "Mobilalkalmazás beszerzése"
   },
   "getTheMobileAppDesc": {
-    "message": "Útközben is hozzáférhetünk a jelszabkhoz a Bitwarden mobilalkalmazással."
+    "message": "Útközben is hozzáférhetünk a jelszabkhoz a myWebVault mobilalkalmazással."
   },
   "getTheDesktopApp": {
     "message": "Asztali alkalmazás beszerzése"
@@ -6968,10 +6968,10 @@
     "message": "A biometrikus feloldás nem érhető el a rosszul konfigurált rendszerfájlok miatt."
   },
   "biometricsStatusHelptextDesktopDisconnected": {
-    "message": "A biometrikus feloldás nem érhető el, mert a Bitwarden asztali alkalmazás be van zárva."
+    "message": "A biometrikus feloldás nem érhető el, mert a myWebVault asztali alkalmazás be van zárva."
   },
   "biometricsStatusHelptextNotEnabledInDesktop": {
-    "message": "A biometrikus feloldás nem érhető el, mert nincs engedélyezve $EMAIL$ számára a Bitwarden asztali alkalmazásban.",
+    "message": "A biometrikus feloldás nem érhető el, mert nincs engedélyezve $EMAIL$ számára a myWebVault asztali alkalmazásban.",
     "placeholders": {
       "email": {
         "content": "$1",
@@ -7003,7 +7003,7 @@
     "description": "Notification message for when a password has been regenerated"
   },
   "saveToBitwarden": {
-    "message": "Mentés a Bitwardenbe",
+    "message": "Mentés a myWebVaultbe",
     "description": "Confirmation message for saving a login to Bitwarden"
   },
   "spaceCharacterDescriptor": {
@@ -7256,13 +7256,13 @@
     "message": "Használjunk mappákat a széf elemek rendszerezéséhez. Ezek sajátok — senki más nem látja vagy használhatja aezeket."
   },
   "introCarouselLabel": {
-    "message": "Üdvözlet a Bitwardenben"
+    "message": "Üdvözlet a myWebVaultben"
   },
   "securityPrioritized": {
     "message": "Biztonság, prioritásos"
   },
   "securityPrioritizedBody": {
-    "message": "Mentsük el a bejelentkezési adatokat, kártyákat és azonosításokat a biztonságos széfbe. A Bitwarden tudás nélküli, végpontok közötti titkosítást használ a felhasználók számára fontos dolgok védelmére."
+    "message": "Mentsük el a bejelentkezési adatokat, kártyákat és azonosításokat a biztonságos széfbe. A myWebVault tudás nélküli, végpontok közötti titkosítást használ a felhasználók számára fontos dolgok védelmére."
   },
   "quickLogin": {
     "message": "Gyors és könnyű bejelentkezés"
@@ -7280,7 +7280,7 @@
     "message": "Saját adatok, mikor és hol van rá szükség"
   },
   "secureDevicesBody": {
-    "message": "Mentsünk el a korlátlan jelszót korlátlan számú eszközön a Bitwarden mobil, böngésző és asztali alkalmazásokkal."
+    "message": "Mentsünk el a korlátlan jelszót korlátlan számú eszközön a myWebVault mobil, böngésző és asztali alkalmazásokkal."
   },
   "nudgeBadgeAria": {
     "message": "1 értesítés"
@@ -7289,7 +7289,7 @@
     "message": "Létező jelszavak importálása"
   },
   "emptyVaultNudgeBody": {
-    "message": "Az importálóval gyorsan átvihetünk bejelentkezéseket a Bitwardenbe anélkül, hogy manuálisan hozzáadnánk azokat."
+    "message": "Az importálóval gyorsan átvihetünk bejelentkezéseket a myWebVaultbe anélkül, hogy manuálisan hozzáadnánk azokat."
   },
   "emptyVaultNudgeButton": {
     "message": "Importálás most"
@@ -7408,7 +7408,7 @@
     "message": "Informció erről a beállításról"
   },
   "permitCipherDetailsDescription": {
-    "message": "A Bitwarden mentett bejelentkezési webcímeket használ annak azonosítására, hogy melyik ikont vagy jelszó webcímet kell használni az élmény javítása érdekében. A szolgáltatás használatakor nincs információ gyűjtés vagy mentés."
+    "message": "A myWebVault mentett bejelentkezési webcímeket használ annak azonosítására, hogy melyik ikont vagy jelszó webcímet kell használni az élmény javítása érdekében. A szolgáltatás használatakor nincs információ gyűjtés vagy mentés."
   },
   "showQuickCopyActionsDetailsDescription": {
     "message": "Adjunk hozzá 3 gyorsmásoló gombot az elemek mellé a felhasználónév, a jelszó vagy az ellenőrző kód vágólapra másolásához."
@@ -7417,7 +7417,7 @@
     "message": "Nincs jogosultság az oldal megtekintéséhez. Próbáljunk meg másik fiókkal bejelentkezni."
   },
   "wasmNotSupported": {
-    "message": "A WebAssembly nem támogatott a böngészőben vagy nincs engedélyezve. A WebAssembly szükséges a Bitwarden alkalmazás használatához.",
+    "message": "A WebAssembly nem támogatott a böngészőben vagy nincs engedélyezve. A WebAssembly szükséges a myWebVault alkalmazás használatához.",
     "description": "'WebAssembly' is a technical term and should not be translated."
   },
   "showMore": {
@@ -7505,7 +7505,7 @@
     "message": "Hiba: nem fejthető vissza."
   },
   "removeMasterPasswordForOrgUserKeyConnector": {
-    "message": "A szervezet már nem használ mesterjelszavakat a Bitwardenbe bejelentkezéshez. A folytatáshoz ellenőrizzük a szervezetet és a tartományt."
+    "message": "A szervezet már nem használ mesterjelszavakat a myWebVaultbe bejelentkezéshez. A folytatáshoz ellenőrizzük a szervezetet és a tartományt."
   },
   "continueWithLogIn": {
     "message": "Folytatás bejelentkezéssel"
@@ -7591,7 +7591,7 @@
     "message": "Állítsunk be egy feloldási módot a széf időkifutási műveletének módosításához."
   },
   "sessionTimeoutSuppressedByConnectedDevice": {
-    "message": "A Bitwarden böngésző bővítmény alkalmazás kezeli. Nyissuk meg a böngésző alkalmazást szerkesztésre."
+    "message": "A myWebVault böngésző bővítmény alkalmazás kezeli. Nyissuk meg a böngésző alkalmazást szerkesztésre."
   },
   "percentageCompleted": {
     "message": "$PERCENT$% kész",
@@ -7693,7 +7693,7 @@
     "message": "user@bitwarden.com, user@acme.com"
   },
   "downloadBitwardenApps": {
-    "message": "Bitwarden alkalmazások letöltése"
+    "message": "myWebVault alkalmazások letöltése"
   },
   "emailProtected": {
     "message": "Védett email cím"
@@ -7712,13 +7712,13 @@
     "message": "Feloldás megosztása asztali eszközzel"
   },
   "sharedUnlockWithDesktopDescription": {
-    "message": "Ha engedélyezve van, a feloldási állapot megosztásra kerül a Bitwarden Desktop alkalmazással."
+    "message": "Ha engedélyezve van, a feloldási állapot megosztásra kerül a myWebVault Desktop alkalmazással."
   },
   "sharedUnlockWithWeb": {
     "message": "Feloldás megosztása web széffel"
   },
   "sharedUnlockWithWebDescription": {
-    "message": "Ha engedélyezve van, a feloldási állapot megosztásra kerül a Bitwarden web széffel."
+    "message": "Ha engedélyezve van, a feloldási állapot megosztásra kerül a myWebVault web széffel."
   },
   "sharedUnlockUnavailableUntrustedDevice": {
     "message": "A megosztott feloldás nem érhető el, mert azt választottuk, hogy nem emlékszünk erre az eszközre. A beállítás engedélyezéséhez próbáljunk meg újra bejelentkezni."
@@ -7727,13 +7727,13 @@
     "message": "Új jogosultság szükséges"
   },
   "sharedUnlockDesktopPermissionDesc": {
-    "message": "A megosztott feloldás használatához a Bitwardennek jogosultságra van szüksége az asztali alkalmazással kommunikáláshoz. Amikor folytatjuk, a böngésző kérni fogja annak jóváhagyását."
+    "message": "A megosztott feloldás használatához a myWebVaultnek jogosultságra van szüksége az asztali alkalmazással kommunikáláshoz. Amikor folytatjuk, a böngésző kérni fogja annak jóváhagyását."
   },
   "sharedUnlockDesktopPermissionWarning": {
-    "message": "A Bitwarden zárol és újratölt. A jóváhagyás után a bővítmény újratöltődik és lezárja a széfet."
+    "message": "A myWebVault zárol és újratölt. A jóváhagyás után a bővítmény újratöltődik és lezárja a széfet."
   },
   "biometricPermissionDesc": {
-    "message": "A biometrikus feloldás használatához a Bitwardennek jogosultságra van szüksége az asztali alkalmazással  kommunikáláshoz. Amikor folytatjuk, a böngésző kérni fogja annak jóváhagyását."
+    "message": "A biometrikus feloldás használatához a myWebVaultnek jogosultságra van szüksége az asztali alkalmazással  kommunikáláshoz. Amikor folytatjuk, a böngésző kérni fogja annak jóváhagyását."
   },
   "enterMonth": {
     "message": "A hónap megadása."

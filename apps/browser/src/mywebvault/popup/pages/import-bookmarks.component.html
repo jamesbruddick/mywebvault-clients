@@ -1,0 +1,52 @@
+<popup-page>
+  <popup-header
+    slot="header"
+    [pageTitle]="'importBrowserBookmarks' | i18n"
+    showBackButton
+  ></popup-header>
+
+  <div class="tw-flex tw-flex-col tw-gap-4">
+    @switch (step()) {
+      @case ("importing") {
+        <p bitTypography="body1">{{ "importingBookmarks" | i18n }}</p>
+        <bit-progress-bar
+          [value]="progress()"
+          [accessibleName]="'importingBookmarks' | i18n"
+        ></bit-progress-bar>
+      }
+      @case ("done") {
+        <bit-callout type="success" [title]="'importComplete' | i18n" data-testid="import-summary">
+          <p>{{ "importedBookmarksCount" | i18n: summary()?.imported }}</p>
+          @if (summary()?.skippedDuplicates) {
+            <p>{{ "skippedDuplicateBookmarks" | i18n: summary()?.skippedDuplicates }}</p>
+          }
+          @if (summary()?.foldersCreated) {
+            <p>{{ "createdFoldersCount" | i18n: summary()?.foldersCreated }}</p>
+          }
+        </bit-callout>
+        <a bitButton buttonType="primary" routerLink="/tabs/vault" id="import-bookmarks_link_view">
+          {{ "viewBookmarks" | i18n }}
+        </a>
+      }
+      @default {
+        <p bitTypography="body1">{{ "importBrowserBookmarksDesc" | i18n }}</p>
+        @if (step() === "denied") {
+          <bit-callout type="warning">{{ "bookmarksPermissionDenied" | i18n }}</bit-callout>
+        }
+        @if (step() === "failed") {
+          <bit-callout type="danger">{{ "importBookmarksFailed" | i18n }}</bit-callout>
+        }
+        <button
+          bitButton
+          buttonType="primary"
+          type="button"
+          id="import-bookmarks_button_import"
+          [bitAction]="importBookmarks"
+          data-testid="import-bookmarks-button"
+        >
+          {{ "importBookmarks" | i18n }}
+        </button>
+      }
+    }
+  </div>
+</popup-page>

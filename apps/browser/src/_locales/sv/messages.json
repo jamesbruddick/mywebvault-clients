@@ -1,20 +1,20 @@
 {
   "appName": {
-    "message": "Bitwarden"
+    "message": "myWebVault"
   },
   "appLogoLabel": {
-    "message": "Bitwardens logotyp"
+    "message": "myWebVaults logotyp"
   },
   "extName": {
-    "message": "Bitwarden Lösenordshanterare",
+    "message": "myWebVault – Bookmark Manager",
     "description": "Extension name, MUST be less than 40 characters (Safari restriction)"
   },
   "extNameBeta": {
-    "message": "Bitwarden Password Manager Beta",
+    "message": "myWebVault – Bookmark Manager Beta",
     "description": "Extension name for the beta channel, MUST be less than 40 characters (Safari restriction)"
   },
   "extDesc": {
-    "message": "Hemma, på jobbet eller på språng säkrar Bitwarden enkelt alla dina lösenord, lösenord och känslig information",
+    "message": "Your bookmarks, encrypted and synced everywhere. Built on Bitwarden's open source code.",
     "description": "Extension description, MUST be less than 112 characters (Safari restriction)"
   },
   "loginOrCreateNewAccount": {
@@ -27,7 +27,7 @@
     "message": "Skapa konto"
   },
   "newToBitwarden": {
-    "message": "Ny på Bitwarden?"
+    "message": "Ny på myWebVault?"
   },
   "logInWithPasskey": {
     "message": "Logga in med nyckel"
@@ -324,22 +324,22 @@
     "message": "Fortsätt till webbapp?"
   },
   "continueToWebAppDesc": {
-    "message": "Utforska fler funktioner i ditt Bitwarden-konto i webbappen."
+    "message": "Utforska fler funktioner i ditt myWebVault-konto i webbappen."
   },
   "continueToHelpCenter": {
     "message": "Fortsätt till Hjälpcenter?"
   },
   "continueToHelpCenterDesc": {
-    "message": "Lär dig mer om hur man använder Bitwarden i hjälpcentret."
+    "message": "Lär dig mer om hur man använder myWebVault i hjälpcentret."
   },
   "continueToBrowserExtensionStore": {
     "message": "Fortsätt till webbläsartilläggsbutiken?"
   },
   "continueToBrowserExtensionStoreDesc": {
-    "message": "Hjälp andra att ta reda på om Bitwarden är rätt för dem. Besök din webbläsares tilläggsbutik och lämna en recension nu."
+    "message": "Hjälp andra att ta reda på om myWebVault är rätt för dem. Besök din webbläsares tilläggsbutik och lämna en recension nu."
   },
   "changeMasterPasswordOnWebConfirmation": {
-    "message": "Du kan ändra ditt huvudlösenord i Bitwarden-webbappen."
+    "message": "Du kan ändra ditt huvudlösenord i myWebVault-webbappen."
   },
   "fingerprintPhrase": {
     "message": "Fingeravtrycksfras",
@@ -356,19 +356,19 @@
     "message": "Logga ut"
   },
   "aboutBitwarden": {
-    "message": "Om Bitwarden"
+    "message": "Om myWebVault"
   },
   "about": {
     "message": "Om"
   },
   "moreFromBitwarden": {
-    "message": "Mer från Bitwarden"
+    "message": "Mer från myWebVault"
   },
   "continueToBitwardenDotCom": {
     "message": "Fortsätt till bitwarden.com?"
   },
   "bitwardenForBusiness": {
-    "message": "Bitwarden för Företag"
+    "message": "myWebVault för Företag"
   },
   "bitwardenAuthenticator": {
     "message": "Bitwarden Authenticator"
@@ -377,7 +377,7 @@
     "message": "Bitwarden Authenticator låter dig lagra autentiseringsnycklar och generera TOTP-koder för tvåstegsverifieringsflöden. Lär dig mer på bitwarden.com hemsidan"
   },
   "bitwardenSecretsManager": {
-    "message": "Bitwarden Hemlighetshanterare"
+    "message": "myWebVault Hemlighetshanterare"
   },
   "continueToSecretsManagerPageDesc": {
     "message": "Lagra, hantera och dela utvecklarhemligheter på ett säkert sätt med Bitwarden Secrets Manager. Läs mer på webbplatsen bitwarden.com."
@@ -389,7 +389,7 @@
     "message": "Skapa smidiga och säkra inloggningsupplevelser fria från traditionella lösenord med Passwordless.dev. Läs mer på bitwarden.com hemsidan."
   },
   "freeBitwardenFamilies": {
-    "message": "Gratis Bitwarden Familjer"
+    "message": "Gratis myWebVault Familjer"
   },
   "freeBitwardenFamiliesPageDesc": {
     "message": "Du är berättigad till gratis Bitwarden Families. Lös in erbjudandet idag i webbappen."
@@ -458,13 +458,13 @@
     "message": "Hjälp & Feedback"
   },
   "helpCenter": {
-    "message": "Bitwarden Hjälpcenter"
+    "message": "myWebVault Hjälpcenter"
   },
   "communityForums": {
-    "message": "Utforska Bitwardens communityforum"
+    "message": "Utforska myWebVaults communityforum"
   },
   "contactSupport": {
-    "message": "Kontakta Bitwarden support"
+    "message": "Kontakta myWebVault support"
   },
   "sync": {
     "message": "Synkronisera"
@@ -486,7 +486,7 @@
     "message": "Skapa starka och unika lösenord automatiskt för dina inloggningar."
   },
   "bitWebVaultApp": {
-    "message": "Bitwarden webbapp"
+    "message": "myWebVault webbapp"
   },
   "select": {
     "message": "Välj"
@@ -846,7 +846,7 @@
     "message": "Download then share the diagnostic report with"
   },
   "bitwardenSupport": {
-    "message": "Bitwarden support",
+    "message": "myWebVault support",
     "description": "Link text following the troubleshooting description sentence. 'Bitwarden' should not be translated."
   },
   "download": {
@@ -1063,10 +1063,10 @@
     "message": "Gör tvåstegsverifiering sömlös"
   },
   "totpHelper": {
-    "message": "Bitwarden kan lagra och fylla i 2-stegs verifieringskoder. Kopiera och klistra in nyckeln i detta fält."
+    "message": "myWebVault kan lagra och fylla i 2-stegs verifieringskoder. Kopiera och klistra in nyckeln i detta fält."
   },
   "totpHelperWithCapture": {
-    "message": "Bitwarden kan lagra och fylla i 2-stegsverifieringskoder. Välj kameraikonen för att ta en skärmdump av den här webbplatsens QR-kod för autentisering, eller kopiera och klistra in nyckeln i det här fältet."
+    "message": "myWebVault kan lagra och fylla i 2-stegsverifieringskoder. Välj kameraikonen för att ta en skärmdump av den här webbplatsens QR-kod för autentisering, eller kopiera och klistra in nyckeln i det här fältet."
   },
   "learnMoreAboutAuthenticators": {
     "message": "Läs mer om autentiserare"
@@ -1153,10 +1153,10 @@
     "message": "Enter a name."
   },
   "twoStepLoginConfirmation": {
-    "message": "Tvåstegsverifiering gör ditt konto säkrare genom att kräva att du verifierar din inloggning med en annan enhet, t.ex. en säkerhetsnyckel, autentiseringsapp, SMS, telefonsamtal eller e-post. Tvåstegsverifiering kan aktiveras i Bitwardens webbvalv. Vill du besöka webbplatsen nu?"
+    "message": "Tvåstegsverifiering gör ditt konto säkrare genom att kräva att du verifierar din inloggning med en annan enhet, t.ex. en säkerhetsnyckel, autentiseringsapp, SMS, telefonsamtal eller e-post. Tvåstegsverifiering kan aktiveras i myWebVaults webbvalv. Vill du besöka webbplatsen nu?"
   },
   "twoStepLoginConfirmationContent": {
-    "message": "Gör ditt konto säkrare genom att konfigurera tvåstegsverifiering i Bitwardens webbapp."
+    "message": "Gör ditt konto säkrare genom att konfigurera tvåstegsverifiering i myWebVaults webbapp."
   },
   "twoStepLoginConfirmationTitle": {
     "message": "Fortsätt till webbapp?"
@@ -1312,7 +1312,7 @@
     "message": "Jump to setting"
   },
   "notificationAddDesc": {
-    "message": "Ska Bitwarden komma ihåg det här lösenordet åt dig?"
+    "message": "Ska myWebVault komma ihåg det här lösenordet åt dig?"
   },
   "notificationAddSave": {
     "message": "Spara"
@@ -1348,11 +1348,11 @@
     }
   },
   "notificationLoginSaveConfirmation": {
-    "message": "sparades till Bitwarden.",
+    "message": "sparades till myWebVault.",
     "description": "Shown to user after item is saved."
   },
   "notificationLoginUpdatedConfirmation": {
-    "message": "uppdaterad i Bitwarden.",
+    "message": "uppdaterad i myWebVault.",
     "description": "Shown to user after item is updated."
   },
   "selectItemAriaLabel": {
@@ -1450,13 +1450,13 @@
     "message": "Be om att spara nya lösennycklar eller logga in med nycklar som lagras i ditt valv. Gäller för alla inloggade konton."
   },
   "notificationChangeDesc": {
-    "message": "Vill du uppdatera det här lösenordet i Bitwarden?"
+    "message": "Vill du uppdatera det här lösenordet i myWebVault?"
   },
   "notificationChangeSave": {
     "message": "Uppdatera"
   },
   "notificationUnlockDesc": {
-    "message": "Lås upp ditt Bitwarden-valv för att slutföra begäran om autofyll."
+    "message": "Lås upp ditt myWebVault-valv för att slutföra begäran om autofyll."
   },
   "notificationUnlock": {
     "message": "Lås upp"
@@ -1556,10 +1556,10 @@
     "message": "Detta lösenord kommer att användas för att exportera och importera denna fil"
   },
   "accountRestrictedOptionDescription": {
-    "message": "Använd ditt kontos krypteringsnyckel, som härrör från ditt kontos användarnamn och huvudlösenord, för att kryptera exporten och begränsa importen till endast det aktuella Bitwarden-kontot."
+    "message": "Använd ditt kontos krypteringsnyckel, som härrör från ditt kontos användarnamn och huvudlösenord, för att kryptera exporten och begränsa importen till endast det aktuella myWebVault-kontot."
   },
   "passwordProtectedOptionDescription": {
-    "message": "Ange ett lösenord för filen för att kryptera exporten och importera den till valfritt Bitwarden-konto med lösenordet för dekryptering."
+    "message": "Ange ett lösenord för filen för att kryptera exporten och importera den till valfritt myWebVault-konto med lösenordet för dekryptering."
   },
   "exportTypeHeading": {
     "message": "Exporttyp"
@@ -1588,7 +1588,7 @@
     "message": "Denna export krypterar dina data med kontots krypteringsnyckel. Om du någonsin roterar kontots krypteringsnyckel bör du exportera igen eftersom du inte kommer att kunna dekryptera denna exportfil."
   },
   "encExportAccountWarningDesc": {
-    "message": "Kypteringsnycklar är unika för varje Bitwarden-konto, så du kan inte importera en krypterad export till ett annat konto."
+    "message": "Kypteringsnycklar är unika för varje myWebVault-konto, så du kan inte importera en krypterad export till ett annat konto."
   },
   "exportMasterPassword": {
     "message": "Ange ditt huvudlösenord för att exportera ditt valv."
@@ -1796,7 +1796,7 @@
     "message": "Köp Premium"
   },
   "premiumPurchaseAlertV2": {
-    "message": "Du kan köpa Premium från dina kontoinställningar i Bitwardens webbapp."
+    "message": "Du kan köpa Premium från dina kontoinställningar i myWebVaults webbapp."
   },
   "premiumFeatures": {
     "message": "Uppgradera till Premium och få:"
@@ -1935,7 +1935,7 @@
     "message": "Egen-hostad miljö"
   },
   "selfHostedBaseUrlHint": {
-    "message": "Ange bas-URL:en för din självhostade Bitwarden-installation. Exempel: https://bitwarden.company.com"
+    "message": "Ange bas-URL:en för din självhostade myWebVault-installation. Exempel: https://bitwarden.company.com"
   },
   "selfHostedCustomEnvHeader": {
     "message": "För avancerad konfiguration kan du ange bas-URL för varje tjänst separat."
@@ -1988,7 +1988,7 @@
     "message": "Hitta förslag på autofyll enkelt"
   },
   "autofillSpotlightDesc": {
-    "message": "Stäng av webbläsarens autofyllinställningar så att de inte orsakar konflikt med Bitwarden."
+    "message": "Stäng av webbläsarens autofyllinställningar så att de inte orsakar konflikt med myWebVault."
   },
   "turnOffBrowserAutofill": {
     "message": "Stäng av $BROWSER$ autofyll",
@@ -2045,7 +2045,7 @@
     "message": "Visa förslag för autofyll i formulärfält"
   },
   "howDoesBitwardenProtectFromPhishing": {
-    "message": "Hur skyddar Bitwarden dina data från nätfiske?"
+    "message": "Hur skyddar myWebVault dina data från nätfiske?"
   },
   "currentWebsite": {
     "message": "Aktuell webbplats"
@@ -3006,7 +3006,7 @@
     "message": "Svagt huvudlösenord"
   },
   "weakMasterPasswordDesc": {
-    "message": "Huvudlösenordet du har valt är svagt. Du bör använda ett starkt huvudlösenord (eller en lösenfras) för att skydda ditt Bitwarden-konto ordentligt. Är du säker på att du vill använda detta huvudlösenord?"
+    "message": "Huvudlösenordet du har valt är svagt. Du bör använda ett starkt huvudlösenord (eller en lösenfras) för att skydda ditt myWebVault-konto ordentligt. Är du säker på att du vill använda detta huvudlösenord?"
   },
   "rotateAccountEncKey": {
     "message": "Also rotate my account's encryption key"
@@ -3018,7 +3018,7 @@
     "message": "Are you sure you want to rotate your account's encryption key?"
   },
   "updateEncryptionKeyWarning": {
-    "message": "After updating your encryption key, you are required to log out and back in to all Bitwarden applications that you are currently using (such as the mobile app or browser extensions). Failure to log out and back in (which downloads your new encryption key) may result in data corruption. We will attempt to log you out automatically, however, it may be delayed."
+    "message": "After updating your encryption key, you are required to log out and back in to all myWebVault applications that you are currently using (such as the mobile app or browser extensions). Failure to log out and back in (which downloads your new encryption key) may result in data corruption. We will attempt to log you out automatically, however, it may be delayed."
   },
   "updateEncryptionKeyAccountExportWarning": {
     "message": "Any account restricted exports you have saved will become invalid."
@@ -3046,10 +3046,10 @@
     "message": "Ställ in PIN-kod"
   },
   "setYourPinCode": {
-    "message": "Ange en PIN-kod för att låsa upp Bitwarden. Dina PIN-inställningar återställs om du någonsin loggar ut helt från programmet."
+    "message": "Ange en PIN-kod för att låsa upp myWebVault. Dina PIN-inställningar återställs om du någonsin loggar ut helt från programmet."
   },
   "setPinCode": {
-    "message": "Du kan använda denna PIN-kod för att låsa upp Bitwarden. Din PIN-kod kommer att återställas om du någonsin loggar ut helt från programmet."
+    "message": "Du kan använda denna PIN-kod för att låsa upp myWebVault. Din PIN-kod kommer att återställas om du någonsin loggar ut helt från programmet."
   },
   "pinRequired": {
     "message": "PIN-kod krävs."
@@ -3070,7 +3070,7 @@
     "message": "Väntar på bekräftelse från skrivbordsprogrammet"
   },
   "awaitDesktopDesc": {
-    "message": "Säkerställ att du använder biometri i Bitwardens skrivbordsprogram för att aktivera biometri för webbläsaren."
+    "message": "Säkerställ att du använder biometri i myWebVaults skrivbordsprogram för att aktivera biometri för webbläsaren."
   },
   "lockWithMasterPassOnRestart": {
     "message": "Lås med huvudlösenordet vid omstart av webbläsaren"
@@ -3185,7 +3185,7 @@
     "message": "Formuläret kommer från en annan domän än den URI för din sparade inloggning. Välj OK att automatiskt fylla i ändå, eller Avbryt för att stoppa."
   },
   "autofillIframeWarningTip": {
-    "message": "För att förhindra denna varning i framtiden, spara denna URI, $HOSTNAME$, till ditt Bitwarden inloggningsobjekt för denna webbplats.",
+    "message": "För att förhindra denna varning i framtiden, spara denna URI, $HOSTNAME$, till ditt myWebVault inloggningsobjekt för denna webbplats.",
     "placeholders": {
       "hostname": {
         "content": "$1",
@@ -3194,7 +3194,7 @@
     }
   },
   "topLayerHijackWarning": {
-    "message": "Denna sida stör Bitwarden-upplevelsen. Bitwardens inbyggda meny har tillfälligt inaktiverats som en säkerhetsåtgärd."
+    "message": "Denna sida stör myWebVault-upplevelsen. myWebVaults inbyggda meny har tillfälligt inaktiverats som en säkerhetsåtgärd."
   },
   "setMasterPassword": {
     "message": "Ange huvudlösenord"
@@ -3251,7 +3251,7 @@
     "message": "Ditt nya huvudlösenord uppfyller inte kraven i policyn."
   },
   "receiveMarketingEmails": {
-    "message": "Receive updates from Bitwarden in your inbox."
+    "message": "Receive updates from myWebVault in your inbox."
   },
   "unsubscribe": {
     "message": "Avprenumerera"
@@ -3296,13 +3296,13 @@
     "message": "Webbläsarintegration är inte aktiverad"
   },
   "desktopIntegrationDisabledDesc": {
-    "message": "Webbläsarintegration är inte aktiverad i Bitwardens skrivbordsprogram. Aktivera det i inställningarna i skrivbordsprogrammet."
+    "message": "Webbläsarintegration är inte aktiverad i myWebVaults skrivbordsprogram. Aktivera det i inställningarna i skrivbordsprogrammet."
   },
   "startDesktopTitle": {
-    "message": "Starta Bitwardens skrivbordsprogram"
+    "message": "Starta myWebVaults skrivbordsprogram"
   },
   "startDesktopDesc": {
-    "message": "Bitwardens skrivbordsprogram måste köras innan denna funktion kan användas."
+    "message": "myWebVaults skrivbordsprogram måste köras innan denna funktion kan användas."
   },
   "errorEnableBiometricTitle": {
     "message": "Det gick inte att aktivera biometri"
@@ -3356,13 +3356,13 @@
     "message": "Biometri misslyckades"
   },
   "biometricsFailedDesc": {
-    "message": "Biometri kan inte slutföras, överväg att använda ett huvudlösenord eller logga ut. Om detta kvarstår, kontakta Bitwardens support."
+    "message": "Biometri kan inte slutföras, överväg att använda ett huvudlösenord eller logga ut. Om detta kvarstår, kontakta myWebVaults support."
   },
   "nativeMessagingPermissionErrorTitle": {
     "message": "Permission not provided"
   },
   "nativeMessagingPermissionErrorDesc": {
-    "message": "Without permission to communicate with the Bitwarden Desktop Application we cannot provide biometrics in the browser extension. Please try again."
+    "message": "Without permission to communicate with the myWebVault Desktop Application we cannot provide biometrics in the browser extension. Please try again."
   },
   "nativeMessagingPermissionSidebarTitle": {
     "message": "Permission request error"
@@ -3399,7 +3399,7 @@
     "message": "Exkluderade domäner"
   },
   "excludedDomainsDesc": {
-    "message": "Bitwarden kommer inte att fråga om att få spara inloggningsuppgifter för dessa domäner. Du måste uppdatera sidan för att ändringarna ska träda i kraft."
+    "message": "myWebVault kommer inte att fråga om att få spara inloggningsuppgifter för dessa domäner. Du måste uppdatera sidan för att ändringarna ska träda i kraft."
   },
   "blockedDomainsDesc": {
     "message": "Autofyll och andra relaterade funktioner kommer inte att erbjudas för dessa webbplatser. Du måste uppdatera sidan för att ändringarna ska träda i kraft."
@@ -3531,24 +3531,24 @@
     "message": "Illustration av en lista över inloggningar som är i riskzonen."
   },
   "welcomeDialogGraphicAlt": {
-    "message": "Illustration of the layout of the Bitwarden vault page."
+    "message": "Illustration of the layout of the myWebVault vault page."
   },
   "generatePasswordSlideDesc": {
-    "message": "Skapa snabbt ett starkt, unikt lösenord med Bitwardens autofyllmeny på riskwebbplatsen.",
+    "message": "Skapa snabbt ett starkt, unikt lösenord med myWebVaults autofyllmeny på riskwebbplatsen.",
     "description": "Description of the generate password slide on the at-risk password page carousel"
   },
   "generatePasswordSlideImgAltPeriod": {
-    "message": "Illustration av Bitwardens autofyllmeny som visar ett genererat lösenord."
+    "message": "Illustration av myWebVaults autofyllmeny som visar ett genererat lösenord."
   },
   "updateInBitwarden": {
-    "message": "Uppdatera i Bitwarden"
+    "message": "Uppdatera i myWebVault"
   },
   "updateInBitwardenSlideDesc": {
-    "message": "Bitwarden kommer då att uppmana dig att uppdatera lösenordet i lösenordshanteraren.",
+    "message": "myWebVault kommer då att uppmana dig att uppdatera lösenordet i lösenordshanteraren.",
     "description": "Description of the update in Bitwarden slide on the at-risk password page carousel"
   },
   "updateInBitwardenSlideImgAltPeriod": {
-    "message": "Illustration av ett Bitwarden-meddelande som uppmanar användaren att uppdatera inloggningen."
+    "message": "Illustration av ett myWebVault-meddelande som uppmanar användaren att uppdatera inloggningen."
   },
   "turnOnAutofill": {
     "message": "Aktivera autofyll"
@@ -4063,10 +4063,10 @@
     "message": "Fel vid hämtning av autofylldata"
   },
   "couldNotDecryptVaultItem": {
-    "message": "Bitwarden could not decrypt the vault item listed below. Contact Bitwarden Customer Support and provide the item ID below to see if it can be recovered."
+    "message": "myWebVault could not decrypt the vault item listed below. Contact myWebVault Customer Support and provide the item ID below to see if it can be recovered."
   },
   "couldNotDecryptVaultItems": {
-    "message": "Bitwarden could not decrypt the vault items listed below. Contact Bitwarden Customer Support and provide the item IDs below to see if they can be recovered."
+    "message": "myWebVault could not decrypt the vault items listed below. Contact myWebVault Customer Support and provide the item IDs below to see if they can be recovered."
   },
   "itemId": {
     "message": "Item ID",
@@ -4176,11 +4176,11 @@
     }
   },
   "forwarderGeneratedBy": {
-    "message": "Genererad av Bitwarden.",
+    "message": "Genererad av myWebVault.",
     "description": "Displayed with the address on the forwarding service's configuration screen."
   },
   "forwarderGeneratedByWithWebsite": {
-    "message": "Webbplats: $WEBSITE$. Genererad av Bitwarden.",
+    "message": "Webbplats: $WEBSITE$. Genererad av myWebVault.",
     "description": "Displayed with the address on the forwarding service's configuration screen.",
     "placeholders": {
       "WEBSITE": {
@@ -4378,7 +4378,7 @@
     "message": "En avisering har skickats till din enhet."
   },
   "notificationSentDevicePart1": {
-    "message": "Lås upp Bitwarden på din enhet eller på"
+    "message": "Lås upp myWebVault på din enhet eller på"
   },
   "notificationSentDeviceAnchor": {
     "message": "webbapp"
@@ -4878,15 +4878,15 @@
     "message": "Hoppa till innehåll"
   },
   "bitwardenOverlayButton": {
-    "message": "Bitwarden automatisk ifyllnadsmenyknapp",
+    "message": "myWebVault automatisk ifyllnadsmenyknapp",
     "description": "Page title for the iframe containing the overlay button"
   },
   "toggleBitwardenVaultOverlay": {
-    "message": "Växla Bitwarden automatisk ifyllnadsmeny",
+    "message": "Växla myWebVault automatisk ifyllnadsmeny",
     "description": "Screen reader and tool tip label for the overlay button"
   },
   "bitwardenVault": {
-    "message": "Bitwarden automatisk ifyllnadsmeny",
+    "message": "myWebVault automatisk ifyllnadsmeny",
     "description": "Page title in overlay"
   },
   "unlockYourAccountToViewMatchingLogins": {
@@ -4958,7 +4958,7 @@
     "description": "Screen reader text (aria-label) for new identity button within inline menu"
   },
   "bitwardenOverlayMenuAvailable": {
-    "message": "Bitwarden automatisk ifyllnadsmeny är tillgänglig. Tryck på nedåtpilen för att välja.",
+    "message": "myWebVault automatisk ifyllnadsmeny är tillgänglig. Tryck på nedåtpilen för att välja.",
     "description": "Screen reader text for announcing when the overlay opens on the page"
   },
   "turnOn": {
@@ -5377,7 +5377,7 @@
     "description": "Followed by a literal filename (my_passwords.json) rendered as code."
   },
   "importGnomeInstructionsFileHere": {
-    "message": "file here to Bitwarden.",
+    "message": "file here to myWebVault.",
     "description": "Follows the my_passwords.json filename."
   },
   "importPasswordagentInstructions": {
@@ -5849,7 +5849,7 @@
     "message": "Aktivt konto"
   },
   "bitwardenAccount": {
-    "message": "Bitwarden-konto"
+    "message": "myWebVault-konto"
   },
   "availableAccounts": {
     "message": "Tillgängliga konton"
@@ -5895,7 +5895,7 @@
     "description": "Label indicating the most common import formats"
   },
   "uriMatchDefaultStrategyHint": {
-    "message": "Detektering av URI-matchning är hur Bitwarden identifierar autofyllförslag.",
+    "message": "Detektering av URI-matchning är hur myWebVault identifierar autofyllförslag.",
     "description": "Explains to the user that URI match detection determines how Bitwarden suggests autofill options, and clarifies that this default strategy applies when no specific match detection is set for a login item."
   },
   "regExAdvancedOptionWarning": {
@@ -5939,15 +5939,15 @@
     "description": "Body content for dialog which asks if the user wants to proceed to the browser's keyboard shortcut settings page"
   },
   "overrideDefaultBrowserAutofillTitle": {
-    "message": "Låt Bitwarden hantera lösenord som standard?",
+    "message": "Låt myWebVault hantera lösenord som standard?",
     "description": "Dialog title facilitating the ability to override a chrome browser's default autofill behavior"
   },
   "overrideDefaultBrowserAutofillDescription": {
-    "message": "Att ignorera det här alternativet kan orsaka konflikter mellan Bitwardens autofyllförslag och webbläsarens.",
+    "message": "Att ignorera det här alternativet kan orsaka konflikter mellan myWebVaults autofyllförslag och webbläsarens.",
     "description": "Dialog message facilitating the ability to override a chrome browser's default autofill behavior"
   },
   "overrideDefaultBrowserAutoFillSettings": {
-    "message": "Låt Bitwarden hantera lösenord som standard",
+    "message": "Låt myWebVault hantera lösenord som standard",
     "description": "Label for the setting that allows overriding the default browser autofill settings"
   },
   "defaultPasswordManagerCalloutTitle": {
@@ -5955,7 +5955,7 @@
     "description": "Title for the callout that prompts users to set Bitwarden as their default password manager"
   },
   "defaultPasswordManagerCalloutDesc": {
-    "message": "You'll be asked to grant a $BROWSER$ browser permission to make Bitwarden your default password manager.",
+    "message": "You'll be asked to grant a $BROWSER$ browser permission to make myWebVault your default password manager.",
     "description": "Description for the callout that prompts users to set Bitwarden as their default password manager",
     "placeholders": {
       "browser": {
@@ -5965,11 +5965,11 @@
     }
   },
   "privacyPermissionAdditionNotGrantedTitle": {
-    "message": "Det går inte att ställa in Bitwarden som standardlösenordshanterare",
+    "message": "Det går inte att ställa in myWebVault som standardlösenordshanterare",
     "description": "Title for the dialog that appears when the user has not granted the extension permission to set privacy settings"
   },
   "privacyPermissionAdditionNotGrantedDescription": {
-    "message": "Du måste ge Bitwarden sekretessbehörighet för webbläsaren för att kunna ange den som standardlösenordshanterare.",
+    "message": "Du måste ge myWebVault sekretessbehörighet för webbläsaren för att kunna ange den som standardlösenordshanterare.",
     "description": "Description for the dialog that appears when the user has not granted the extension permission to set privacy settings"
   },
   "makeDefault": {
@@ -5977,10 +5977,10 @@
     "description": "Button text for the setting that allows overriding the default browser autofill settings"
   },
   "defaultPasswordManagerPromptTitle": {
-    "message": "Make Bitwarden your browser's default password manager"
+    "message": "Make myWebVault your browser's default password manager"
   },
   "defaultPasswordManagerPromptTitleV2": {
-    "message": "Make Bitwarden your default password manager",
+    "message": "Make myWebVault your default password manager",
     "description": "Label for the setting to make Bitwarden the default password manager"
   },
   "defaultPasswordManagerSettingHintV2": {
@@ -5992,13 +5992,13 @@
     "description": "Link text to browser autofill settings in the default password manager setting hint."
   },
   "defaultPasswordManagerPromptStep2AfterAllow": {
-    "message": "from the browser prompt to give Bitwarden permission to change your settings."
+    "message": "from the browser prompt to give myWebVault permission to change your settings."
   },
   "defaultPasswordManagerPromptStep3": {
     "message": "We'll turn off your browser's built-in password manager so you can enjoy a secure login experience."
   },
   "defaultPasswordManagerSuccessToast": {
-    "message": "Made Bitwarden your default browser password manager"
+    "message": "Made myWebVault your default browser password manager"
   },
   "allow": {
     "message": "Allow",
@@ -6406,16 +6406,16 @@
     "message": "Ladda ned bilaga"
   },
   "downloadBitwarden": {
-    "message": "Ladda ner Bitwarden"
+    "message": "Ladda ner myWebVault"
   },
   "downloadBitwardenOnAllDevices": {
-    "message": "Ladda ner Bitwarden på alla enheter"
+    "message": "Ladda ner myWebVault på alla enheter"
   },
   "getTheMobileApp": {
     "message": "Hämta mobilappen"
   },
   "getTheMobileAppDesc": {
-    "message": "Få tillgång till dina lösenord när du är på språng med Bitwardens mobilapp."
+    "message": "Få tillgång till dina lösenord när du är på språng med myWebVaults mobilapp."
   },
   "getTheDesktopApp": {
     "message": "Hämta skrivbordsappen"
@@ -6968,10 +6968,10 @@
     "message": "Biometrisk upplåsning är inte tillgänglig på grund av felkonfigurerade systemfiler."
   },
   "biometricsStatusHelptextDesktopDisconnected": {
-    "message": "Biometrisk upplåsning är inte tillgänglig eftersom Bitwardens skrivbordsapp är stängd."
+    "message": "Biometrisk upplåsning är inte tillgänglig eftersom myWebVaults skrivbordsapp är stängd."
   },
   "biometricsStatusHelptextNotEnabledInDesktop": {
-    "message": "Biometrisk upplåsning är inte tillgänglig eftersom den inte är aktiverad för $EMAIL$ i Bitwardens skrivbordsapp.",
+    "message": "Biometrisk upplåsning är inte tillgänglig eftersom den inte är aktiverad för $EMAIL$ i myWebVaults skrivbordsapp.",
     "placeholders": {
       "email": {
         "content": "$1",
@@ -7003,7 +7003,7 @@
     "description": "Notification message for when a password has been regenerated"
   },
   "saveToBitwarden": {
-    "message": "Spara till Bitwarden",
+    "message": "Spara till myWebVault",
     "description": "Confirmation message for saving a login to Bitwarden"
   },
   "spaceCharacterDescriptor": {
@@ -7256,13 +7256,13 @@
     "message": "Use folders to organize vault items. They're just for you — no one else will see or use them."
   },
   "introCarouselLabel": {
-    "message": "Välkommen till Bitwarden"
+    "message": "Välkommen till myWebVault"
   },
   "securityPrioritized": {
     "message": "Säkerhet, prioriterad"
   },
   "securityPrioritizedBody": {
-    "message": "Spara inloggningar, kort och identiteter i ditt säkra valv. Bitwarden använder nollkännedom, end-to-end-kryptering för att skydda det som är viktigt för dig."
+    "message": "Spara inloggningar, kort och identiteter i ditt säkra valv. myWebVault använder nollkännedom, end-to-end-kryptering för att skydda det som är viktigt för dig."
   },
   "quickLogin": {
     "message": "Snabb och enkel inloggning"
@@ -7280,7 +7280,7 @@
     "message": "Dina data, när och där du behöver dem"
   },
   "secureDevicesBody": {
-    "message": "Spara obegränsat antal lösenord på obegränsat antal enheter med Bitwardens mobil-, webbläsar- och skrivbordsappar."
+    "message": "Spara obegränsat antal lösenord på obegränsat antal enheter med myWebVaults mobil-, webbläsar- och skrivbordsappar."
   },
   "nudgeBadgeAria": {
     "message": "1 meddelande"
@@ -7289,7 +7289,7 @@
     "message": "Importera befintliga lösenord"
   },
   "emptyVaultNudgeBody": {
-    "message": "Använd importören för att snabbt överföra inloggningar till Bitwarden utan att lägga till dem manuellt."
+    "message": "Använd importören för att snabbt överföra inloggningar till myWebVault utan att lägga till dem manuellt."
   },
   "emptyVaultNudgeButton": {
     "message": "Importera nu"
@@ -7408,7 +7408,7 @@
     "message": "Om denna inställning"
   },
   "permitCipherDetailsDescription": {
-    "message": "Bitwarden använder sparade inloggnings-URI: er för att identifiera vilken ikon eller URL för lösenordsändring som ska användas för att förbättra din upplevelse. Ingen information samlas in eller sparas när du använder denna tjänst."
+    "message": "myWebVault använder sparade inloggnings-URI: er för att identifiera vilken ikon eller URL för lösenordsändring som ska användas för att förbättra din upplevelse. Ingen information samlas in eller sparas när du använder denna tjänst."
   },
   "showQuickCopyActionsDetailsDescription": {
     "message": "Add 3 quick copy buttons next to items to copy your username, password, or verification code to the clipboard."
@@ -7417,7 +7417,7 @@
     "message": "Du har inte behörighet att visa den här sidan. Försök att logga in med ett annat konto."
   },
   "wasmNotSupported": {
-    "message": "WebAssembly stöds inte av din webbläsare eller är inte aktiverat. WebAssembly krävs för att använda Bitwarden-appen.",
+    "message": "WebAssembly stöds inte av din webbläsare eller är inte aktiverat. WebAssembly krävs för att använda myWebVault-appen.",
     "description": "'WebAssembly' is a technical term and should not be translated."
   },
   "showMore": {
@@ -7505,7 +7505,7 @@
     "message": "Fel: Kan inte dekryptera"
   },
   "removeMasterPasswordForOrgUserKeyConnector": {
-    "message": "Din organisation använder inte längre huvudlösenord för att logga in på Bitwarden. För att fortsätta, verifiera organisationen och domänen."
+    "message": "Din organisation använder inte längre huvudlösenord för att logga in på myWebVault. För att fortsätta, verifiera organisationen och domänen."
   },
   "continueWithLogIn": {
     "message": "Fortsätt med inloggning"
@@ -7591,7 +7591,7 @@
     "message": "Ställ in en upplåsningsmetod för att ändra din tidsgränsåtgärd"
   },
   "sessionTimeoutSuppressedByConnectedDevice": {
-    "message": "Managed by the Bitwarden desktop app. Open the desktop app to edit."
+    "message": "Managed by the myWebVault desktop app. Open the desktop app to edit."
   },
   "percentageCompleted": {
     "message": "$PERCENT$% complete",
@@ -7693,7 +7693,7 @@
     "message": "user@bitwarden.com, user@acme.com"
   },
   "downloadBitwardenApps": {
-    "message": "Ladda ner Bitwardens appar"
+    "message": "Ladda ner myWebVaults appar"
   },
   "emailProtected": {
     "message": "Email protected"
@@ -7712,13 +7712,13 @@
     "message": "Share unlock with Desktop"
   },
   "sharedUnlockWithDesktopDescription": {
-    "message": "When enabled, unlock state will be shared with the Bitwarden Desktop app."
+    "message": "When enabled, unlock state will be shared with the myWebVault Desktop app."
   },
   "sharedUnlockWithWeb": {
     "message": "Share unlock with web vault"
   },
   "sharedUnlockWithWebDescription": {
-    "message": "When enabled, unlock state will be shared with Bitwarden web vaults."
+    "message": "When enabled, unlock state will be shared with myWebVault web vaults."
   },
   "sharedUnlockUnavailableUntrustedDevice": {
     "message": "Shared unlock is not available because you chose not to remember this device. To enable this setting, try logging in again."
@@ -7727,13 +7727,13 @@
     "message": "New permission needed"
   },
   "sharedUnlockDesktopPermissionDesc": {
-    "message": "To use shared unlock, Bitwarden needs permission to communicate with the desktop app. When you continue, your browser will ask you to approve it."
+    "message": "To use shared unlock, myWebVault needs permission to communicate with the desktop app. When you continue, your browser will ask you to approve it."
   },
   "sharedUnlockDesktopPermissionWarning": {
-    "message": "Bitwarden will lock and reload. After you approve, the extension reloads and will lock your vault."
+    "message": "myWebVault will lock and reload. After you approve, the extension reloads and will lock your vault."
   },
   "biometricPermissionDesc": {
-    "message": "To use biometric unlock, Bitwarden needs permission to communicate with the desktop app. When you continue, your browser will ask you to approve it."
+    "message": "To use biometric unlock, myWebVault needs permission to communicate with the desktop app. When you continue, your browser will ask you to approve it."
   },
   "enterMonth": {
     "message": "Enter month."

@@ -1,0 +1,83 @@
+/*
+ * myWebVault brand colours. Loaded after libs/components/src/tw-theme.css, so these override
+ * Bitwarden's blue primary/brand tokens without editing the shared theme file.
+ *
+ * Brand: primary #3B2A9E, bright #4C3BCF, accent #8B7CF6, light accent #C4BBFF,
+ * dark #1E1650, light ground #F6F4FB.
+ */
+
+:root {
+  --color-primary-100: 237 234 252;
+  --color-primary-300: 196 187 255;
+  --color-primary-600: 76 59 207;
+  --color-primary-700: 59 42 158;
+
+  --color-marketing-logo: 59 42 158;
+  --color-bw-blue: 59 42 158;
+  --color-illustration-logo: 59 42 158;
+
+  --color-brand-050: #f6f4fb;
+  --color-brand-100: #edeafc;
+  --color-brand-200: #dcd6fe;
+  --color-brand-300: #c4bbff;
+  --color-brand-400: #a89cfa;
+  --color-brand-500: #8b7cf6;
+  --color-brand-600: #6a58e3;
+  --color-brand-700: #4c3bcf;
+  --color-brand-700-rgb: 76, 59, 207;
+  --color-brand-800: #3b2a9e;
+  --color-brand-900: #2c207a;
+  --color-brand-950: #1e1650;
+  --color-brand-800-rgb: 59, 42, 158;
+  --color-brand-950-rgb: 30, 22, 80;
+}
+
+.theme_dark {
+  --color-primary-100: 44 32 122;
+  --color-primary-300: 59 42 158;
+  --color-primary-600: 168 156 250;
+  --color-primary-700: 196 187 255;
+
+  --color-marketing-logo: 255 255 255;
+  --color-bw-blue: 59 42 158;
+  --color-illustration-logo: 255 255 255;
+}
+
+/* Logo (libs/assets/src/svg/svgs/bitwarden-logo.icon.ts). */
+.mwv-logo-w-left {
+  fill: #3b2a9e;
+}
+.mwv-logo-w-right {
+  fill: #8b7cf6;
+}
+.mwv-logo-accent {
+  fill: #4c3bcf;
+}
+.theme_dark .mwv-logo-w-left {
+  fill: #ffffff;
+}
+.theme_dark .mwv-logo-w-right,
+.theme_dark .mwv-logo-accent {
+  fill: #c4bbff;
+}
+
+/*
+ * Sign-in options the myWebVault server doesn't offer. They live in Bitwarden's shared login and
+ * registration templates (libs/auth), so they're hidden here instead of edited there.
+ */
+[data-testid="login-sso-button"],
+[data-testid="login-with-device-button"],
+a[href$="#/hint"] {
+  display: none !important;
+}
+
+/* The "or" dividers that sat between the hidden options and the main login button. */
+[data-testid="login-continue-button"] + .tw-text-center,
+.tw-text-center:has(+ [data-testid="login-with-device-button"]) {
+  display: none !important;
+}
+
+/* Registration links to Bitwarden's terms and privacy policy. Hidden until myWebVault has its own. */
+p:has(> a[href="https://bitwarden.com/terms/"]) {
+  display: none !important;
+}

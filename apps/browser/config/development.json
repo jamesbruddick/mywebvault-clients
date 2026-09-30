@@ -1,7 +1,7 @@
 {
   "devFlags": {
     "managedEnvironment": {
-      "base": "https://localhost:8080"
+      "base": "http://localhost:8787"
     },
     "skipWelcomeOnInstall": true,
     "configRetrievalIntervalMs": 5000

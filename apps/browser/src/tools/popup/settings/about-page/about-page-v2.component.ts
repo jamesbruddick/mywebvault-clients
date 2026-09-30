@@ -10,6 +10,7 @@ import { CenterPositionStrategy, DialogService, ItemModule } from "@bitwarden/co
 import { TroubleshootingDialogComponent } from "@bitwarden/logging-angular";
 import { I18nPipe } from "@bitwarden/ui-common";
 
+import { BITWARDEN_ACCOUNT_FEATURES } from "../../../../mywebvault/features";
 import { BrowserApi } from "../../../../platform/browser/browser-api";
 import { PopOutComponent } from "../../../../platform/popup/components/pop-out.component";
 import { PopupHeaderComponent } from "../../../../platform/popup/layout/popup-header.component";
@@ -47,6 +48,8 @@ const RateUrls = {
   ],
 })
 export class AboutPageV2Component {
+  protected readonly bitwardenAccountFeatures = BITWARDEN_ACCOUNT_FEATURES;
+
   constructor(
     private dialogService: DialogService,
     private environmentService: EnvironmentService,

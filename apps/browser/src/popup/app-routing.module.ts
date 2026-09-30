@@ -71,6 +71,7 @@ import { NotificationsSettingsComponent } from "../autofill/popup/settings/notif
 import { PremiumV2Component } from "../billing/popup/settings/premium-v2.component";
 import { PhishingWarningComponent } from "../dirt/phishing-detection/popup/phishing-warning.component";
 import { ProtectedByComponent } from "../dirt/phishing-detection/popup/protected-by-component";
+import { applyMyWebVaultRoutes } from "../mywebvault/popup/routes";
 import BrowserPopupUtils from "../platform/browser/browser-popup-utils";
 import { popupRouterCacheGuard } from "../platform/popup/view-cache/popup-router-cache.service";
 import { RouteCacheOptions } from "../platform/services/popup-view-cache-background.service";
@@ -857,6 +858,9 @@ const routes: Routes = [
     ],
   },
 ];
+
+// myWebVault: bookmark pages in, password-manager pages out (see mywebvault/routes.ts).
+applyMyWebVaultRoutes(routes);
 
 @Injectable()
 export class NoRouteReuseStrategy implements RouteReuseStrategy {

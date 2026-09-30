@@ -1,0 +1,39 @@
+<popup-page>
+  <popup-header slot="header" [pageTitle]="'settings' | i18n">
+    <ng-container slot="end">
+      <app-pop-out></app-pop-out>
+      <app-current-account></app-current-account>
+    </ng-container>
+  </popup-header>
+
+  <bit-item-group>
+    @for (link of links; track link.route) {
+      <bit-item>
+        <a
+          bit-item-content
+          [routerLink]="link.route"
+          [truncate]="false"
+          [id]="'settings_link_' + link.id"
+        >
+          <bit-icon [name]="link.icon" slot="start"></bit-icon>
+          {{ link.label | i18n }}
+          <bit-icon name="bwi-angle-right" slot="end"></bit-icon>
+        </a>
+      </bit-item>
+    }
+    <bit-item>
+      <button
+        bit-item-content
+        type="button"
+        [truncate]="false"
+        id="settings_button_shortcut"
+        (click)="openShortcutSettings()"
+      >
+        <bit-icon name="bwi-search" slot="start"></bit-icon>
+        {{ "quickSearchShortcut" | i18n }}
+        <span slot="secondary">{{ shortcut() || ("quickSearchShortcutNotSet" | i18n) }}</span>
+        <bit-icon name="bwi-external-link" slot="end"></bit-icon>
+      </button>
+    </bit-item>
+  </bit-item-group>
+</popup-page>

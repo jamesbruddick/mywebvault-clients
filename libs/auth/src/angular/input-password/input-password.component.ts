@@ -256,7 +256,9 @@ export class InputPasswordComponent implements OnInit {
         ),
       ]);
 
-      this.formGroup.addControl("checkForBreaches", this.formBuilder.nonNullable.control(true));
+      // myWebVault: off by default. When on, part of a hash of the new password is sent to the
+      // third-party Have I Been Pwned service.
+      this.formGroup.addControl("checkForBreaches", this.formBuilder.nonNullable.control(false));
     }
 
     if (

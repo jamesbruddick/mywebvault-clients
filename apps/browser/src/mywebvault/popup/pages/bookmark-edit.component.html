@@ -1,0 +1,106 @@
+<popup-page>
+  <popup-header
+    slot="header"
+    [pageTitle]="(editingId() ? 'editBookmark' : 'saveBookmark') | i18n"
+    showBackButton
+  ></popup-header>
+
+  <form id="bookmarkForm" [formGroup]="form" [bitSubmit]="submit">
+    <bit-form-field>
+      <bit-label>{{ "bookmarkTitle" | i18n }}</bit-label>
+      <input
+        bitInput
+        id="bookmark-edit_input_title"
+        formControlName="title"
+        type="text"
+        data-testid="bookmark-title"
+      />
+    </bit-form-field>
+
+    <bit-form-field>
+      <bit-label>{{ "bookmarkUrl" | i18n }}</bit-label>
+      <input
+        bitInput
+        id="bookmark-edit_input_url"
+        formControlName="url"
+        type="text"
+        inputmode="url"
+        data-testid="bookmark-url"
+      />
+    </bit-form-field>
+
+    <bit-form-field>
+      <bit-label>{{ "folder" | i18n }}</bit-label>
+      <bit-select
+        id="bookmark-edit_select_folder"
+        formControlName="folderId"
+        data-testid="bookmark-folder"
+      >
+        <bit-option [value]="NO_FOLDER" [label]="'noFolder' | i18n"></bit-option>
+        @for (folder of folders$ | async; track folder.id) {
+          <bit-option [value]="folder.id" [label]="folder.name"></bit-option>
+        }
+      </bit-select>
+      <bit-hint>
+        <button
+          type="button"
+          bitLink
+          linkType="primary"
+          id="bookmark-edit_button_new-folder"
+          (click)="newFolder()"
+        >
+          {{ "newFolder" | i18n }}
+        </button>
+      </bit-hint>
+    </bit-form-field>
+
+    <bit-form-field>
+      <bit-label>{{ "tags" | i18n }}</bit-label>
+      <input
+        bitInput
+        id="bookmark-edit_input_tags"
+        formControlName="tags"
+        type="text"
+        data-testid="bookmark-tags"
+      />
+      <bit-hint>{{ "tagsHint" | i18n }}</bit-hint>
+    </bit-form-field>
+
+    <bit-form-field>
+      <bit-label>{{ "notes" | i18n }}</bit-label>
+      <textarea
+        bitInput
+        id="bookmark-edit_input_notes"
+        formControlName="notes"
+        rows="3"
+        data-testid="bookmark-notes"
+      ></textarea>
+    </bit-form-field>
+  </form>
+
+  <popup-footer slot="footer">
+    <button
+      bitButton
+      type="submit"
+      form="bookmarkForm"
+      buttonType="primary"
+      id="bookmark-edit_button_save"
+      data-testid="save-bookmark"
+    >
+      {{ "save" | i18n }}
+    </button>
+    @if (editingId()) {
+      <button
+        class="tw-ml-auto"
+        type="button"
+        buttonType="dangerGhost"
+        slot="end"
+        bitIconButton="bwi-trash"
+        id="bookmark-edit_button_delete"
+        [bitAction]="delete"
+        [label]="'deleteBookmark' | i18n"
+        data-testid="delete-bookmark"
+      ></button>
+    }
+  </popup-footer>
+</popup-page>

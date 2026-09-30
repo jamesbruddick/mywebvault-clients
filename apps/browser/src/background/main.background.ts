@@ -173,6 +173,7 @@ import { ServerNotificationsService } from "@bitwarden/common/platform/server-no
 // eslint-disable-next-line no-restricted-imports -- Needed for service creation
 import {
   DefaultServerNotificationsService,
+  NoopServerNotificationsService,
   SignalRConnectionService,
   UnsupportedWebPushConnectionService,
   WebPushNotificationsApiService,
@@ -382,6 +383,12 @@ import { BrowserProcessReloadService } from "../key-management/browser-process-r
 import { BrowserSessionTimeoutTypeService } from "../key-management/session-timeout/services/browser-session-timeout-type.service";
 import { BackgroundUnlockService } from "../key-management/unlock/background-unlock.service";
 import VaultTimeoutService from "../key-management/vault-timeout/vault-timeout.service";
+import { registerQuickSearch } from "../mywebvault/background/quick-search.background";
+import {
+  createSaveContextMenu,
+  listenForSaveContextMenuClicks,
+} from "../mywebvault/background/save-context-menu";
+import { MYWEBVAULT_PASSWORD_FEATURES } from "../mywebvault/features";
 import { BrowserActionsService } from "../platform/actions/browser-actions.service";
 import { DefaultBadgeBrowserApi } from "../platform/badge/badge-browser-api";
 import { BadgeService } from "../platform/badge/badge.service";
@@ -1487,22 +1494,26 @@ export default class MainBackground {
       this.logService,
     );
 
-    this.serverNotificationsService = new DefaultServerNotificationsService(
-      this.logService,
-      this.syncService,
-      this.appIdService,
-      this.environmentService,
-      logoutCallback,
-      this.messagingService,
-      this.accountService,
-      new SignalRConnectionService(this.apiService, this.logService, this.platformUtilsService),
-      this.authService,
-      this.webPushConnectionService,
-      this.authRequestAnsweringService,
-      this.configService,
-      this.autoConfirmService,
-      this.billingAccountProfileStateService,
-    );
+    // Live push (SignalR/WebPush) isn't offered by the myWebVault server; devices stay up to date
+    // through the periodic background sync and the sync when the popup opens.
+    this.serverNotificationsService = !MYWEBVAULT_PASSWORD_FEATURES
+      ? new NoopServerNotificationsService(this.logService)
+      : new DefaultServerNotificationsService(
+          this.logService,
+          this.syncService,
+          this.appIdService,
+          this.environmentService,
+          logoutCallback,
+          this.messagingService,
+          this.accountService,
+          new SignalRConnectionService(this.apiService, this.logService, this.platformUtilsService),
+          this.authService,
+          this.webPushConnectionService,
+          this.authRequestAnsweringService,
+          this.configService,
+          this.autoConfirmService,
+          this.billingAccountProfileStateService,
+        );
 
     this.fido2UserInterfaceService = new BrowserFido2UserInterfaceService(this.authService);
     this.fido2AuthenticatorService = new Fido2AuthenticatorService(
@@ -1791,15 +1802,18 @@ export default class MainBackground {
       this.stateProvider,
     );
 
-    this.phishingDetectionService = new PhishingDetectionService(
-      this.logService,
-      this.phishingDataService,
-      this.phishingDetectionSettingsService,
-      this.messageListener,
-      this.eventCollectionService,
-      this.organizationService,
-      this.accountService,
-    );
+    // Watches every page load (webNavigation), which myWebVault has no permission for.
+    if (MYWEBVAULT_PASSWORD_FEATURES) {
+      this.phishingDetectionService = new PhishingDetectionService(
+        this.logService,
+        this.phishingDataService,
+        this.phishingDetectionSettingsService,
+        this.messageListener,
+        this.eventCollectionService,
+        this.organizationService,
+        this.accountService,
+      );
+    }
 
     this.sharedUnlockSettingsService = new DefaultSharedUnlockSettingsService(this.stateProvider);
     this.sharedUnlockPeerService = new DefaultSharedUnlockPeerService(
@@ -1843,6 +1857,18 @@ export default class MainBackground {
   }
 
   async bootstrap() {
+    if (!MYWEBVAULT_PASSWORD_FEATURES) {
+      // Before any await: Chrome only delivers the event that woke the service worker (a hotkey or
+      // right-click) to listeners registered in the worker's first turn.
+      listenForSaveContextMenuClicks();
+      registerQuickSearch({
+        accountService: this.accountService,
+        authService: this.authService,
+        cipherService: this.cipherService,
+        folderService: this.folderService,
+        logService: this.logService,
+      });
+    }
     this.containerService.attachToGlobal(self);
 
     // Acquired first so no consumer can observe an empty profile that acquisition would have
@@ -1875,17 +1901,26 @@ export default class MainBackground {
     this.popupRouterCacheBackgroundService.init();
 
     await this.vaultTimeoutService.init(true);
-    this.fido2Background.init();
+    if (MYWEBVAULT_PASSWORD_FEATURES) {
+      this.fido2Background.init();
+    }
     // Wire the autofill lifecycle before runtime init triggers script
     // injection, so the onConnect listener is registered before any frame
     // connects.
-    this.autofillLifecycleService.init();
+    if (MYWEBVAULT_PASSWORD_FEATURES) {
+      this.autofillLifecycleService.init();
+    }
     await this.runtimeBackground.init();
-    this.autofillOrchestrator.init();
-    await this.notificationBackground.init();
-    this.overlayNotificationsBackground.init();
+    if (MYWEBVAULT_PASSWORD_FEATURES) {
+      this.autofillOrchestrator.init();
+      await this.notificationBackground.init();
+      this.overlayNotificationsBackground.init();
+    }
     this.commandsBackground.init();
     this.contextMenusBackground?.init();
+    if (!MYWEBVAULT_PASSWORD_FEATURES) {
+      await this.refreshMenu();
+    }
     // Disable the side panel globally on startup so Bitwarden does not appear in
     // Chrome's side panel picker. It is enabled per-tab on demand when the user
     // triggers autofill triage via the context menu.
@@ -1893,10 +1928,14 @@ export default class MainBackground {
       await BrowserApi.setSidePanelOptions({ enabled: false });
     }
     this.idleBackground.init();
-    await this.webRequestBackground?.startListening();
+    if (MYWEBVAULT_PASSWORD_FEATURES) {
+      await this.webRequestBackground?.startListening();
+    }
     this.syncServiceListener?.listener$().subscribe();
-    await this.autoSubmitLoginBackground.init();
-    await this.targetingRulesDataService.init();
+    if (MYWEBVAULT_PASSWORD_FEATURES) {
+      await this.autoSubmitLoginBackground.init();
+      await this.targetingRulesDataService.init();
+    }
 
     // If the user is logged out, switch to the next account
     const active = await firstValueFrom(this.accountService.activeAccount$);
@@ -1911,7 +1950,10 @@ export default class MainBackground {
     }
 
     await this.initOverlayAndTabsBackground();
-    await this.ipcContentScriptManagerService.init();
+    if (MYWEBVAULT_PASSWORD_FEATURES) {
+      // Registers a content script on every https page; myWebVault doesn't inject into pages.
+      await this.ipcContentScriptManagerService.init();
+    }
     await this.ipcService.init();
     await this.sharedUnlockPeerService.start();
     this.badgeService.startListening();
@@ -1935,6 +1977,12 @@ export default class MainBackground {
     }
 
     await MainContextMenuHandler.removeAll();
+
+    if (!MYWEBVAULT_PASSWORD_FEATURES) {
+      await createSaveContextMenu(this.i18nService);
+      this.onUpdatedRan = this.onReplacedRan = false;
+      return;
+    }
 
     if (forLocked) {
       await this.mainContextMenuHandler?.noAccess();
@@ -2279,7 +2327,9 @@ export default class MainBackground {
       ),
     );
 
-    if (streams.length > 0) {
+    // Without system notifications (e.g. no "notifications" permission) there are no clicks to
+    // handle, and the unsupported service's stream errors on subscribe.
+    if (streams.length > 0 && this.systemNotificationService.isSupported()) {
       merge(...streams).subscribe();
     }
   }
@@ -2289,6 +2339,11 @@ export default class MainBackground {
    * Will be reverted to instantiation within the constructor once the feature flag is removed.
    */
   async initOverlayAndTabsBackground() {
+    // Autofill inline menu, autofill/at-risk/clipboard badges and autofill tab tracking. They use
+    // webNavigation, which myWebVault has no permission for: running them throws and stops startup.
+    if (!MYWEBVAULT_PASSWORD_FEATURES) {
+      return;
+    }
     if (
       this.overlayBackground ||
       this.tabsBackground ||

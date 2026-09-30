@@ -41,6 +41,7 @@ import { AutofillMessageCommand } from "../autofill/enums/autofill-message.enums
 import { AutofillLifecycleService } from "../autofill/services/abstractions/autofill-lifecycle.service";
 import { AutofillService } from "../autofill/services/abstractions/autofill.service";
 import { FORCE_TARGETING_RULES_UPDATE_COMMAND } from "../autofill/services/targeting-rules-data.service";
+import { MYWEBVAULT_PASSWORD_FEATURES } from "../mywebvault/features";
 import { BrowserApi } from "../platform/browser/browser-api";
 import BrowserPopupUtils from "../platform/browser/browser-popup-utils";
 import { BrowserEnvironmentService } from "../platform/services/browser-environment.service";
@@ -542,20 +543,27 @@ export default class RuntimeBackground {
 
   private async checkOnInstalled() {
     setTimeout(async () => {
-      void this.autofillService.loadAutofillScriptsOnInstall();
+      if (MYWEBVAULT_PASSWORD_FEATURES) {
+        void this.autofillService.loadAutofillScriptsOnInstall();
+      }
 
       if (this.onInstalledReason != null) {
         if (this.onInstalledReason === "install") {
-          if (await isDefaultPasswordManagerPromptFeatureEnabled(this.configService)) {
+          if (
+            MYWEBVAULT_PASSWORD_FEATURES &&
+            (await isDefaultPasswordManagerPromptFeatureEnabled(this.configService))
+          ) {
             await this.defaultPasswordManagerPromptStateAccessor.markFreshInstallEligible();
           }
 
           if (!(await firstValueFrom(this.browserInitialInstallService.extensionInstalled$))) {
-            await this.browserInitialInstallService.displayWelcomePage();
+            if (MYWEBVAULT_PASSWORD_FEATURES) {
+              await this.browserInitialInstallService.displayWelcomePage();
 
-            await this.autofillSettingsService.setInlineMenuVisibility(
-              AutofillOverlayVisibility.OnFieldFocus,
-            );
+              await this.autofillSettingsService.setInlineMenuVisibility(
+                AutofillOverlayVisibility.OnFieldFocus,
+              );
+            }
 
             if (await this.environmentService.hasManagedEnvironment()) {
               await this.environmentService.setUrlsToManagedEnvironment();

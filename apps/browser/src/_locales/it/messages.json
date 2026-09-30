@@ -1,20 +1,20 @@
 {
   "appName": {
-    "message": "Bitwarden"
+    "message": "myWebVault"
   },
   "appLogoLabel": {
-    "message": "Logo di Bitwarden"
+    "message": "Logo di myWebVault"
   },
   "extName": {
-    "message": "Bitwarden Password Manager",
+    "message": "myWebVault – Bookmark Manager",
     "description": "Extension name, MUST be less than 40 characters (Safari restriction)"
   },
   "extNameBeta": {
-    "message": "Bitwarden Password Manager Beta",
+    "message": "myWebVault – Bookmark Manager Beta",
     "description": "Extension name for the beta channel, MUST be less than 40 characters (Safari restriction)"
   },
   "extDesc": {
-    "message": "A casa, al lavoro, o in viaggio, Bitwarden protegge tutte le tue password, passkey, e informazioni sensibili",
+    "message": "Your bookmarks, encrypted and synced everywhere. Built on Bitwarden's open source code.",
     "description": "Extension description, MUST be less than 112 characters (Safari restriction)"
   },
   "loginOrCreateNewAccount": {
@@ -27,7 +27,7 @@
     "message": "Crea account"
   },
   "newToBitwarden": {
-    "message": "Sei nuovo su Bitwarden?"
+    "message": "Sei nuovo su myWebVault?"
   },
   "logInWithPasskey": {
     "message": "Accedi con passkey"
@@ -324,22 +324,22 @@
     "message": "Passa al sito web?"
   },
   "continueToWebAppDesc": {
-    "message": "Esplora altre funzionalità del tuo account Bitwarden sul sito web."
+    "message": "Esplora altre funzionalità del tuo account myWebVault sul sito web."
   },
   "continueToHelpCenter": {
     "message": "Continua sul centro assistenza?"
   },
   "continueToHelpCenterDesc": {
-    "message": "Scopri di più su come usare Bitwarden nel centro assistenza."
+    "message": "Scopri di più su come usare myWebVault nel centro assistenza."
   },
   "continueToBrowserExtensionStore": {
     "message": "Continua sullo store delle estensioni per il browser?"
   },
   "continueToBrowserExtensionStoreDesc": {
-    "message": "Aiuta gli altri a scoprire se Bitwarden è adatto a loro. Visita lo store delle estensioni del tuo browser e lascia una recensione."
+    "message": "Aiuta gli altri a scoprire se myWebVault è adatto a loro. Visita lo store delle estensioni del tuo browser e lascia una recensione."
   },
   "changeMasterPasswordOnWebConfirmation": {
-    "message": "Puoi modificare la tua password principale sul sito web di Bitwarden."
+    "message": "Puoi modificare la tua password principale sul sito web di myWebVault."
   },
   "fingerprintPhrase": {
     "message": "Frase impronta",
@@ -356,13 +356,13 @@
     "message": "Esci"
   },
   "aboutBitwarden": {
-    "message": "Informazioni su Bitwarden"
+    "message": "Informazioni su myWebVault"
   },
   "about": {
     "message": "Informazioni"
   },
   "moreFromBitwarden": {
-    "message": "Altro da Bitwarden"
+    "message": "Altro da myWebVault"
   },
   "continueToBitwardenDotCom": {
     "message": "Continua su bitwarden.com?"
@@ -458,13 +458,13 @@
     "message": "Aiuto e feedback"
   },
   "helpCenter": {
-    "message": "Centro assistenza Bitwarden"
+    "message": "Centro assistenza myWebVault"
   },
   "communityForums": {
-    "message": "Esplora i forum della comunità Bitwarden"
+    "message": "Esplora i forum della comunità myWebVault"
   },
   "contactSupport": {
-    "message": "Contatta assistenza Bitwarden"
+    "message": "Contatta assistenza myWebVault"
   },
   "sync": {
     "message": "Sincronizza"
@@ -486,7 +486,7 @@
     "message": "Genera automaticamente password complesse e uniche per i tuoi login."
   },
   "bitWebVaultApp": {
-    "message": "Bitwarden web app"
+    "message": "myWebVault web app"
   },
   "select": {
     "message": "Seleziona"
@@ -840,13 +840,13 @@
     "message": "Risoluzione problemi"
   },
   "experiencingAnIssue": {
-    "message": "Hai un problema con l'app Bitwarden?"
+    "message": "Hai un problema con l'app myWebVault?"
   },
   "downloadDiagnosticReportWith": {
     "message": "Scarica e condividi il rapporto diagnostico con"
   },
   "bitwardenSupport": {
-    "message": "Supporto di Bitwarden",
+    "message": "Supporto di myWebVault",
     "description": "Link text following the troubleshooting description sentence. 'Bitwarden' should not be translated."
   },
   "download": {
@@ -1063,10 +1063,10 @@
     "message": "Rendi la 2FA facile"
   },
   "totpHelper": {
-    "message": "Bitwarden può memorizzare e riempire automaticamente i codici di verifica 2FA. Copia e incolla la chiave in questo campo."
+    "message": "myWebVault può memorizzare e riempire automaticamente i codici di verifica 2FA. Copia e incolla la chiave in questo campo."
   },
   "totpHelperWithCapture": {
-    "message": "Bitwarden può memorizzare e riempire automaticamente i codici di verifica 2FA. Selezionare l'icona della fotocamera per creare uno screenshot del codice QR dell'autenticatore di questo sito web, oppure copia e incolla la chiave in questo campo."
+    "message": "myWebVault può memorizzare e riempire automaticamente i codici di verifica 2FA. Selezionare l'icona della fotocamera per creare uno screenshot del codice QR dell'autenticatore di questo sito web, oppure copia e incolla la chiave in questo campo."
   },
   "learnMoreAboutAuthenticators": {
     "message": "Ulteriori informazioni sugli autenticatori"
@@ -1156,7 +1156,7 @@
     "message": "La verifica in due passaggi rende il tuo account più sicuro richiedendoti di verificare il tuo login usando un altro dispositivo come una chiave di sicurezza, app di autenticazione, SMS, telefonata, o email. Può essere abilitata nella cassaforte web su bitwarden.com. Vuoi visitare il sito?"
   },
   "twoStepLoginConfirmationContent": {
-    "message": "Rendi il tuo account più sicuro impostando l'autenticazione a due fattori nell'app web di Bitwarden."
+    "message": "Rendi il tuo account più sicuro impostando l'autenticazione a due fattori nell'app web di myWebVault."
   },
   "twoStepLoginConfirmationTitle": {
     "message": "Vuoi continuare sulla web app?"
@@ -1312,7 +1312,7 @@
     "message": "Vai all'impostazione"
   },
   "notificationAddDesc": {
-    "message": "Vuoi che Bitwarden ricordi questa password per te?"
+    "message": "Vuoi che myWebVault ricordi questa password per te?"
   },
   "notificationAddSave": {
     "message": "Salva"
@@ -1348,11 +1348,11 @@
     }
   },
   "notificationLoginSaveConfirmation": {
-    "message": "salvato in Bitwarden.",
+    "message": "salvato in myWebVault.",
     "description": "Shown to user after item is saved."
   },
   "notificationLoginUpdatedConfirmation": {
-    "message": "aggiornato in Bitwarden.",
+    "message": "aggiornato in myWebVault.",
     "description": "Shown to user after item is updated."
   },
   "selectItemAriaLabel": {
@@ -1450,13 +1450,13 @@
     "message": "Chiedi di salvare nuove passkey o accedere con passkey salvate nella tua cassaforte. Si applica a tutti gli account connessi."
   },
   "notificationChangeDesc": {
-    "message": "Vuoi aggiornare questa password in Bitwarden?"
+    "message": "Vuoi aggiornare questa password in myWebVault?"
   },
   "notificationChangeSave": {
     "message": "Aggiorna"
   },
   "notificationUnlockDesc": {
-    "message": "Sblocca la tua cassaforte di Bitwarden per completare la richiesta di riempimento automatico."
+    "message": "Sblocca la tua cassaforte di myWebVault per completare la richiesta di riempimento automatico."
   },
   "notificationUnlock": {
     "message": "Sblocca"
@@ -1556,10 +1556,10 @@
     "message": "La password sarà utilizzata per importare ed esportare questo file"
   },
   "accountRestrictedOptionDescription": {
-    "message": "Usa la chiave di crittografia dell'account, derivata dal nome utente e dalla password principale del tuo account, per crittografare il file di esportazione e limitare l'importazione solo all'account Bitwarden corrente."
+    "message": "Usa la chiave di crittografia dell'account, derivata dal nome utente e dalla password principale del tuo account, per crittografare il file di esportazione e limitare l'importazione solo all'account myWebVault corrente."
   },
   "passwordProtectedOptionDescription": {
-    "message": "Imposta una password del file per crittografare il file esportato e importarlo in qualsiasi account Bitwarden usando la password per decrittografarlo."
+    "message": "Imposta una password del file per crittografare il file esportato e importarlo in qualsiasi account myWebVault usando la password per decrittografarlo."
   },
   "exportTypeHeading": {
     "message": "Tipo di esportazione"
@@ -1588,7 +1588,7 @@
     "message": "Questa esportazione crittografa i tuoi dati usando la chiave di crittografia del tuo account. Se cambi la chiave di crittografia del tuo account, non potrai più decifrare il file esportato e dovrai eseguire una nuova esportazione."
   },
   "encExportAccountWarningDesc": {
-    "message": "Le chiavi di crittografia dell'account sono uniche per ogni account Bitwarden, quindi non puoi importare un file di esportazione crittato in un account diverso."
+    "message": "Le chiavi di crittografia dell'account sono uniche per ogni account myWebVault, quindi non puoi importare un file di esportazione crittato in un account diverso."
   },
   "exportMasterPassword": {
     "message": "Inserisci la tua password principale per esportare i dati della tua cassaforte."
@@ -1796,7 +1796,7 @@
     "message": "Passa a Premium"
   },
   "premiumPurchaseAlertV2": {
-    "message": "Puoi acquistare Premium dalle impostazioni del tuo account sull'app web Bitwarden."
+    "message": "Puoi acquistare Premium dalle impostazioni del tuo account sull'app web myWebVault."
   },
   "premiumFeatures": {
     "message": "Passa a Premium e ricevi:"
@@ -1935,7 +1935,7 @@
     "message": "Ambiente self-hosted"
   },
   "selfHostedBaseUrlHint": {
-    "message": "Specifica lo URL principale della tua installazione self-hosted di Bitwarden. Esempio: https://bitwarden.company.com"
+    "message": "Specifica lo URL principale della tua installazione self-hosted di myWebVault. Esempio: https://bitwarden.company.com"
   },
   "selfHostedCustomEnvHeader": {
     "message": "Per la configurazione avanzata, puoi specificare lo URL di base di ciascun servizio in modo indipendente."
@@ -1988,7 +1988,7 @@
     "message": "Trova facilmente suggerimenti di riempimento automatico"
   },
   "autofillSpotlightDesc": {
-    "message": "Disattiva le impostazioni di riempimento automatico del tuo browser, in modo da non entrare in conflitto con Bitwarden."
+    "message": "Disattiva le impostazioni di riempimento automatico del tuo browser, in modo da non entrare in conflitto con myWebVault."
   },
   "turnOffBrowserAutofill": {
     "message": "Disattiva il riempimento automatico di $BROWSER$",
@@ -2045,7 +2045,7 @@
     "message": "Mostra suggerimenti di riempimento automatico nei campi del modulo"
   },
   "howDoesBitwardenProtectFromPhishing": {
-    "message": "In che modo Bitwarden ti protegge dai pericoli del phising?"
+    "message": "In che modo myWebVault ti protegge dai pericoli del phising?"
   },
   "currentWebsite": {
     "message": "Sito web corrente"
@@ -2075,7 +2075,7 @@
     "message": "Si applica a tutti gli account sul dispositivo."
   },
   "turnOffBrowserBuiltInPasswordManagerSettings": {
-    "message": "Disattiva il password manager del tuo browser per evitare conflitti con Bitwarden."
+    "message": "Disattiva il password manager del tuo browser per evitare conflitti con myWebVault."
   },
   "turnOffBrowserBuiltInPasswordManagerSettingsLink": {
     "message": "Modifica le impostazioni del browser."
@@ -3006,7 +3006,7 @@
     "message": "Password principale debole"
   },
   "weakMasterPasswordDesc": {
-    "message": "La password principale che hai scelto è debole. Usa una password principale (o una frase segreta) forte per proteggere adeguatamente il tuo account Bitwarden. Sei sicuro di voler utilizzare questa password principale?"
+    "message": "La password principale che hai scelto è debole. Usa una password principale (o una frase segreta) forte per proteggere adeguatamente il tuo account myWebVault. Sei sicuro di voler utilizzare questa password principale?"
   },
   "rotateAccountEncKey": {
     "message": "Ruota anche la chiave di crittografia del mio account"
@@ -3018,7 +3018,7 @@
     "message": "Vuoi davvero ruotare la chiave di crittografia del tuo account?"
   },
   "updateEncryptionKeyWarning": {
-    "message": "Dopo aver aggiornato la tua chiave di crittografia, è consigliabile chiudere le sessioni di tutte le app Bitwarden che stai usando (es. app mobile, estensione) per facilitare l'adozione delle nuova chiave. Saltare questo passaggio potrebbe danneggiare i dati nella tua cassaforte. Richiederemo una chiusura forzata di tutte le tue sessioni, ma non sempre la richiesta ha effetto immediato."
+    "message": "Dopo aver aggiornato la tua chiave di crittografia, è consigliabile chiudere le sessioni di tutte le app myWebVault che stai usando (es. app mobile, estensione) per facilitare l'adozione delle nuova chiave. Saltare questo passaggio potrebbe danneggiare i dati nella tua cassaforte. Richiederemo una chiusura forzata di tutte le tue sessioni, ma non sempre la richiesta ha effetto immediato."
   },
   "updateEncryptionKeyAccountExportWarning": {
     "message": "Qualsiasi esportazione effettuata da un account limitato non sarà valida."
@@ -3046,10 +3046,10 @@
     "message": "Imposta PIN"
   },
   "setYourPinCode": {
-    "message": "Imposta il tuo codice PIN per sbloccare Bitwarden. Le tue impostazioni PIN saranno resettate se esci completamente dall'app."
+    "message": "Imposta il tuo codice PIN per sbloccare myWebVault. Le tue impostazioni PIN saranno resettate se esci completamente dall'app."
   },
   "setPinCode": {
-    "message": "Puoi usare il PIN per sbloccare Bitwarden. Il PIN sarà disattivato ogni volta che ti scolleghi dall'account."
+    "message": "Puoi usare il PIN per sbloccare myWebVault. Il PIN sarà disattivato ogni volta che ti scolleghi dall'account."
   },
   "pinRequired": {
     "message": "Codice PIN obbligatorio."
@@ -3070,7 +3070,7 @@
     "message": "In attesa di conferma dal desktop"
   },
   "awaitDesktopDesc": {
-    "message": "Conferma utilizzando l'autenticazione biometrica nell'app Bitwarden Desktop per abilitare l'autenticazione biometrica per il browser."
+    "message": "Conferma utilizzando l'autenticazione biometrica nell'app myWebVault Desktop per abilitare l'autenticazione biometrica per il browser."
   },
   "lockWithMasterPassOnRestart": {
     "message": "Blocca con la password principale al riavvio del browser"
@@ -3185,7 +3185,7 @@
     "message": "Il modulo è ospitato da un dominio diverso dall'URI del tuo login salvato. Clicca Ok per riempire automaticamente comunque, o Annulla per interrompere."
   },
   "autofillIframeWarningTip": {
-    "message": "Per evitare questo avviso in futuro, salva questo URI, $HOSTNAME$, nel tuo elemento di login Bitwarden per questo sito.",
+    "message": "Per evitare questo avviso in futuro, salva questo URI, $HOSTNAME$, nel tuo elemento di login myWebVault per questo sito.",
     "placeholders": {
       "hostname": {
         "content": "$1",
@@ -3194,7 +3194,7 @@
     }
   },
   "topLayerHijackWarning": {
-    "message": "Questa pagina sta interferendo con Bitwarden. Il menu in linea di Bitwarden è stato temporaneamente disabilitato come misura di sicurezza."
+    "message": "Questa pagina sta interferendo con myWebVault. Il menu in linea di myWebVault è stato temporaneamente disabilitato come misura di sicurezza."
   },
   "setMasterPassword": {
     "message": "Imposta password principale"
@@ -3251,7 +3251,7 @@
     "message": "La tua nuova password principale non soddisfa i requisiti di sicurezza."
   },
   "receiveMarketingEmails": {
-    "message": "Receive updates from Bitwarden in your inbox."
+    "message": "Receive updates from myWebVault in your inbox."
   },
   "unsubscribe": {
     "message": "Annulla iscrizione"
@@ -3296,13 +3296,13 @@
     "message": "L'integrazione del browser non è abilitata"
   },
   "desktopIntegrationDisabledDesc": {
-    "message": "L'integrazione del browser non è abilitata nell'app Bitwarden Desktop. Attivala nelle impostazioni all'interno dell'app desktop."
+    "message": "L'integrazione del browser non è abilitata nell'app myWebVault Desktop. Attivala nelle impostazioni all'interno dell'app desktop."
   },
   "startDesktopTitle": {
-    "message": "Avvia l'app desktop Bitwarden"
+    "message": "Avvia l'app desktop myWebVault"
   },
   "startDesktopDesc": {
-    "message": "L'app Bitwarden Desktop deve essere avviata prima che l'autenticazione biometrica possa essere usata."
+    "message": "L'app myWebVault Desktop deve essere avviata prima che l'autenticazione biometrica possa essere usata."
   },
   "errorEnableBiometricTitle": {
     "message": "Impossibile abilitare autenticazione biometrica"
@@ -3356,13 +3356,13 @@
     "message": "Autenticazione biometrica fallita"
   },
   "biometricsFailedDesc": {
-    "message": "L'autenticazione biometrica non può essere completata, prova a usare una password principale o a uscire. Se il problema persiste, contatta l'assistenza di Bitwarden."
+    "message": "L'autenticazione biometrica non può essere completata, prova a usare una password principale o a uscire. Se il problema persiste, contatta l'assistenza di myWebVault."
   },
   "nativeMessagingPermissionErrorTitle": {
     "message": "Permission not provided"
   },
   "nativeMessagingPermissionErrorDesc": {
-    "message": "Without permission to communicate with the Bitwarden Desktop Application we cannot provide biometrics in the browser extension. Please try again."
+    "message": "Without permission to communicate with the myWebVault Desktop Application we cannot provide biometrics in the browser extension. Please try again."
   },
   "nativeMessagingPermissionSidebarTitle": {
     "message": "Permission request error"
@@ -3399,7 +3399,7 @@
     "message": "Domini esclusi"
   },
   "excludedDomainsDesc": {
-    "message": "Bitwarden non ti chiederà di aggiungere nuovi login per questi domini. Ricorda di ricaricare la pagina perché le modifiche abbiano effetto."
+    "message": "myWebVault non ti chiederà di aggiungere nuovi login per questi domini. Ricorda di ricaricare la pagina perché le modifiche abbiano effetto."
   },
   "blockedDomainsDesc": {
     "message": "Per questi siti, riempimento automatico e funzionalità simili non saranno disponibili. Ricarica la pagina per applicare le modifiche."
@@ -3531,24 +3531,24 @@
     "message": "Illustrazione di una lista di login a rischio."
   },
   "welcomeDialogGraphicAlt": {
-    "message": "Illustrazione del layout di pagina della cassaforte Bitwarden."
+    "message": "Illustrazione del layout di pagina della cassaforte myWebVault."
   },
   "generatePasswordSlideDesc": {
-    "message": "Genera rapidamente una parola d'accesso forte e unica con il menu' di riempimento automatico Bitwarden nel sito a rischio.",
+    "message": "Genera rapidamente una parola d'accesso forte e unica con il menu' di riempimento automatico myWebVault nel sito a rischio.",
     "description": "Description of the generate password slide on the at-risk password page carousel"
   },
   "generatePasswordSlideImgAltPeriod": {
-    "message": "Illustrazione del menu di riempimento automatico Bitwarden che mostra una password generata."
+    "message": "Illustrazione del menu di riempimento automatico myWebVault che mostra una password generata."
   },
   "updateInBitwarden": {
-    "message": "Aggiorna in Bitwarden"
+    "message": "Aggiorna in myWebVault"
   },
   "updateInBitwardenSlideDesc": {
-    "message": "Bitwarden ti chiederà quindi di aggiornare la parola d'accesso nel gestore di parole d'accesso.",
+    "message": "myWebVault ti chiederà quindi di aggiornare la parola d'accesso nel gestore di parole d'accesso.",
     "description": "Description of the update in Bitwarden slide on the at-risk password page carousel"
   },
   "updateInBitwardenSlideImgAltPeriod": {
-    "message": "Illustrazione di una notifica Bitwarden che richiede all'utente di aggiornare il login."
+    "message": "Illustrazione di una notifica myWebVault che richiede all'utente di aggiornare il login."
   },
   "turnOnAutofill": {
     "message": "Attiva riempimento automatico"
@@ -4063,10 +4063,10 @@
     "message": "Errore: impossibile accedere ai dati per il riempimento automatico"
   },
   "couldNotDecryptVaultItem": {
-    "message": "Bitwarden could not decrypt the vault item listed below. Contact Bitwarden Customer Support and provide the item ID below to see if it can be recovered."
+    "message": "myWebVault could not decrypt the vault item listed below. Contact myWebVault Customer Support and provide the item ID below to see if it can be recovered."
   },
   "couldNotDecryptVaultItems": {
-    "message": "Bitwarden could not decrypt the vault items listed below. Contact Bitwarden Customer Support and provide the item IDs below to see if they can be recovered."
+    "message": "myWebVault could not decrypt the vault items listed below. Contact myWebVault Customer Support and provide the item IDs below to see if they can be recovered."
   },
   "itemId": {
     "message": "Item ID",
@@ -4176,11 +4176,11 @@
     }
   },
   "forwarderGeneratedBy": {
-    "message": "Generato da Bitwarden.",
+    "message": "Generato da myWebVault.",
     "description": "Displayed with the address on the forwarding service's configuration screen."
   },
   "forwarderGeneratedByWithWebsite": {
-    "message": "Sito web: $WEBSITE$. Generato da Bitwarden.",
+    "message": "Sito web: $WEBSITE$. Generato da myWebVault.",
     "description": "Displayed with the address on the forwarding service's configuration screen.",
     "placeholders": {
       "WEBSITE": {
@@ -4378,7 +4378,7 @@
     "message": "Una notifica è stata inviata al tuo dispositivo."
   },
   "notificationSentDevicePart1": {
-    "message": "Sblocca Bitwarden sul tuo dispositivo o su"
+    "message": "Sblocca myWebVault sul tuo dispositivo o su"
   },
   "notificationSentDeviceAnchor": {
     "message": "app web"
@@ -4556,7 +4556,7 @@
     "message": "Cassaforte Web"
   },
   "webApp": {
-    "message": "Bitwarden Web"
+    "message": "myWebVault Web"
   },
   "cli": {
     "message": "Linea di comando"
@@ -4878,15 +4878,15 @@
     "message": "Vai al contenuto"
   },
   "bitwardenOverlayButton": {
-    "message": "Pulsante del menu di riempimento automatico di Bitwarden",
+    "message": "Pulsante del menu di riempimento automatico di myWebVault",
     "description": "Page title for the iframe containing the overlay button"
   },
   "toggleBitwardenVaultOverlay": {
-    "message": "Attiva/disattiva il menu di riempimento automatico di Bitwarden",
+    "message": "Attiva/disattiva il menu di riempimento automatico di myWebVault",
     "description": "Screen reader and tool tip label for the overlay button"
   },
   "bitwardenVault": {
-    "message": "Menu di riempimento automatico di Bitwarden",
+    "message": "Menu di riempimento automatico di myWebVault",
     "description": "Page title in overlay"
   },
   "unlockYourAccountToViewMatchingLogins": {
@@ -4958,7 +4958,7 @@
     "description": "Screen reader text (aria-label) for new identity button within inline menu"
   },
   "bitwardenOverlayMenuAvailable": {
-    "message": "Il menu di riempimento automatico di Bitwarden è disponibile. Premi il tasto freccia giù per selezionare.",
+    "message": "Il menu di riempimento automatico di myWebVault è disponibile. Premi il tasto freccia giù per selezionare.",
     "description": "Screen reader text for announcing when the overlay opens on the page"
   },
   "turnOn": {
@@ -5377,7 +5377,7 @@
     "description": "Followed by a literal filename (my_passwords.json) rendered as code."
   },
   "importGnomeInstructionsFileHere": {
-    "message": "file here to Bitwarden.",
+    "message": "file here to myWebVault.",
     "description": "Follows the my_passwords.json filename."
   },
   "importPasswordagentInstructions": {
@@ -5849,7 +5849,7 @@
     "message": "Account attivo"
   },
   "bitwardenAccount": {
-    "message": "Account Bitwarden"
+    "message": "Account myWebVault"
   },
   "availableAccounts": {
     "message": "Account disponibili"
@@ -5939,15 +5939,15 @@
     "description": "Body content for dialog which asks if the user wants to proceed to the browser's keyboard shortcut settings page"
   },
   "overrideDefaultBrowserAutofillTitle": {
-    "message": "Rendere Bitwarden il tuo password manager predefinito?",
+    "message": "Rendere myWebVault il tuo password manager predefinito?",
     "description": "Dialog title facilitating the ability to override a chrome browser's default autofill behavior"
   },
   "overrideDefaultBrowserAutofillDescription": {
-    "message": "Se questa opzione è disattivata potrebbe causare conflitti tra il menu di riempimento automatico di Bitwarden e quello del tuo browser.",
+    "message": "Se questa opzione è disattivata potrebbe causare conflitti tra il menu di riempimento automatico di myWebVault e quello del tuo browser.",
     "description": "Dialog message facilitating the ability to override a chrome browser's default autofill behavior"
   },
   "overrideDefaultBrowserAutoFillSettings": {
-    "message": "Rendi Bitwarden il tuo password manager predefinito",
+    "message": "Rendi myWebVault il tuo password manager predefinito",
     "description": "Label for the setting that allows overriding the default browser autofill settings"
   },
   "defaultPasswordManagerCalloutTitle": {
@@ -5955,7 +5955,7 @@
     "description": "Title for the callout that prompts users to set Bitwarden as their default password manager"
   },
   "defaultPasswordManagerCalloutDesc": {
-    "message": "You'll be asked to grant a $BROWSER$ browser permission to make Bitwarden your default password manager.",
+    "message": "You'll be asked to grant a $BROWSER$ browser permission to make myWebVault your default password manager.",
     "description": "Description for the callout that prompts users to set Bitwarden as their default password manager",
     "placeholders": {
       "browser": {
@@ -5965,11 +5965,11 @@
     }
   },
   "privacyPermissionAdditionNotGrantedTitle": {
-    "message": "Impossibile impostare Bitwarden come password manager predefinito",
+    "message": "Impossibile impostare myWebVault come password manager predefinito",
     "description": "Title for the dialog that appears when the user has not granted the extension permission to set privacy settings"
   },
   "privacyPermissionAdditionNotGrantedDescription": {
-    "message": "Concedi le autorizzazioni sulla privacy del browser a Bitwarden per impostarlo come password manager predefinito.",
+    "message": "Concedi le autorizzazioni sulla privacy del browser a myWebVault per impostarlo come password manager predefinito.",
     "description": "Description for the dialog that appears when the user has not granted the extension permission to set privacy settings"
   },
   "makeDefault": {
@@ -5977,10 +5977,10 @@
     "description": "Button text for the setting that allows overriding the default browser autofill settings"
   },
   "defaultPasswordManagerPromptTitle": {
-    "message": "Make Bitwarden your browser's default password manager"
+    "message": "Make myWebVault your browser's default password manager"
   },
   "defaultPasswordManagerPromptTitleV2": {
-    "message": "Make Bitwarden your default password manager",
+    "message": "Make myWebVault your default password manager",
     "description": "Label for the setting to make Bitwarden the default password manager"
   },
   "defaultPasswordManagerSettingHintV2": {
@@ -5992,13 +5992,13 @@
     "description": "Link text to browser autofill settings in the default password manager setting hint."
   },
   "defaultPasswordManagerPromptStep2AfterAllow": {
-    "message": "from the browser prompt to give Bitwarden permission to change your settings."
+    "message": "from the browser prompt to give myWebVault permission to change your settings."
   },
   "defaultPasswordManagerPromptStep3": {
     "message": "We'll turn off your browser's built-in password manager so you can enjoy a secure login experience."
   },
   "defaultPasswordManagerSuccessToast": {
-    "message": "Made Bitwarden your default browser password manager"
+    "message": "Made myWebVault your default browser password manager"
   },
   "allow": {
     "message": "Allow",
@@ -6406,16 +6406,16 @@
     "message": "Scarica allegato"
   },
   "downloadBitwarden": {
-    "message": "Scarica Bitwarden"
+    "message": "Scarica myWebVault"
   },
   "downloadBitwardenOnAllDevices": {
-    "message": "Scarica Bitwarden su tutti i dispositivi"
+    "message": "Scarica myWebVault su tutti i dispositivi"
   },
   "getTheMobileApp": {
     "message": "Scarica l'app mobile"
   },
   "getTheMobileAppDesc": {
-    "message": "Accedi alle tue password ovunque con l'app Bitwarden per dispositivi mobili."
+    "message": "Accedi alle tue password ovunque con l'app myWebVault per dispositivi mobili."
   },
   "getTheDesktopApp": {
     "message": "Scarica l'app desktop"
@@ -6968,10 +6968,10 @@
     "message": "Lo sblocco biometrico non è disponibile a causa di file di sistema mal configurati."
   },
   "biometricsStatusHelptextDesktopDisconnected": {
-    "message": "Lo sblocco biometrico non è disponibile perché l'app desktop Bitwarden è chiusa."
+    "message": "Lo sblocco biometrico non è disponibile perché l'app desktop myWebVault è chiusa."
   },
   "biometricsStatusHelptextNotEnabledInDesktop": {
-    "message": "Lo sblocco biometrico non è disponibile perché non è abilitato per $EMAIL$ nell'app desktop Bitwarden.",
+    "message": "Lo sblocco biometrico non è disponibile perché non è abilitato per $EMAIL$ nell'app desktop myWebVault.",
     "placeholders": {
       "email": {
         "content": "$1",
@@ -7003,7 +7003,7 @@
     "description": "Notification message for when a password has been regenerated"
   },
   "saveToBitwarden": {
-    "message": "Salva su Bitwarden",
+    "message": "Salva su myWebVault",
     "description": "Confirmation message for saving a login to Bitwarden"
   },
   "spaceCharacterDescriptor": {
@@ -7256,13 +7256,13 @@
     "message": "Use folders to organize vault items. They're just for you — no one else will see or use them."
   },
   "introCarouselLabel": {
-    "message": "Benvenuto su Bitwarden"
+    "message": "Benvenuto su myWebVault"
   },
   "securityPrioritized": {
     "message": "Sicurezza alla massima priorità"
   },
   "securityPrioritizedBody": {
-    "message": "Salva login, carte e identità nella tua cassaforte sicura. Bitwarden usa la crittografia end-to-end e zero-knowledge per proteggere i tuoi dati."
+    "message": "Salva login, carte e identità nella tua cassaforte sicura. myWebVault usa la crittografia end-to-end e zero-knowledge per proteggere i tuoi dati."
   },
   "quickLogin": {
     "message": "Autenticazione facile e veloce"
@@ -7280,7 +7280,7 @@
     "message": "I tuoi dati, dove e quando ti servono"
   },
   "secureDevicesBody": {
-    "message": "Salva tutte le password che vuoi su un numero illimitato di dispositivi con le app Bitwarden per browser, mobile e desktop."
+    "message": "Salva tutte le password che vuoi su un numero illimitato di dispositivi con le app myWebVault per browser, mobile e desktop."
   },
   "nudgeBadgeAria": {
     "message": "1 notifica"
@@ -7289,7 +7289,7 @@
     "message": "Importa password esistenti"
   },
   "emptyVaultNudgeBody": {
-    "message": "Usa l'importatore per trasferire rapidamente i login su Bitwarden senza aggiungerli manualmente."
+    "message": "Usa l'importatore per trasferire rapidamente i login su myWebVault senza aggiungerli manualmente."
   },
   "emptyVaultNudgeButton": {
     "message": "Importa ora"
@@ -7408,7 +7408,7 @@
     "message": "Riguardo questa opzione"
   },
   "permitCipherDetailsDescription": {
-    "message": "Bitwarden userà gli URL memorizzati in ogni login per mostrare, se possibile, l'icona del sito Web e l'URL di modifica password per facilitare la modifica delle credenziali. Nessuna informazione è raccolta o archiviata per il funzionamento di questo servizio."
+    "message": "myWebVault userà gli URL memorizzati in ogni login per mostrare, se possibile, l'icona del sito Web e l'URL di modifica password per facilitare la modifica delle credenziali. Nessuna informazione è raccolta o archiviata per il funzionamento di questo servizio."
   },
   "showQuickCopyActionsDetailsDescription": {
     "message": "Add 3 quick copy buttons next to items to copy your username, password, or verification code to the clipboard."
@@ -7417,7 +7417,7 @@
     "message": "Non hai i permessi per visualizzare questa pagina. Prova ad accedere con un altro account."
   },
   "wasmNotSupported": {
-    "message": "WebAssembly non è supportato dal browser o non è abilitato. WebAssembly è richiesto per utilizzare l'app Bitwarden.",
+    "message": "WebAssembly non è supportato dal browser o non è abilitato. WebAssembly è richiesto per utilizzare l'app myWebVault.",
     "description": "'WebAssembly' is a technical term and should not be translated."
   },
   "showMore": {
@@ -7505,7 +7505,7 @@
     "message": "Errore: impossibile decrittare"
   },
   "removeMasterPasswordForOrgUserKeyConnector": {
-    "message": "La tua organizzazione non utilizza più le password principali per accedere a Bitwarden. Per continuare, verifica l'organizzazione e il dominio."
+    "message": "La tua organizzazione non utilizza più le password principali per accedere a myWebVault. Per continuare, verifica l'organizzazione e il dominio."
   },
   "continueWithLogIn": {
     "message": "Accedi e continua"
@@ -7591,7 +7591,7 @@
     "message": "Imposta un metodo di sblocco per modificare l'azione al timeout"
   },
   "sessionTimeoutSuppressedByConnectedDevice": {
-    "message": "Gestito dall'app desktop Bitwarden. Apri l'app desktop per modificare."
+    "message": "Gestito dall'app desktop myWebVault. Apri l'app desktop per modificare."
   },
   "percentageCompleted": {
     "message": "$PERCENT$% completato",
@@ -7693,7 +7693,7 @@
     "message": "user@bitwarden.com, user@acme.com"
   },
   "downloadBitwardenApps": {
-    "message": "Scarica l'app Bitwarden"
+    "message": "Scarica l'app myWebVault"
   },
   "emailProtected": {
     "message": "Email protetta"
@@ -7712,13 +7712,13 @@
     "message": "Share unlock with Desktop"
   },
   "sharedUnlockWithDesktopDescription": {
-    "message": "When enabled, unlock state will be shared with the Bitwarden Desktop app."
+    "message": "When enabled, unlock state will be shared with the myWebVault Desktop app."
   },
   "sharedUnlockWithWeb": {
     "message": "Share unlock with web vault"
   },
   "sharedUnlockWithWebDescription": {
-    "message": "When enabled, unlock state will be shared with Bitwarden web vaults."
+    "message": "When enabled, unlock state will be shared with myWebVault web vaults."
   },
   "sharedUnlockUnavailableUntrustedDevice": {
     "message": "Shared unlock is not available because you chose not to remember this device. To enable this setting, try logging in again."
@@ -7727,13 +7727,13 @@
     "message": "New permission needed"
   },
   "sharedUnlockDesktopPermissionDesc": {
-    "message": "To use shared unlock, Bitwarden needs permission to communicate with the desktop app. When you continue, your browser will ask you to approve it."
+    "message": "To use shared unlock, myWebVault needs permission to communicate with the desktop app. When you continue, your browser will ask you to approve it."
   },
   "sharedUnlockDesktopPermissionWarning": {
-    "message": "Bitwarden will lock and reload. After you approve, the extension reloads and will lock your vault."
+    "message": "myWebVault will lock and reload. After you approve, the extension reloads and will lock your vault."
   },
   "biometricPermissionDesc": {
-    "message": "To use biometric unlock, Bitwarden needs permission to communicate with the desktop app. When you continue, your browser will ask you to approve it."
+    "message": "To use biometric unlock, myWebVault needs permission to communicate with the desktop app. When you continue, your browser will ask you to approve it."
   },
   "enterMonth": {
     "message": "Inserisci il mese."

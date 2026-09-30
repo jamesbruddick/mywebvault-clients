@@ -71,47 +71,29 @@ describe("EnvironmentService", () => {
     });
   };
 
+  // myWebVault: the only cloud region is the myWebVault server (see PRODUCTION_REGIONS).
+  const CLOUD = "https://mywebvault-api.jamesbruddick.workers.dev";
   const REGION_SETUP = [
     {
       region: Region.US,
       expectedUrls: {
-        webVault: "https://vault.bitwarden.com",
-        identity: "https://identity.bitwarden.com",
-        api: "https://api.bitwarden.com",
-        icons: "https://icons.bitwarden.net",
-        notifications: "https://notifications.bitwarden.com",
-        events: "https://events.bitwarden.com",
-        scim: "https://scim.bitwarden.com/v2",
-        send: "https://send.bitwarden.com",
-      },
-    },
-    {
-      region: Region.EU,
-      expectedUrls: {
-        webVault: "https://vault.bitwarden.eu",
-        identity: "https://identity.bitwarden.eu",
-        api: "https://api.bitwarden.eu",
-        icons: "https://icons.bitwarden.eu",
-        notifications: "https://notifications.bitwarden.eu",
-        events: "https://events.bitwarden.eu",
-        scim: "https://scim.bitwarden.eu/v2",
-        send: "https://vault.bitwarden.eu",
-      },
-    },
-    {
-      region: Region.Gov,
-      expectedUrls: {
-        webVault: "https://vault.bitwarden-gov.com",
-        identity: "https://identity.bitwarden-gov.com",
-        api: "https://api.bitwarden-gov.com",
-        icons: "https://icons.bitwarden-gov.com",
-        notifications: "https://notifications.bitwarden-gov.com",
-        events: "https://events.bitwarden-gov.com",
-        scim: "https://scim.bitwarden-gov.com/v2",
-        send: "https://send.bitwarden-gov.com",
+        webVault: CLOUD,
+        identity: `${CLOUD}/identity`,
+        api: `${CLOUD}/api`,
+        icons: `${CLOUD}/icons`,
+        notifications: `${CLOUD}/notifications`,
+        events: `${CLOUD}/events`,
+        scim: `${CLOUD}/scim/v2`,
+        send: CLOUD,
       },
     },
   ];
+
+  function selfHostedUrls() {
+    const urls = new EnvironmentUrls();
+    urls.base = "https://base.example.com";
+    return urls;
+  }
 
   describe("with user", () => {
     it.each(REGION_SETUP)(
@@ -130,11 +112,7 @@ describe("EnvironmentService", () => {
         expect(env.getNotificationsUrl()).toBe(expectedUrls.notifications);
         expect(env.getEventsUrl()).toBe(expectedUrls.events);
         expect(env.getScimUrl()).toBe(expectedUrls.scim);
-        if (region === "US") {
-          expect(env.getSendUrl()).toBe(expectedUrls.send + "/#");
-        } else {
-          expect(env.getSendUrl()).toBe(expectedUrls.send + "/#/send/");
-        }
+        expect(env.getSendUrl()).toBe(expectedUrls.send + "/#/send/");
         expect(env.getKeyConnectorUrl()).toBe(undefined);
         expect(env.isCloud()).toBe(true);
         expect(env.getUrls()).toEqual({
@@ -160,8 +138,8 @@ describe("EnvironmentService", () => {
       // setEnvironment() writes only to GLOBAL, causing the selector to fall back to the default (US) immediately.
 
       it("falls back to global when user environment state is cleared mid-logout", async () => {
-        setGlobalData(Region.EU, new EnvironmentUrls());
-        setUserData(Region.EU, new EnvironmentUrls());
+        setGlobalData(Region.SelfHosted, selfHostedUrls());
+        setUserData(Region.SelfHosted, selfHostedUrls());
         await switchUser(testUser);
 
         // Storage event arrives: USER_ENVIRONMENT_KEY = null (logout cleared it)
@@ -172,14 +150,14 @@ describe("EnvironmentService", () => {
         const env = await firstValueFrom(sut.environment$);
         // Without fix: null USER state → buildEnvironment(null, null) → US (default)
         // With fix: falls back to GLOBAL → EU
-        expect(env.getRegion()).toBe(Region.EU);
+        expect(env.getRegion()).toBe(Region.SelfHosted);
       });
 
       it("reflects setEnvironment call when user environment state is null mid-logout", async () => {
         // GLOBAL is US (never explicitly set to EU on this context)
         // USER was EU (seeded at login time)
         setGlobalData(Region.US, new EnvironmentUrls());
-        setUserData(Region.EU, new EnvironmentUrls());
+        setUserData(Region.SelfHosted, selfHostedUrls());
         await switchUser(testUser);
 
         // Race: USER_ENVIRONMENT_KEY clear arrives before activeAccountId$ → null
@@ -189,11 +167,11 @@ describe("EnvironmentService", () => {
         // User clicks EU in the environment selector → setEnvironment(EU) → writes GLOBAL
         // Without fix: environment$ watches USER state (which is null and defaults to US) and ignores GLOBAL write and the value stays US
         // With fix: environment$ falls back to GLOBAL, so setEnvironment(EU) updates GLOBAL and emits EU
-        await sut.setEnvironment(Region.EU);
+        await sut.setEnvironment(Region.SelfHosted, { base: "https://base.example.com" });
         await awaitAsync();
 
         const env = await firstValueFrom(sut.environment$);
-        expect(env.getRegion()).toBe(Region.EU);
+        expect(env.getRegion()).toBe(Region.SelfHosted);
       });
     });
 
@@ -297,11 +275,7 @@ describe("EnvironmentService", () => {
       expect(env.getNotificationsUrl()).toBe(expectedUrls.notifications);
       expect(env.getEventsUrl()).toBe(expectedUrls.events);
       expect(env.getScimUrl()).toBe(expectedUrls.scim);
-      if (region === "US") {
-        expect(env.getSendUrl()).toBe(expectedUrls.send + "/#");
-      } else {
-        expect(env.getSendUrl()).toBe(expectedUrls.send + "/#/send/");
-      }
+      expect(env.getSendUrl()).toBe(expectedUrls.send + "/#/send/");
       expect(env.getKeyConnectorUrl()).toBe(undefined);
       expect(env.isCloud()).toBe(true);
       expect(env.getUrls()).toEqual({
@@ -384,7 +358,7 @@ describe("EnvironmentService", () => {
 
     it("self-hosted and sets all urls", async () => {
       let env = await firstValueFrom(sut.environment$);
-      expect(env.getScimUrl()).toBe("https://scim.bitwarden.com/v2");
+      expect(env.getScimUrl()).toBe(`${CLOUD}/scim/v2`);
 
       await sut.setEnvironment(Region.SelfHosted, {
         base: "base.example.com",
@@ -437,21 +411,21 @@ describe("EnvironmentService", () => {
   });
 
   describe("getEnvironment$", () => {
-    it.each([
-      { region: Region.US, expectedHost: "bitwarden.com" },
-      { region: Region.EU, expectedHost: "bitwarden.eu" },
-    ])("gets it from the passed in userId: %s", async ({ region, expectedHost }) => {
-      setUserData(Region.US, new EnvironmentUrls());
-      setUserData(region, new EnvironmentUrls(), alternateTestUser);
+    it.each([{ region: Region.US, expectedHost: "myWebVault" }])(
+      "gets it from the passed in userId: %s",
+      async ({ region, expectedHost }) => {
+        setUserData(Region.US, new EnvironmentUrls());
+        setUserData(region, new EnvironmentUrls(), alternateTestUser);
 
-      await switchUser(testUser);
+        await switchUser(testUser);
 
-      const env = await firstValueFrom(sut.getEnvironment$(alternateTestUser));
-      expect(env?.getHostname()).toBe(expectedHost);
-    });
+        const env = await firstValueFrom(sut.getEnvironment$(alternateTestUser));
+        expect(env?.getHostname()).toBe(expectedHost);
+      },
+    );
 
     it("gets env from saved self host config from passed in user when there is a different active user", async () => {
-      setUserData(Region.EU, new EnvironmentUrls());
+      setUserData(Region.US, new EnvironmentUrls());
 
       const selfHostUserUrls = new EnvironmentUrls();
       selfHostUserUrls.base = "https://base.example.com";
@@ -490,13 +464,12 @@ describe("EnvironmentService", () => {
 
   describe("cloudWebVaultUrl$", () => {
     it("no extra initialization, returns US vault", async () => {
-      expect(await firstValueFrom(sut.cloudWebVaultUrl$)).toBe("https://vault.bitwarden.com");
+      expect(await firstValueFrom(sut.cloudWebVaultUrl$)).toBe(CLOUD);
     });
 
     it.each([
-      { region: Region.US, expectedVault: "https://vault.bitwarden.com" },
-      { region: Region.EU, expectedVault: "https://vault.bitwarden.eu" },
-      { region: Region.SelfHosted, expectedVault: "https://vault.bitwarden.com" },
+      { region: Region.US, expectedVault: CLOUD },
+      { region: Region.SelfHosted, expectedVault: CLOUD },
     ])(
       "no extra initialization, returns expected host for each region %s",
       async ({ region, expectedVault }) => {

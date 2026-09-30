@@ -170,6 +170,11 @@ module.exports.buildConfig = function buildConfig(params) {
       browser: browser,
     }),
     new HtmlWebpackPlugin({
+      template: path.resolve(__dirname, "src/mywebvault/popup/quick-search/search.html"),
+      filename: "search/search.html",
+      chunks: ["search/search"],
+    }),
+    new HtmlWebpackPlugin({
       template: path.resolve(__dirname, "src/autofill/notification/bar.html"),
       filename: "notification/bar.html",
       chunks: ["notification/bar"],
@@ -305,6 +310,7 @@ module.exports.buildConfig = function buildConfig(params) {
         "src/platform/ipc/content/ipc-content-script.ts",
       ),
       "notification/bar": path.resolve(__dirname, "src/autofill/notification/bootstrap-bar.ts"),
+      "search/search": path.resolve(__dirname, "src/mywebvault/popup/quick-search/search.ts"),
       "overlay/menu-button": path.resolve(
         __dirname,
         "src/autofill/overlay/inline-menu/pages/button/bootstrap-autofill-inline-menu-button.ts",

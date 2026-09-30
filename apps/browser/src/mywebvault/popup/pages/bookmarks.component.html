@@ -1,0 +1,132 @@
+<popup-page>
+  <popup-header slot="header" [pageTitle]="'bookmarks' | i18n">
+    <ng-container slot="end">
+      <button
+        bitButton
+        size="small"
+        buttonType="primary"
+        type="button"
+        startIcon="bwi-plus"
+        id="bookmarks_button_save-tab"
+        (click)="saveCurrentTab()"
+        data-testid="save-tab-button"
+      >
+        {{ "saveThisTab" | i18n }}
+      </button>
+      <app-pop-out></app-pop-out>
+      <app-current-account></app-current-account>
+    </ng-container>
+  </popup-header>
+
+  @if (view$ | async; as view) {
+    @if (view.total > 0) {
+      <div class="tw-flex tw-flex-col tw-gap-2 tw-mb-4">
+        <bit-search
+          id="bookmarks_input_search"
+          [formControl]="search"
+          [placeholder]="'searchBookmarks' | i18n"
+          data-testid="bookmark-search"
+        ></bit-search>
+        <bit-select
+          id="bookmarks_select_folder"
+          [formControl]="folderFilter"
+          [placeholder]="'allFolders' | i18n"
+          data-testid="folder-filter"
+        >
+          <bit-option [value]="ALL" [label]="'allFolders' | i18n"></bit-option>
+          <bit-option [value]="NO_FOLDER" [label]="'noFolder' | i18n"></bit-option>
+          @for (folder of folders$ | async; track folder.id) {
+            <bit-option [value]="folder.id" [label]="folder.name"></bit-option>
+          }
+        </bit-select>
+      </div>
+
+      @if (view.shown.length > 0) {
+        <bit-item-group data-testid="bookmark-list">
+          @for (bookmark of view.shown; track bookmark.id) {
+            <bit-item>
+              <button
+                bit-item-content
+                type="button"
+                (click)="open(bookmark)"
+                [title]="bookmark.url"
+                data-testid="bookmark-item"
+              >
+                <img
+                  slot="start"
+                  class="tw-size-6 tw-rounded"
+                  [src]="faviconUrl(bookmark.url)"
+                  alt=""
+                  aria-hidden="true"
+                />
+                {{ bookmark.title }}
+                <span slot="secondary">
+                  {{ hostname(bookmark.url) }}
+                  @if (
+                    bookmark.folderId && view.folderNames.get(bookmark.folderId);
+                    as folderName
+                  ) {
+                    · {{ folderName }}
+                  }
+                </span>
+              </button>
+              <ng-container slot="end">
+                @for (tag of bookmark.tags.slice(0, 2); track tag) {
+                  <bit-item-action>
+                    <button
+                      type="button"
+                      bitBadge
+                      variant="subtle"
+                      (click)="filterByTag(tag)"
+                      [title]="'filterByTag' | i18n: tag"
+                    >
+                      #{{ tag }}
+                    </button>
+                  </bit-item-action>
+                }
+                <bit-item-action>
+                  <button
+                    type="button"
+                    bitIconButton="bwi-pencil-square"
+                    size="small"
+                    [label]="'editBookmark' | i18n"
+                    (click)="edit(bookmark)"
+                    data-testid="edit-bookmark"
+                  ></button>
+                </bit-item-action>
+              </ng-container>
+            </bit-item>
+          }
+        </bit-item-group>
+      } @else {
+        <bit-status-lockup class="tw-h-full tw-flex tw-items-center">
+          <ng-container slot="title">{{ "noBookmarksMatch" | i18n }}</ng-container>
+        </bit-status-lockup>
+      }
+    } @else {
+      <bit-status-lockup class="tw-h-full tw-flex tw-items-center" data-testid="empty-state">
+        <ng-container slot="title">{{ "noBookmarksYet" | i18n }}</ng-container>
+        <ng-container slot="description">{{ "noBookmarksYetDesc" | i18n }}</ng-container>
+        <div slot="button" class="tw-flex tw-flex-col tw-gap-2">
+          <button
+            bitButton
+            buttonType="primary"
+            type="button"
+            id="bookmarks_button_empty-save-tab"
+            (click)="saveCurrentTab()"
+          >
+            {{ "saveThisTab" | i18n }}
+          </button>
+          <a
+            bitButton
+            buttonType="secondary"
+            routerLink="/import-bookmarks"
+            id="bookmarks_link_import"
+          >
+            {{ "importBrowserBookmarks" | i18n }}
+          </a>
+        </div>
+      </bit-status-lockup>
+    }
+  }
+</popup-page>

@@ -79,54 +79,32 @@ export const USER_CLOUD_REGION_KEY = new UserKeyDefinition<CloudRegion>(
 );
 
 /**
+ * myWebVault: the hosted myWebVault sync server. This is the one place its address is set; change
+ * it here (e.g. to https://api.mywebvault.net) when the custom domain goes live.
+ */
+export const MYWEBVAULT_CLOUD_URL = "https://mywebvault-api.jamesbruddick.workers.dev";
+
+/**
  * The production regions available for selection.
  *
- * In the future we desire to load these urls from the config endpoint.
+ * myWebVault: Bitwarden's US/EU/Gov cloud regions are replaced by the single myWebVault server.
+ * `Region.US` is kept as its key so stored settings and region-keyed code keep working.
  */
 export const PRODUCTION_REGIONS: RegionConfig[] = [
   {
     key: Region.US,
-    domain: "bitwarden.com",
+    domain: "myWebVault",
     urls: {
       base: null,
-      api: "https://api.bitwarden.com",
-      identity: "https://identity.bitwarden.com",
-      icons: "https://icons.bitwarden.net",
-      webVault: "https://vault.bitwarden.com",
-      notifications: "https://notifications.bitwarden.com",
-      events: "https://events.bitwarden.com",
-      scim: "https://scim.bitwarden.com",
-      send: "https://send.bitwarden.com",
-    },
-  },
-  {
-    key: Region.EU,
-    domain: "bitwarden.eu",
-    urls: {
-      base: null,
-      api: "https://api.bitwarden.eu",
-      identity: "https://identity.bitwarden.eu",
-      icons: "https://icons.bitwarden.eu",
-      webVault: "https://vault.bitwarden.eu",
-      notifications: "https://notifications.bitwarden.eu",
-      events: "https://events.bitwarden.eu",
-      scim: "https://scim.bitwarden.eu",
-      send: "https://vault.bitwarden.eu",
-    },
-  },
-  {
-    key: Region.Gov,
-    domain: "bitwarden-gov.com",
-    urls: {
-      base: null,
-      api: "https://api.bitwarden-gov.com",
-      identity: "https://identity.bitwarden-gov.com",
-      icons: "https://icons.bitwarden-gov.com",
-      webVault: "https://vault.bitwarden-gov.com",
-      notifications: "https://notifications.bitwarden-gov.com",
-      events: "https://events.bitwarden-gov.com",
-      scim: "https://scim.bitwarden-gov.com",
-      send: "https://send.bitwarden-gov.com",
+      api: `${MYWEBVAULT_CLOUD_URL}/api`,
+      identity: `${MYWEBVAULT_CLOUD_URL}/identity`,
+      icons: `${MYWEBVAULT_CLOUD_URL}/icons`,
+      // No separate web vault yet; it will be served from its own Worker later.
+      webVault: MYWEBVAULT_CLOUD_URL,
+      notifications: `${MYWEBVAULT_CLOUD_URL}/notifications`,
+      events: `${MYWEBVAULT_CLOUD_URL}/events`,
+      scim: `${MYWEBVAULT_CLOUD_URL}/scim`,
+      send: MYWEBVAULT_CLOUD_URL,
     },
   },
 ];

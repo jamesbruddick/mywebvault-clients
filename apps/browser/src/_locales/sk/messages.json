@@ -1,20 +1,20 @@
 {
   "appName": {
-    "message": "Bitwarden"
+    "message": "myWebVault"
   },
   "appLogoLabel": {
-    "message": "Logo Bitwarden"
+    "message": "Logo myWebVault"
   },
   "extName": {
-    "message": "Bitwarden – správca hesiel",
+    "message": "myWebVault – Bookmark Manager",
     "description": "Extension name, MUST be less than 40 characters (Safari restriction)"
   },
   "extNameBeta": {
-    "message": "Bitwarden – správca hesiel (Beta)",
+    "message": "myWebVault – Bookmark Manager Beta",
     "description": "Extension name for the beta channel, MUST be less than 40 characters (Safari restriction)"
   },
   "extDesc": {
-    "message": "Bitwarden zabezpečí všetky vaše heslá, prístupové kľúče a citlivé informácie doma, v práci alebo na cestách",
+    "message": "Your bookmarks, encrypted and synced everywhere. Built on Bitwarden's open source code.",
     "description": "Extension description, MUST be less than 112 characters (Safari restriction)"
   },
   "loginOrCreateNewAccount": {
@@ -27,7 +27,7 @@
     "message": "Vytvoriť účet"
   },
   "newToBitwarden": {
-    "message": "Ste noví na Bitwardene?"
+    "message": "Ste noví na myWebVaulte?"
   },
   "logInWithPasskey": {
     "message": "Prihlásiť sa s prístupovým kľúčom"
@@ -324,22 +324,22 @@
     "message": "Pokračovať vo webovej aplikácii?"
   },
   "continueToWebAppDesc": {
-    "message": "Preskúmajte ďalšie funkcie svojho účtu na Bitwarden vo webovej aplikácii."
+    "message": "Preskúmajte ďalšie funkcie svojho účtu na myWebVault vo webovej aplikácii."
   },
   "continueToHelpCenter": {
     "message": "Pokračovať v centre pomoci?"
   },
   "continueToHelpCenterDesc": {
-    "message": "Viac informácií o používaní Bitwardenu nájdete v centre pomoci."
+    "message": "Viac informácií o používaní myWebVaultu nájdete v centre pomoci."
   },
   "continueToBrowserExtensionStore": {
     "message": "Pokračovať do obchodu s rozšíreniami pre prehliadače?"
   },
   "continueToBrowserExtensionStoreDesc": {
-    "message": "Pomôžte ostatným zistiť, či je Bitwarden pre nich vhodný. Navštívte obchod s rozšíreniami pre prehliadače a pridajte hodnotenie."
+    "message": "Pomôžte ostatným zistiť, či je myWebVault pre nich vhodný. Navštívte obchod s rozšíreniami pre prehliadače a pridajte hodnotenie."
   },
   "changeMasterPasswordOnWebConfirmation": {
-    "message": "Hlavné heslo si môžete zmeniť vo webovej aplikácii Bitwarden."
+    "message": "Hlavné heslo si môžete zmeniť vo webovej aplikácii myWebVault."
   },
   "fingerprintPhrase": {
     "message": "Fráza odtlačku",
@@ -356,19 +356,19 @@
     "message": "Odhlásiť sa"
   },
   "aboutBitwarden": {
-    "message": "O Bitwarden"
+    "message": "O myWebVault"
   },
   "about": {
     "message": "O aplikácii"
   },
   "moreFromBitwarden": {
-    "message": "Viac od spoločnosti Bitwarden"
+    "message": "Viac od spoločnosti myWebVault"
   },
   "continueToBitwardenDotCom": {
     "message": "Pokračovať na bitwarden.com?"
   },
   "bitwardenForBusiness": {
-    "message": "Bitwarden pre podniky"
+    "message": "myWebVault pre podniky"
   },
   "bitwardenAuthenticator": {
     "message": "Bitwarden Authenticator"
@@ -389,10 +389,10 @@
     "message": "Vytvorte plynulé a bezpečné prihlásenie bez tradičných hesiel s Passwordless.dev. Viac sa môžete dozvedieť na stránke bitwarden.com."
   },
   "freeBitwardenFamilies": {
-    "message": "Bitwarden pre Rodiny zadarmo"
+    "message": "myWebVault pre Rodiny zadarmo"
   },
   "freeBitwardenFamiliesPageDesc": {
-    "message": "Máte nárok na bezplatnú službu Bitwarden pre Rodiny. Využite túto ponuku ešte dnes vo webovej aplikácii."
+    "message": "Máte nárok na bezplatnú službu myWebVault pre Rodiny. Využite túto ponuku ešte dnes vo webovej aplikácii."
   },
   "version": {
     "message": "Verzia"
@@ -458,13 +458,13 @@
     "message": "Pomoc a spätná väzba"
   },
   "helpCenter": {
-    "message": "Centrum pomoci Bitwarden"
+    "message": "Centrum pomoci myWebVault"
   },
   "communityForums": {
-    "message": "Prehliadať komunitné fóra Bitwardenu"
+    "message": "Prehliadať komunitné fóra myWebVaultu"
   },
   "contactSupport": {
-    "message": "Kontaktovať podporu Bitwardenu"
+    "message": "Kontaktovať podporu myWebVaultu"
   },
   "sync": {
     "message": "Synchronizácia"
@@ -486,7 +486,7 @@
     "message": "Automaticky generovať silné a unikátne heslá k prihlasovacím údajom."
   },
   "bitWebVaultApp": {
-    "message": "Webová aplikácia Bitwarden"
+    "message": "Webová aplikácia myWebVault"
   },
   "select": {
     "message": "Vybrať"
@@ -846,7 +846,7 @@
     "message": "Stiahnite si diagnostickú správu, a potom ju zdieľajte s"
   },
   "bitwardenSupport": {
-    "message": "podporou Bitwardenu",
+    "message": "podporou myWebVaultu",
     "description": "Link text following the troubleshooting description sentence. 'Bitwarden' should not be translated."
   },
   "download": {
@@ -1063,10 +1063,10 @@
     "message": "Spravte dvojstupňové overenie bezproblémovým"
   },
   "totpHelper": {
-    "message": "Bitwarden umožňuje uložiť a vyplniť kódy dvojstupňového overenia. Skopírujte a vložte kľúč do tohto poľa."
+    "message": "myWebVault umožňuje uložiť a vyplniť kódy dvojstupňového overenia. Skopírujte a vložte kľúč do tohto poľa."
   },
   "totpHelperWithCapture": {
-    "message": "Bitwarden umožňuje uložiť a vyplniť kódy dvojstupňového overenia. Vyberte ikonu fotoaparátu a zosnímajte obrazovku QR kódu overovacej aplikácie tejto webovej stránky alebo skopírujte a vložte kľúč do tohto poľa."
+    "message": "myWebVault umožňuje uložiť a vyplniť kódy dvojstupňového overenia. Vyberte ikonu fotoaparátu a zosnímajte obrazovku QR kódu overovacej aplikácie tejto webovej stránky alebo skopírujte a vložte kľúč do tohto poľa."
   },
   "learnMoreAboutAuthenticators": {
     "message": "Viac informácií o overovateľoch"
@@ -1156,7 +1156,7 @@
     "message": "Dvojstupňové prihlásenie zvyšuje bezpečnosť vášho účtu tým, že vyžaduje overenie prihlásenia pomocou iného zariadenia, napríklad bezpečnostného kľúča, overovacej aplikácie, SMS, telefonického hovoru alebo e-mailu. Dvojstupňové prihlásenie môžete nastaviť na bitwarden.com. Chcete stránku navštíviť teraz?"
   },
   "twoStepLoginConfirmationContent": {
-    "message": "Zabezpečte svoj účet nastavením dvojstupňového prihlasovania vo webovej aplikácii Bitwarden."
+    "message": "Zabezpečte svoj účet nastavením dvojstupňového prihlasovania vo webovej aplikácii myWebVault."
   },
   "twoStepLoginConfirmationTitle": {
     "message": "Pokračovať vo webovej aplikácii?"
@@ -1312,7 +1312,7 @@
     "message": "Prejsť na nastavenia"
   },
   "notificationAddDesc": {
-    "message": "Má si Bitwarden zapamätať toto heslo?"
+    "message": "Má si myWebVault zapamätať toto heslo?"
   },
   "notificationAddSave": {
     "message": "Uložiť"
@@ -1348,11 +1348,11 @@
     }
   },
   "notificationLoginSaveConfirmation": {
-    "message": "uložené do Bitwardenu.",
+    "message": "uložené do myWebVaultu.",
     "description": "Shown to user after item is saved."
   },
   "notificationLoginUpdatedConfirmation": {
-    "message": "aktualizované v Bitwardene.",
+    "message": "aktualizované v myWebVaulte.",
     "description": "Shown to user after item is updated."
   },
   "selectItemAriaLabel": {
@@ -1450,13 +1450,13 @@
     "message": "Požiadať o uloženie nových prístupových kľúčov alebo prihlásenie s prístupovými kľúčmi uloženými v trezore. Platí pre všetky prihlásené účty."
   },
   "notificationChangeDesc": {
-    "message": "Chcete aktualizovať toto heslo v Bitwarden?"
+    "message": "Chcete aktualizovať toto heslo v myWebVault?"
   },
   "notificationChangeSave": {
     "message": "Aktualizovať"
   },
   "notificationUnlockDesc": {
-    "message": "Odomknite svoj Bitwarden trezor a dokončite žiadosť o automatické vyplnenie."
+    "message": "Odomknite svoj myWebVault trezor a dokončite žiadosť o automatické vyplnenie."
   },
   "notificationUnlock": {
     "message": "Odomknúť"
@@ -1556,10 +1556,10 @@
     "message": "Toto heslo sa použije na export a import tohto súboru"
   },
   "accountRestrictedOptionDescription": {
-    "message": "Na zašifrovanie exportu a obmedzenie importu len na aktuálny účet Bitwarden použite šifrovací kľúč účtu odvodený z používateľského mena a hlavného hesla účtu."
+    "message": "Na zašifrovanie exportu a obmedzenie importu len na aktuálny účet myWebVault použite šifrovací kľúč účtu odvodený z používateľského mena a hlavného hesla účtu."
   },
   "passwordProtectedOptionDescription": {
-    "message": "Nastavte heslo súboru na zašifrovanie exportu a importujte ho do akéhokoľvek účtu Bitwarden pomocou hesla na dešifrovanie."
+    "message": "Nastavte heslo súboru na zašifrovanie exportu a importujte ho do akéhokoľvek účtu myWebVault pomocou hesla na dešifrovanie."
   },
   "exportTypeHeading": {
     "message": "Typ exportu"
@@ -1588,7 +1588,7 @@
     "message": "Tento export zašifruje vaše údaje pomocou šifrovacieho kľúča vášho účtu. Ak niekedy budete rotovať šifrovací kľúč svojho účtu, mali by ste exportovať znova, pretože nebudete môcť dešifrovať tento exportovaný súbor."
   },
   "encExportAccountWarningDesc": {
-    "message": "Šifrovacie kľúče účtu sú jedinečné pre každý používateľský účet Bitwarden, takže nemôžete importovať šifrovaný export do iného účtu."
+    "message": "Šifrovacie kľúče účtu sú jedinečné pre každý používateľský účet myWebVault, takže nemôžete importovať šifrovaný export do iného účtu."
   },
   "exportMasterPassword": {
     "message": "Zadajte vaše hlavné heslo pre export údajov trezoru."
@@ -1615,7 +1615,7 @@
     "message": "Nový zdieľaný priečinok"
   },
   "bitwardenForBusinessPageDesc": {
-    "message": "Bitwarden pre podniky vám umožňuje zdieľať položky trezoru s ostatnými pomocou organizácie. Viac informácií nájdete na webovej stránke bitwarden.com."
+    "message": "myWebVault pre podniky vám umožňuje zdieľať položky trezoru s ostatnými pomocou organizácie. Viac informácií nájdete na webovej stránke bitwarden.com."
   },
   "moveToOrganization": {
     "message": "Presunúť do organizácie"
@@ -1796,7 +1796,7 @@
     "message": "Zakúpiť Prémiový účet"
   },
   "premiumPurchaseAlertV2": {
-    "message": "Prémiové členstvo si môžete zakúpiť v nastaveniach svojho účtu vo webovej aplikácii Bitwarden."
+    "message": "Prémiové členstvo si môžete zakúpiť v nastaveniach svojho účtu vo webovej aplikácii myWebVault."
   },
   "premiumFeatures": {
     "message": "Inovujte na prémium a získajte:"
@@ -1935,7 +1935,7 @@
     "message": "Prostredie s vlastným hostingom"
   },
   "selfHostedBaseUrlHint": {
-    "message": "Zadajte základnú URL adresu lokálne hosťovanej inštalácie Bitwarden. Napríklad: https://bitwarden.company.com"
+    "message": "Zadajte základnú URL adresu lokálne hosťovanej inštalácie myWebVault. Napríklad: https://bitwarden.company.com"
   },
   "selfHostedCustomEnvHeader": {
     "message": "Pre rozšírenú konfiguráciu môžete zadať základnú adresu URL každej služby nezávisle."
@@ -1988,7 +1988,7 @@
     "message": "Jednoduché vyhľadávanie návrhov na automatické vypĺňanie"
   },
   "autofillSpotlightDesc": {
-    "message": "Vypnite nastavenia automatického vypĺňania v prehliadači, aby nedošlo ku konfliktu s Bitwardenom."
+    "message": "Vypnite nastavenia automatického vypĺňania v prehliadači, aby nedošlo ku konfliktu s myWebVaultom."
   },
   "turnOffBrowserAutofill": {
     "message": "Vypnúť automatické vypĺňanie v $BROWSER$",
@@ -2045,7 +2045,7 @@
     "message": "Zobraziť návrhy automatického vypĺňania v poliach formulára"
   },
   "howDoesBitwardenProtectFromPhishing": {
-    "message": "Ako Bitwarden chráni vaše údaje pred phishingom?"
+    "message": "Ako myWebVault chráni vaše údaje pred phishingom?"
   },
   "currentWebsite": {
     "message": "Aktuálna webstránka"
@@ -3006,7 +3006,7 @@
     "message": "Slabé hlavné heslo"
   },
   "weakMasterPasswordDesc": {
-    "message": "Hlavné heslo, ktoré ste zadali, je slabé. Mali by ste použiť silné heslo (alebo frázu), aby ste spoľahlivo ochránili váš Bitwarden účet. Naozaj chcete použiť toto heslo?"
+    "message": "Hlavné heslo, ktoré ste zadali, je slabé. Mali by ste použiť silné heslo (alebo frázu), aby ste spoľahlivo ochránili váš myWebVault účet. Naozaj chcete použiť toto heslo?"
   },
   "rotateAccountEncKey": {
     "message": "Rotovať aj šifrovací kľúč účtu"
@@ -3018,7 +3018,7 @@
     "message": "Naozaj chcete rotovať šifrovací kľúč k účtu?"
   },
   "updateEncryptionKeyWarning": {
-    "message": "Po aktualizácii šifrovacieho kľúča budete požiadaný o opätovné prihlásenie sa do všetkých aplikácií Bitwardenu, ktoré momentálne používate (napríklad mobilné aplikácie, alebo rozšírenia v prehliadači). Ak sa opätovne neodhlásite (stiahnu sa nové šifrovacie kľúče), mohlo by to viesť k poškodeniu uložených údajov. Pokúsime sa vás odhlásiť automaticky, ale môže to chvíľu trvať."
+    "message": "Po aktualizácii šifrovacieho kľúča budete požiadaný o opätovné prihlásenie sa do všetkých aplikácií myWebVaultu, ktoré momentálne používate (napríklad mobilné aplikácie, alebo rozšírenia v prehliadači). Ak sa opätovne neodhlásite (stiahnu sa nové šifrovacie kľúče), mohlo by to viesť k poškodeniu uložených údajov. Pokúsime sa vás odhlásiť automaticky, ale môže to chvíľu trvať."
   },
   "updateEncryptionKeyAccountExportWarning": {
     "message": "Všetky exporty s obmedzeným prístupom, ktoré ste uložili, sa stanú neplatnými."
@@ -3046,10 +3046,10 @@
     "message": "Nastaviť PIN"
   },
   "setYourPinCode": {
-    "message": "Nastaviť kód PIN na odomykanie Bitwardenu. Nastavenie PIN sa vynuluje, ak sa úplne odhlásite z aplikácie."
+    "message": "Nastaviť kód PIN na odomykanie myWebVaultu. Nastavenie PIN sa vynuluje, ak sa úplne odhlásite z aplikácie."
   },
   "setPinCode": {
-    "message": "Tento PIN môžete použiť na odomknutie Bitwardenu. PIN sa resetuje, ak sa úplne odhlásite z aplikácie."
+    "message": "Tento PIN môžete použiť na odomknutie myWebVaultu. PIN sa resetuje, ak sa úplne odhlásite z aplikácie."
   },
   "pinRequired": {
     "message": "Kód PIN je povinný."
@@ -3070,7 +3070,7 @@
     "message": "Čaká sa na potvrdenie z desktopu"
   },
   "awaitDesktopDesc": {
-    "message": "Ak chcete povoliť biometriu pre prehliadač, potvrďte použitie biometrie v aplikácii Bitwarden Desktop."
+    "message": "Ak chcete povoliť biometriu pre prehliadač, potvrďte použitie biometrie v aplikácii myWebVault Desktop."
   },
   "lockWithMasterPassOnRestart": {
     "message": "Pri reštarte prehliadača zamknúť s hlavným heslom"
@@ -3185,7 +3185,7 @@
     "message": "Formulár je umiestnený na inej doméne ako URI vašich prihlasovacích údajov. Vyberte OK, ak chcete aj tak použiť automatické vyplnenie, alebo Zrušiť, ak chcete automatické vyplnenie zastaviť."
   },
   "autofillIframeWarningTip": {
-    "message": "Ak chcete tomuto upozorneniu v budúcnosti zabrániť, uložte URI, $HOSTNAME$, do položky prihlásenia Bitwardenu pre túto stránku.",
+    "message": "Ak chcete tomuto upozorneniu v budúcnosti zabrániť, uložte URI, $HOSTNAME$, do položky prihlásenia myWebVaultu pre túto stránku.",
     "placeholders": {
       "hostname": {
         "content": "$1",
@@ -3194,7 +3194,7 @@
     }
   },
   "topLayerHijackWarning": {
-    "message": "Táto stránka narúša zážitok zo Bitwardenu. Inline ponuka Bitwardenu bola dočasne vypnutá ako bezpečnostné opatrenie."
+    "message": "Táto stránka narúša zážitok zo myWebVaultu. Inline ponuka myWebVaultu bola dočasne vypnutá ako bezpečnostné opatrenie."
   },
   "setMasterPassword": {
     "message": "Nastaviť hlavné heslo"
@@ -3251,7 +3251,7 @@
     "message": "Vaše nové heslo nespĺňa pravidlá."
   },
   "receiveMarketingEmails": {
-    "message": "Dostávať aktualizácie od Bitwardenu do e-mailovej schránky."
+    "message": "Dostávať aktualizácie od myWebVaultu do e-mailovej schránky."
   },
   "unsubscribe": {
     "message": "Odhlásiť sa z odberu"
@@ -3296,13 +3296,13 @@
     "message": "Integrácia v prehliadači nie je povolená"
   },
   "desktopIntegrationDisabledDesc": {
-    "message": "Integrácia v prehliadači nie je povolená v aplikácii Bitwarden Desktop. Prosím, povoľte ju v nastaveniach desktopovej aplikácie."
+    "message": "Integrácia v prehliadači nie je povolená v aplikácii myWebVault Desktop. Prosím, povoľte ju v nastaveniach desktopovej aplikácie."
   },
   "startDesktopTitle": {
-    "message": "Spustiť desktopovú aplikáciu Bitwarden Desktop"
+    "message": "Spustiť desktopovú aplikáciu myWebVault Desktop"
   },
   "startDesktopDesc": {
-    "message": "Aplikácia Bitwarden Desktop musí byť spustená pred použitím odomknutia pomocou biometrických údajov."
+    "message": "Aplikácia myWebVault Desktop musí byť spustená pred použitím odomknutia pomocou biometrických údajov."
   },
   "errorEnableBiometricTitle": {
     "message": "Nie je možné povoliť biometrické údaje"
@@ -3356,13 +3356,13 @@
     "message": "Biometria zlyhala"
   },
   "biometricsFailedDesc": {
-    "message": "Biometria nebola dokončená. Zvážte použitie hlavného hesla, alebo sa odhláste. Ak tento problém pretrváva, kontaktujte podporu Bitwarden."
+    "message": "Biometria nebola dokončená. Zvážte použitie hlavného hesla, alebo sa odhláste. Ak tento problém pretrváva, kontaktujte podporu myWebVault."
   },
   "nativeMessagingPermissionErrorTitle": {
     "message": "Povolenie nebolo udelené"
   },
   "nativeMessagingPermissionErrorDesc": {
-    "message": "Bez povolenia na komunikáciu s aplikáciou Bitwarden Desktop nemôžeme v rozšírení prehliadača poskytovať biometrické údaje. Skúste to znova."
+    "message": "Bez povolenia na komunikáciu s aplikáciou myWebVault Desktop nemôžeme v rozšírení prehliadača poskytovať biometrické údaje. Skúste to znova."
   },
   "nativeMessagingPermissionSidebarTitle": {
     "message": "Chyba žiadosti o povolenie"
@@ -3399,7 +3399,7 @@
     "message": "Vylúčené domény"
   },
   "excludedDomainsDesc": {
-    "message": "Bitwarden nebude požadovať ukladanie prihlasovacích údajov pre tieto domény. Aby sa zmeny prejavili, musíte stránku obnoviť."
+    "message": "myWebVault nebude požadovať ukladanie prihlasovacích údajov pre tieto domény. Aby sa zmeny prejavili, musíte stránku obnoviť."
   },
   "blockedDomainsDesc": {
     "message": "Automatické vypĺňanie a ďalšie súvisiace funkcie sa na týchto webových stránkach nebudú ponúkať. Aby sa zmeny prejavili, musíte stránku obnoviť."
@@ -3531,24 +3531,24 @@
     "message": "Príklady zoznamu prihlásení, ktoré sú ohrozené."
   },
   "welcomeDialogGraphicAlt": {
-    "message": "Ilustrácia rozloženia stránky trezoru Bitwarden."
+    "message": "Ilustrácia rozloženia stránky trezoru myWebVault."
   },
   "generatePasswordSlideDesc": {
-    "message": "Rýchlo generujte silné, jedinečné heslo pomocu ponuky automatického vypĺňania Bitwardenu na ohrozených stránkach.",
+    "message": "Rýchlo generujte silné, jedinečné heslo pomocu ponuky automatického vypĺňania myWebVaultu na ohrozených stránkach.",
     "description": "Description of the generate password slide on the at-risk password page carousel"
   },
   "generatePasswordSlideImgAltPeriod": {
-    "message": "Príklad ponuky automatického vypĺňania Bitwardenu zobrazujúca vygenerované heslo."
+    "message": "Príklad ponuky automatického vypĺňania myWebVaultu zobrazujúca vygenerované heslo."
   },
   "updateInBitwarden": {
-    "message": "Aktualizovať v Bitwardene"
+    "message": "Aktualizovať v myWebVaulte"
   },
   "updateInBitwardenSlideDesc": {
-    "message": "Bitwarden vás vyzve na aktualizáciu hesla v správcovi hesiel.",
+    "message": "myWebVault vás vyzve na aktualizáciu hesla v správcovi hesiel.",
     "description": "Description of the update in Bitwarden slide on the at-risk password page carousel"
   },
   "updateInBitwardenSlideImgAltPeriod": {
-    "message": "Príklad upozornenia Bitwardenu na aktualizovanie prihlasovacích údajov."
+    "message": "Príklad upozornenia myWebVaultu na aktualizovanie prihlasovacích údajov."
   },
   "turnOnAutofill": {
     "message": "Zapnúť automatické vypĺňanie"
@@ -4063,10 +4063,10 @@
     "message": "Chyba pri získavaní údajov automatického vypĺňania"
   },
   "couldNotDecryptVaultItem": {
-    "message": "Bitwarden nedokázal dešifrovať nižšie uvedenú položku v trezore. Obráťte sa na zákaznícku podporu Bitwarden a uveďte nižšie uvedené ID položky, aby sa zistilo, či je možné ju obnoviť."
+    "message": "myWebVault nedokázal dešifrovať nižšie uvedenú položku v trezore. Obráťte sa na zákaznícku podporu myWebVault a uveďte nižšie uvedené ID položky, aby sa zistilo, či je možné ju obnoviť."
   },
   "couldNotDecryptVaultItems": {
-    "message": "Bitwarden nedokázal dešifrovať nižšie uvedené položky v trezore. Obráťte sa na zákaznícku podporu Bitwarden a uveďte nižšie uvedené ID položiek, aby sa zistilo, či je možné ich obnoviť."
+    "message": "myWebVault nedokázal dešifrovať nižšie uvedené položky v trezore. Obráťte sa na zákaznícku podporu myWebVault a uveďte nižšie uvedené ID položiek, aby sa zistilo, či je možné ich obnoviť."
   },
   "itemId": {
     "message": "ID položky",
@@ -4176,11 +4176,11 @@
     }
   },
   "forwarderGeneratedBy": {
-    "message": "Vygenerované Bitwardenom.",
+    "message": "Vygenerované myWebVaultom.",
     "description": "Displayed with the address on the forwarding service's configuration screen."
   },
   "forwarderGeneratedByWithWebsite": {
-    "message": "Webstránka: $WEBSITE$. Vygenerované Bitwardenom.",
+    "message": "Webstránka: $WEBSITE$. Vygenerované myWebVaultom.",
     "description": "Displayed with the address on the forwarding service's configuration screen.",
     "placeholders": {
       "WEBSITE": {
@@ -4378,7 +4378,7 @@
     "message": "Do vášho zariadenia bolo odoslané upozornenie."
   },
   "notificationSentDevicePart1": {
-    "message": "Odomknúť Bitwarden vo svojom zariadení alebo vo"
+    "message": "Odomknúť myWebVault vo svojom zariadení alebo vo"
   },
   "notificationSentDeviceAnchor": {
     "message": "webovej aplikácii"
@@ -4878,15 +4878,15 @@
     "message": "Preskočiť na obsah"
   },
   "bitwardenOverlayButton": {
-    "message": "Tlačidlo ponuky automatického vypĺňania Bitwardenu",
+    "message": "Tlačidlo ponuky automatického vypĺňania myWebVaultu",
     "description": "Page title for the iframe containing the overlay button"
   },
   "toggleBitwardenVaultOverlay": {
-    "message": "Prepnúť ponuku automatického vypĺňania Bitwardenu",
+    "message": "Prepnúť ponuku automatického vypĺňania myWebVaultu",
     "description": "Screen reader and tool tip label for the overlay button"
   },
   "bitwardenVault": {
-    "message": "Ponuka automatického vypĺňania Bitwardenu",
+    "message": "Ponuka automatického vypĺňania myWebVaultu",
     "description": "Page title in overlay"
   },
   "unlockYourAccountToViewMatchingLogins": {
@@ -4958,7 +4958,7 @@
     "description": "Screen reader text (aria-label) for new identity button within inline menu"
   },
   "bitwardenOverlayMenuAvailable": {
-    "message": "K dispozícii je ponuka automatického vyplňovania Bitwardenu. Stlačte tlačidlo so šípkou nadol a vyberte.",
+    "message": "K dispozícii je ponuka automatického vyplňovania myWebVaultu. Stlačte tlačidlo so šípkou nadol a vyberte.",
     "description": "Screen reader text for announcing when the overlay opens on the page"
   },
   "turnOn": {
@@ -5377,7 +5377,7 @@
     "description": "Followed by a literal filename (my_passwords.json) rendered as code."
   },
   "importGnomeInstructionsFileHere": {
-    "message": "sem do Bitwardenu.",
+    "message": "sem do myWebVaultu.",
     "description": "Follows the my_passwords.json filename."
   },
   "importPasswordagentInstructions": {
@@ -5849,7 +5849,7 @@
     "message": "Aktívny účet"
   },
   "bitwardenAccount": {
-    "message": "Účet Bitwarden"
+    "message": "Účet myWebVault"
   },
   "availableAccounts": {
     "message": "Dostupné účty"
@@ -5895,7 +5895,7 @@
     "description": "Label indicating the most common import formats"
   },
   "uriMatchDefaultStrategyHint": {
-    "message": "Zisťovanie zhody URI je spôsob, akým Bitwarden identifikuje návrhy na automatické vypĺňanie.",
+    "message": "Zisťovanie zhody URI je spôsob, akým myWebVault identifikuje návrhy na automatické vypĺňanie.",
     "description": "Explains to the user that URI match detection determines how Bitwarden suggests autofill options, and clarifies that this default strategy applies when no specific match detection is set for a login item."
   },
   "regExAdvancedOptionWarning": {
@@ -5939,15 +5939,15 @@
     "description": "Body content for dialog which asks if the user wants to proceed to the browser's keyboard shortcut settings page"
   },
   "overrideDefaultBrowserAutofillTitle": {
-    "message": "Nastaviť Bitwarden ako predvoleného správcu hesiel?",
+    "message": "Nastaviť myWebVault ako predvoleného správcu hesiel?",
     "description": "Dialog title facilitating the ability to override a chrome browser's default autofill behavior"
   },
   "overrideDefaultBrowserAutofillDescription": {
-    "message": "Ak nenastavíte túto možnosť, môže to spôsobiť konflikty medzi ponukou automatického vypĺňania Bitwardenu a ponukou vášho prehliadača.",
+    "message": "Ak nenastavíte túto možnosť, môže to spôsobiť konflikty medzi ponukou automatického vypĺňania myWebVaultu a ponukou vášho prehliadača.",
     "description": "Dialog message facilitating the ability to override a chrome browser's default autofill behavior"
   },
   "overrideDefaultBrowserAutoFillSettings": {
-    "message": "Nastaviť Bitwarden ako predvoleného správcu hesiel",
+    "message": "Nastaviť myWebVault ako predvoleného správcu hesiel",
     "description": "Label for the setting that allows overriding the default browser autofill settings"
   },
   "defaultPasswordManagerCalloutTitle": {
@@ -5955,7 +5955,7 @@
     "description": "Title for the callout that prompts users to set Bitwarden as their default password manager"
   },
   "defaultPasswordManagerCalloutDesc": {
-    "message": "Budete požiadaní, aby ste prehliadaču $BROWSER$ udelili povolenie na nastavenie Bitwardenu ako predvoleného správcu hesiel.",
+    "message": "Budete požiadaní, aby ste prehliadaču $BROWSER$ udelili povolenie na nastavenie myWebVaultu ako predvoleného správcu hesiel.",
     "description": "Description for the callout that prompts users to set Bitwarden as their default password manager",
     "placeholders": {
       "browser": {
@@ -5965,11 +5965,11 @@
     }
   },
   "privacyPermissionAdditionNotGrantedTitle": {
-    "message": "Nie je možné nastaviť Bitwarden ako predvoleného správcu hesiel",
+    "message": "Nie je možné nastaviť myWebVault ako predvoleného správcu hesiel",
     "description": "Title for the dialog that appears when the user has not granted the extension permission to set privacy settings"
   },
   "privacyPermissionAdditionNotGrantedDescription": {
-    "message": "Ak chcete nastaviť Bitwarden ako predvoleného správcu hesiel, musíte mu udeliť oprávnenia na ochranu súkromia v prehliadači.",
+    "message": "Ak chcete nastaviť myWebVault ako predvoleného správcu hesiel, musíte mu udeliť oprávnenia na ochranu súkromia v prehliadači.",
     "description": "Description for the dialog that appears when the user has not granted the extension permission to set privacy settings"
   },
   "makeDefault": {
@@ -5977,10 +5977,10 @@
     "description": "Button text for the setting that allows overriding the default browser autofill settings"
   },
   "defaultPasswordManagerPromptTitle": {
-    "message": "Nastaviť Bitwarden ako predvolený správca hesiel v prehliadači"
+    "message": "Nastaviť myWebVault ako predvolený správca hesiel v prehliadači"
   },
   "defaultPasswordManagerPromptTitleV2": {
-    "message": "Nastaviť Bitwarden ako predvoleného správcu hesiel",
+    "message": "Nastaviť myWebVault ako predvoleného správcu hesiel",
     "description": "Label for the setting to make Bitwarden the default password manager"
   },
   "defaultPasswordManagerSettingHintV2": {
@@ -5992,13 +5992,13 @@
     "description": "Link text to browser autofill settings in the default password manager setting hint."
   },
   "defaultPasswordManagerPromptStep2AfterAllow": {
-    "message": "z výzvy prehliadača, v ktorej sa žiada o udelenie povolenia pre Bitwarden na zmenu vašich nastavení."
+    "message": "z výzvy prehliadača, v ktorej sa žiada o udelenie povolenia pre myWebVault na zmenu vašich nastavení."
   },
   "defaultPasswordManagerPromptStep3": {
     "message": "Vypneme integrovaného správcu hesiel v prehliadači, aby ste sa mohli bezpečne prihlásiť."
   },
   "defaultPasswordManagerSuccessToast": {
-    "message": "Nastavili ste si Bitwarden ako predvolený správca hesiel v prehliadači"
+    "message": "Nastavili ste si myWebVault ako predvolený správca hesiel v prehliadači"
   },
   "allow": {
     "message": "Povoliť",
@@ -6406,16 +6406,16 @@
     "message": "Stiahnuť prílohu"
   },
   "downloadBitwarden": {
-    "message": "Stiahnuť Bitwarden"
+    "message": "Stiahnuť myWebVault"
   },
   "downloadBitwardenOnAllDevices": {
-    "message": "Stiahnuť Bitwarden na všetky zariadenia"
+    "message": "Stiahnuť myWebVault na všetky zariadenia"
   },
   "getTheMobileApp": {
     "message": "Získať mobilnú aplikáciu"
   },
   "getTheMobileAppDesc": {
-    "message": "Majte prístup k heslám na cestách pomocou mobilnej aplikácie Bitwarden."
+    "message": "Majte prístup k heslám na cestách pomocou mobilnej aplikácie myWebVault."
   },
   "getTheDesktopApp": {
     "message": "Získať desktopovú aplikáciu"
@@ -6968,10 +6968,10 @@
     "message": "Odomykanie biometrickými údajmi je nedostupné v dôsledku zle nastavených systémových súborov."
   },
   "biometricsStatusHelptextDesktopDisconnected": {
-    "message": "Odomykanie biometrickými údajmi je nedostupné, pretože aplikácia Bitwarden pre desktop je zatvorená."
+    "message": "Odomykanie biometrickými údajmi je nedostupné, pretože aplikácia myWebVault pre desktop je zatvorená."
   },
   "biometricsStatusHelptextNotEnabledInDesktop": {
-    "message": "Odomykanie biometrickými údajmi je nedostupné, pretože nie je povolené pre $EMAIL$ v aplikácii Bitwarden pre desktop.",
+    "message": "Odomykanie biometrickými údajmi je nedostupné, pretože nie je povolené pre $EMAIL$ v aplikácii myWebVault pre desktop.",
     "placeholders": {
       "email": {
         "content": "$1",
@@ -7003,7 +7003,7 @@
     "description": "Notification message for when a password has been regenerated"
   },
   "saveToBitwarden": {
-    "message": "Uložiť do Bitwardenu",
+    "message": "Uložiť do myWebVaultu",
     "description": "Confirmation message for saving a login to Bitwarden"
   },
   "spaceCharacterDescriptor": {
@@ -7256,13 +7256,13 @@
     "message": "Použite priečinky na usporiadanie položiek trezoru. Sú len pre vás – nikto iný ich neuvidí ani nepoužije."
   },
   "introCarouselLabel": {
-    "message": "Vitajte v Bitwardene"
+    "message": "Vitajte v myWebVaulte"
   },
   "securityPrioritized": {
     "message": "Bezpečnosť na prvom mieste"
   },
   "securityPrioritizedBody": {
-    "message": "Ukladajte prihlasovacie údaje, karty a identity do zabezpečeného trezoru. Bitwarden používa šifrovanie s nulovou znalosťou od začiatku do konca na ochranu toho, čo je pre vás dôležité."
+    "message": "Ukladajte prihlasovacie údaje, karty a identity do zabezpečeného trezoru. myWebVault používa šifrovanie s nulovou znalosťou od začiatku do konca na ochranu toho, čo je pre vás dôležité."
   },
   "quickLogin": {
     "message": "Rýchle a jednoduché prihlásenie"
@@ -7280,7 +7280,7 @@
     "message": "Vaše údaje, kedykoľvek a kdekoľvek ich potrebujete"
   },
   "secureDevicesBody": {
-    "message": "Ukladajte neobmedzený počet hesiel na neobmedzenom počte zariadení pomocou mobilných aplikácií, prehliadačov a desktopových aplikácií Bitwardenu."
+    "message": "Ukladajte neobmedzený počet hesiel na neobmedzenom počte zariadení pomocou mobilných aplikácií, prehliadačov a desktopových aplikácií myWebVaultu."
   },
   "nudgeBadgeAria": {
     "message": "1 upozornenie"
@@ -7289,7 +7289,7 @@
     "message": "Import existujúcich hesiel"
   },
   "emptyVaultNudgeBody": {
-    "message": "Pomocou nástroja na import môžete rýchlo preniesť prihlasovacie údaje do Bitwardenu bez ručného pridávania."
+    "message": "Pomocou nástroja na import môžete rýchlo preniesť prihlasovacie údaje do myWebVaultu bez ručného pridávania."
   },
   "emptyVaultNudgeButton": {
     "message": "Importovať teraz"
@@ -7408,7 +7408,7 @@
     "message": "O tomto nastavení"
   },
   "permitCipherDetailsDescription": {
-    "message": "Bitwarden použije uložené prihlasovacie URI na určenie ikony alebo adresy URL na zmenu hesla, ktoré by sa mali použiť na zlepšenie vášho zážitku. Pri používaní tejto služby sa nezbierajú ani neukladajú žiadne informácie."
+    "message": "myWebVault použije uložené prihlasovacie URI na určenie ikony alebo adresy URL na zmenu hesla, ktoré by sa mali použiť na zlepšenie vášho zážitku. Pri používaní tejto služby sa nezbierajú ani neukladajú žiadne informácie."
   },
   "showQuickCopyActionsDetailsDescription": {
     "message": "Vedľa položiek pridá 3 tlačidlá na rýchle kopírovanie, pomocou ktorých môžete skopírovať používateľské meno, heslo alebo overovací kód do schránky."
@@ -7417,7 +7417,7 @@
     "message": "Nemáte oprávnenie na zobrazenie tejto stránky. Skúste sa prihlásiť pomocou iného účtu."
   },
   "wasmNotSupported": {
-    "message": "WebAssembly nie je vo vašom prehliadači podporovaný alebo nie je povolený. Na používanie Bitwardenu sa vyžaduje WebAssembly.",
+    "message": "WebAssembly nie je vo vašom prehliadači podporovaný alebo nie je povolený. Na používanie myWebVaultu sa vyžaduje WebAssembly.",
     "description": "'WebAssembly' is a technical term and should not be translated."
   },
   "showMore": {
@@ -7505,7 +7505,7 @@
     "message": "Chyba: Nedá sa dešifrovať"
   },
   "removeMasterPasswordForOrgUserKeyConnector": {
-    "message": "Vaša organizácia už nepoužíva hlavné heslá na prihlásenie do Bitwardenu. Ak chcete pokračovať, overte organizáciu a doménu."
+    "message": "Vaša organizácia už nepoužíva hlavné heslá na prihlásenie do myWebVaultu. Ak chcete pokračovať, overte organizáciu a doménu."
   },
   "continueWithLogIn": {
     "message": "Pokračujte prihlásením"
@@ -7591,7 +7591,7 @@
     "message": "Nastavte metódu odomknutia, aby ste zmenili akciu pri vypršaní časového limitu"
   },
   "sessionTimeoutSuppressedByConnectedDevice": {
-    "message": "Spravované prostredníctvom desktopovej aplikácie Bitwarden. Na úpravu otvorte desktopovú aplikáciu."
+    "message": "Spravované prostredníctvom desktopovej aplikácie myWebVault. Na úpravu otvorte desktopovú aplikáciu."
   },
   "percentageCompleted": {
     "message": "Hotovo $PERCENT$%",
@@ -7693,7 +7693,7 @@
     "message": "pouzivatel@bitwarden.com, pouzivatel@acme.com"
   },
   "downloadBitwardenApps": {
-    "message": "Stiahnuť aplikácie Bitwarden"
+    "message": "Stiahnuť aplikácie myWebVault"
   },
   "emailProtected": {
     "message": "Chránené e-mailom"
@@ -7712,7 +7712,7 @@
     "message": "Zdieľať odomknutie s počítačom"
   },
   "sharedUnlockWithDesktopDescription": {
-    "message": "Ak je táto funkcia zapnutá, stav odomknutia sa bude zdieľať s aplikáciou Bitwarden Desktop."
+    "message": "Ak je táto funkcia zapnutá, stav odomknutia sa bude zdieľať s aplikáciou myWebVault Desktop."
   },
   "sharedUnlockWithWeb": {
     "message": "Zdieľať odomknutie s webovým trezorom"
@@ -7727,13 +7727,13 @@
     "message": "Vyžaduje sa nové povolenie"
   },
   "sharedUnlockDesktopPermissionDesc": {
-    "message": "Na používanie zdieľaného odomknutia potrebuje Bitwarden povolenie na komunikáciu s desktopovou aplikáciou. Keď budete pokračovať, prehliadač vás požiada o schválenie tohto povolenia."
+    "message": "Na používanie zdieľaného odomknutia potrebuje myWebVault povolenie na komunikáciu s desktopovou aplikáciou. Keď budete pokračovať, prehliadač vás požiada o schválenie tohto povolenia."
   },
   "sharedUnlockDesktopPermissionWarning": {
-    "message": "Bitwarden sa uzamkne a znovu sa načíta. Po vašom schválení sa rozšírenie znovu načíta a uzamkne trezor."
+    "message": "myWebVault sa uzamkne a znovu sa načíta. Po vašom schválení sa rozšírenie znovu načíta a uzamkne trezor."
   },
   "biometricPermissionDesc": {
-    "message": "Na používanie odomknutia biometriou potrebuje Bitwarden povolenie na komunikáciu s desktopovou aplikáciou. Keď budete pokračovať, prehliadač vás požiada o schválenie tohto povolenia."
+    "message": "Na používanie odomknutia biometriou potrebuje myWebVault povolenie na komunikáciu s desktopovou aplikáciou. Keď budete pokračovať, prehliadač vás požiada o schválenie tohto povolenia."
   },
   "enterMonth": {
     "message": "Zadajte mesiac."

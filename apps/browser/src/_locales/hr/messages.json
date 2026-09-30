@@ -1,20 +1,20 @@
 {
   "appName": {
-    "message": "Bitwarden"
+    "message": "myWebVault"
   },
   "appLogoLabel": {
-    "message": "Bitwarden logo"
+    "message": "myWebVault logo"
   },
   "extName": {
-    "message": "Bitwarden upravitelj lozinki",
+    "message": "myWebVault – Bookmark Manager",
     "description": "Extension name, MUST be less than 40 characters (Safari restriction)"
   },
   "extNameBeta": {
-    "message": "Bitwarden Password Manager Beta",
+    "message": "myWebVault – Bookmark Manager Beta",
     "description": "Extension name for the beta channel, MUST be less than 40 characters (Safari restriction)"
   },
   "extDesc": {
-    "message": "Kod kuće, na poslu ili u pokretu, Bitwarden štiti sve tvoje lozinke, pristupne ključeve i osjetljive informacije",
+    "message": "Your bookmarks, encrypted and synced everywhere. Built on Bitwarden's open source code.",
     "description": "Extension description, MUST be less than 112 characters (Safari restriction)"
   },
   "loginOrCreateNewAccount": {
@@ -27,7 +27,7 @@
     "message": "Stvori račun"
   },
   "newToBitwarden": {
-    "message": "Novi u Bitwardenu?"
+    "message": "Novi u myWebVaultu?"
   },
   "logInWithPasskey": {
     "message": "Prijava pristupnim ključem"
@@ -324,22 +324,22 @@
     "message": "Nastavi na web aplikaciju?"
   },
   "continueToWebAppDesc": {
-    "message": "Pronađi više značajki svojeg Bitwarden računa u web aplikaciji."
+    "message": "Pronađi više značajki svojeg myWebVault računa u web aplikaciji."
   },
   "continueToHelpCenter": {
     "message": "Nastavi u centar za pomoć?"
   },
   "continueToHelpCenterDesc": {
-    "message": "Za pomoć oko korištenja Bitwardena posjeti centar za pomoć."
+    "message": "Za pomoć oko korištenja myWebVaulta posjeti centar za pomoć."
   },
   "continueToBrowserExtensionStore": {
     "message": "Nastaviti na trgovinu proširenja za preglednik?"
   },
   "continueToBrowserExtensionStoreDesc": {
-    "message": "Želiš preporučiti Bitwarden drugima? Posjeti trgovinu proširenja svojeg preglednika i ostavi recenziju."
+    "message": "Želiš preporučiti myWebVault drugima? Posjeti trgovinu proširenja svojeg preglednika i ostavi recenziju."
   },
   "changeMasterPasswordOnWebConfirmation": {
-    "message": "Svoju lozinku možeš promijeniti u Bitwarden web aplikaciji."
+    "message": "Svoju lozinku možeš promijeniti u myWebVault web aplikaciji."
   },
   "fingerprintPhrase": {
     "message": "Jedinstvena fraza",
@@ -356,25 +356,25 @@
     "message": "Odjava"
   },
   "aboutBitwarden": {
-    "message": "O Bitwardenu"
+    "message": "O myWebVaultu"
   },
   "about": {
     "message": "O aplikaciji"
   },
   "moreFromBitwarden": {
-    "message": "Više od Bitwardena"
+    "message": "Više od myWebVaulta"
   },
   "continueToBitwardenDotCom": {
     "message": "Nastavi na bitwarden.com?"
   },
   "bitwardenForBusiness": {
-    "message": "Bitwarden za tvrtke"
+    "message": "myWebVault za tvrtke"
   },
   "bitwardenAuthenticator": {
-    "message": "Bitwarden autentifikator"
+    "message": "myWebVault autentifikator"
   },
   "continueToAuthenticatorPageDesc": {
-    "message": "Bitwarden autentifikator omogućuje pohranu autentifikatorskih ključeva i generiranje TOTP kodova za dvostruku autentifikaciju. Saznaj više na web stranici bitwarden.com"
+    "message": "myWebVault autentifikator omogućuje pohranu autentifikatorskih ključeva i generiranje TOTP kodova za dvostruku autentifikaciju. Saznaj više na web stranici bitwarden.com"
   },
   "bitwardenSecretsManager": {
     "message": "Bitwarden Secrets Manager"
@@ -458,13 +458,13 @@
     "message": "Pomoć i povratne informacije"
   },
   "helpCenter": {
-    "message": "Bitwarden centar za pomoć"
+    "message": "myWebVault centar za pomoć"
   },
   "communityForums": {
-    "message": "Istraži forume zajednice Bitwarden"
+    "message": "Istraži forume zajednice myWebVault"
   },
   "contactSupport": {
-    "message": "Kontaktiraj Bitwarden pomoć"
+    "message": "Kontaktiraj myWebVault pomoć"
   },
   "sync": {
     "message": "Sinkronizacija"
@@ -486,7 +486,7 @@
     "message": "Automatski generiraj jake, jedinstvene lozinke."
   },
   "bitWebVaultApp": {
-    "message": "Bitwarden web trezor"
+    "message": "myWebVault web trezor"
   },
   "select": {
     "message": "Odaberi"
@@ -846,7 +846,7 @@
     "message": "Preuzmi dijagnostičko izvješće i podijeli ga s"
   },
   "bitwardenSupport": {
-    "message": "Bitwarden podrškom",
+    "message": "myWebVault podrškom",
     "description": "Link text following the troubleshooting description sentence. 'Bitwarden' should not be translated."
   },
   "download": {
@@ -1063,10 +1063,10 @@
     "message": "Učini dvostruku autentifikaciju besprijekornom"
   },
   "totpHelper": {
-    "message": "Bitwarden može pohraniti i ispuniti kodove za dvostruku autentifikaciju. Kopiraj i zalijepi ključ u ovo polje."
+    "message": "myWebVault može pohraniti i ispuniti kodove za dvostruku autentifikaciju. Kopiraj i zalijepi ključ u ovo polje."
   },
   "totpHelperWithCapture": {
-    "message": "Bitwarden može pohraniti i ispuniti kodove za dvostruku autentifikaciju. Odaberi ikonu kamere i označi QR kôd za provjeru autentičnosti ove web stranice ili kopiraj i zalijepi ključ u ovo polje."
+    "message": "myWebVault može pohraniti i ispuniti kodove za dvostruku autentifikaciju. Odaberi ikonu kamere i označi QR kôd za provjeru autentičnosti ove web stranice ili kopiraj i zalijepi ključ u ovo polje."
   },
   "learnMoreAboutAuthenticators": {
     "message": "Više o autentifikatorima"
@@ -1156,7 +1156,7 @@
     "message": "Prijava dvostrukom autentifikacijom čini tvoj račun još sigurnijim tako što će zahtijevati potvrdu prijave drugim uređajem kao što je sigurnosni ključ, autentifikatorska aplikacija, SMS, poziv ili e-pošta. Prijavu dvostrukom autentifikacijom možeš omogućiti na web trezoru. Želiš li sada posjetiti bitwarden.com?"
   },
   "twoStepLoginConfirmationContent": {
-    "message": "Učini svoj račun sigurnijim uključivanjem prijave dvofaktorskom autentifikacijom u Bitwarden web aplikaciji."
+    "message": "Učini svoj račun sigurnijim uključivanjem prijave dvofaktorskom autentifikacijom u myWebVault web aplikaciji."
   },
   "twoStepLoginConfirmationTitle": {
     "message": "Nastavi na web aplikaciju?"
@@ -1265,7 +1265,7 @@
     "message": "Mogućnosti spremanja u trezor"
   },
   "addLoginNotificationDesc": {
-    "message": "Upit za dodavanje prijave pojavljuje se kada se otkrije prva prijava na neko web mjesto. Bitwarden će te pitatati želiš li uneseno korisničko ime i lozinku spremiti u svoj trezor."
+    "message": "Upit za dodavanje prijave pojavljuje se kada se otkrije prva prijava na neko web mjesto. myWebVault će te pitatati želiš li uneseno korisničko ime i lozinku spremiti u svoj trezor."
   },
   "addLoginNotificationDescAlt": {
     "message": "Pitaj za dodavanje stavke ako nije pronađena u tvojem trezoru. Primjenjuje se na sve prijavljene račune."
@@ -1312,7 +1312,7 @@
     "message": "Idi na postavku"
   },
   "notificationAddDesc": {
-    "message": "Treba li Bitwarden zapamtiti ovu lozinku?"
+    "message": "Treba li myWebVault zapamtiti ovu lozinku?"
   },
   "notificationAddSave": {
     "message": "Spremi"
@@ -1348,7 +1348,7 @@
     }
   },
   "notificationLoginSaveConfirmation": {
-    "message": "spremljeno u Bitwarden.",
+    "message": "spremljeno u myWebVault.",
     "description": "Shown to user after item is saved."
   },
   "notificationLoginUpdatedConfirmation": {
@@ -1450,13 +1450,13 @@
     "message": "Pitaj za spremanje novih pristupnih ključeva ili se prijavi pomoću pristupnih ključeva pohranjenih u tvojem trezoru. Primjenjuje se na sve prijavljene račune."
   },
   "notificationChangeDesc": {
-    "message": "Želiš li ovu lozinku ažurirati u Bitwarden-u?"
+    "message": "Želiš li ovu lozinku ažurirati u myWebVault-u?"
   },
   "notificationChangeSave": {
     "message": "Ažuriraj"
   },
   "notificationUnlockDesc": {
-    "message": "Za dovršetak auto-ispune, otključaj svoj Bitwarden trezor."
+    "message": "Za dovršetak auto-ispune, otključaj svoj myWebVault trezor."
   },
   "notificationUnlock": {
     "message": "Otključaj"
@@ -1556,10 +1556,10 @@
     "message": "Ova će se lozinka koristiti za izvoz i uvoz ove datoteke"
   },
   "accountRestrictedOptionDescription": {
-    "message": "Upotrijebi svoj ključ za šifriranje računa, izveden iz korisničkog imena i glavne lozinke za šifriranje izvoza i ograničavanje uvoza samo na trenutni Bitwarden račun."
+    "message": "Upotrijebi svoj ključ za šifriranje računa, izveden iz korisničkog imena i glavne lozinke za šifriranje izvoza i ograničavanje uvoza samo na trenutni myWebVault račun."
   },
   "passwordProtectedOptionDescription": {
-    "message": "Bitwarden omogućuje dijeljenje trezora s drugima pomoću organizacijskog računa. Za više informacija posjeti bitwarden. com."
+    "message": "myWebVault omogućuje dijeljenje trezora s drugima pomoću organizacijskog računa. Za više informacija posjeti bitwarden. com."
   },
   "exportTypeHeading": {
     "message": "Tip izvoza"
@@ -1588,7 +1588,7 @@
     "message": "Ovaj izvoz šifrira tvoje podatke koristeći ključ za šifriranje. Promijeniš li naknadno ključ za šifriranje, potrebno je ponovno napraviti izvoz jer nećeš moći dešifrirati ovu izvezenu datoteku."
   },
   "encExportAccountWarningDesc": {
-    "message": "Ključ za šifriranje jedinstven je za svakog Bitwarden korisnika, kako bi se šifrirani izvoz mogao uvesti u drugi korisnički račun."
+    "message": "Ključ za šifriranje jedinstven je za svakog myWebVault korisnika, kako bi se šifrirani izvoz mogao uvesti u drugi korisnički račun."
   },
   "exportMasterPassword": {
     "message": "Unesi glavnu lozinku za izvoz podataka iz trezora."
@@ -1796,7 +1796,7 @@
     "message": "Kupi premium članstvo"
   },
   "premiumPurchaseAlertV2": {
-    "message": "Premium možeš kupiti u postavkama računa na Bitwarden web aplikaciji."
+    "message": "Premium možeš kupiti u postavkama računa na myWebVault web aplikaciji."
   },
   "premiumFeatures": {
     "message": "Nadogradi na Premium za:"
@@ -1935,7 +1935,7 @@
     "message": "Vlastito hosting okruženje"
   },
   "selfHostedBaseUrlHint": {
-    "message": "Navedi osnovni URL svoje lokalne Bitwarden instalacije, npr.: https://bitwarden.company.com"
+    "message": "Navedi osnovni URL svoje lokalne myWebVault instalacije, npr.: https://bitwarden.company.com"
   },
   "selfHostedCustomEnvHeader": {
     "message": "Kao naprednu postavku, možeš odrediti osnovni URL svake usluge zasebno."
@@ -1988,7 +1988,7 @@
     "message": "Jednostavno pronađi prijedloge auto-ispune"
   },
   "autofillSpotlightDesc": {
-    "message": "Isključi postavke auto-ispune preglenika kako se ne bi kosile s Bitwardenom."
+    "message": "Isključi postavke auto-ispune preglenika kako se ne bi kosile s myWebVaultom."
   },
   "turnOffBrowserAutofill": {
     "message": "Isključi auto-ispunu za $BROWSER$",
@@ -2045,7 +2045,7 @@
     "message": "Prikaži prijedloge auto-ispune na poljima obrazaca"
   },
   "howDoesBitwardenProtectFromPhishing": {
-    "message": "Kako Bitwarden štiti tvoje podatke od phishinga?"
+    "message": "Kako myWebVault štiti tvoje podatke od phishinga?"
   },
   "currentWebsite": {
     "message": "Trenutna web stranica"
@@ -3006,7 +3006,7 @@
     "message": "Slaba glavna lozinka"
   },
   "weakMasterPasswordDesc": {
-    "message": "Odabrana glavna lozinka je slaba. Trebaš koristiti jaču glavnu lozinku (ili frazu) kako bi tvoj Bitwarden račun bio pravilno zaštićen. Sigurno želiš koristiti ovakvu, slabu glavnu lozinku?"
+    "message": "Odabrana glavna lozinka je slaba. Trebaš koristiti jaču glavnu lozinku (ili frazu) kako bi tvoj myWebVault račun bio pravilno zaštićen. Sigurno želiš koristiti ovakvu, slabu glavnu lozinku?"
   },
   "rotateAccountEncKey": {
     "message": "Dodatno rotiraj ključ za šifriranje mojeg računa"
@@ -3046,10 +3046,10 @@
     "message": "Postavi PIN"
   },
   "setYourPinCode": {
-    "message": "Postavi svoj PIN kôd za otključavanje Bitwardena. Postavke PIN-a se resetiraju ako se potpuno odjaviš iz aplikacije."
+    "message": "Postavi svoj PIN kôd za otključavanje myWebVaulta. Postavke PIN-a se resetiraju ako se potpuno odjaviš iz aplikacije."
   },
   "setPinCode": {
-    "message": "Ovim PIN-om možeš otključati Bitwarden. Tvoj PIN će se resetirati ako se ikada potpuno odjaviš iz aplikacije."
+    "message": "Ovim PIN-om možeš otključati myWebVault. Tvoj PIN će se resetirati ako se ikada potpuno odjaviš iz aplikacije."
   },
   "pinRequired": {
     "message": "Potreban je PIN."
@@ -3070,7 +3070,7 @@
     "message": "Čekanje potvrde iz desktop aplikacije"
   },
   "awaitDesktopDesc": {
-    "message": "Potvrdi korištenje biometrije u Bitwarden desktop aplikaciji za korištenje biometrije u pregledniku."
+    "message": "Potvrdi korištenje biometrije u myWebVault desktop aplikaciji za korištenje biometrije u pregledniku."
   },
   "lockWithMasterPassOnRestart": {
     "message": "Zaključaj glavnom lozinkom kod svakog pokretanja preglednika"
@@ -3194,7 +3194,7 @@
     }
   },
   "topLayerHijackWarning": {
-    "message": "Ova stranica ometa Bitwarden iskustvo. Kao sigurnosna mjera, Bitwarden inline izbornik je privremeno onemogućen."
+    "message": "Ova stranica ometa myWebVault iskustvo. Kao sigurnosna mjera, myWebVault inline izbornik je privremeno onemogućen."
   },
   "setMasterPassword": {
     "message": "Postavi glavnu lozinku"
@@ -3251,7 +3251,7 @@
     "message": "Tvoja nova glavna lozinka ne ispunjava zahtjeve."
   },
   "receiveMarketingEmails": {
-    "message": "Receive updates from Bitwarden in your inbox."
+    "message": "Receive updates from myWebVault in your inbox."
   },
   "unsubscribe": {
     "message": "Poništi pretplatu"
@@ -3296,13 +3296,13 @@
     "message": "Integracija s preglednikom nije omogućena"
   },
   "desktopIntegrationDisabledDesc": {
-    "message": "Integracija s preglednikom nije omogućena u Bitwarden desktop aplikaciji. Omogući integraciju u postavkama desktop aplikacije."
+    "message": "Integracija s preglednikom nije omogućena u myWebVault desktop aplikaciji. Omogući integraciju u postavkama desktop aplikacije."
   },
   "startDesktopTitle": {
-    "message": "Pokreni Bitwarden dekstop aplikaciju"
+    "message": "Pokreni myWebVault dekstop aplikaciju"
   },
   "startDesktopDesc": {
-    "message": "Bitwarden desktop aplikacija mora biti pokrenuta prije korištenja ove funkcije."
+    "message": "myWebVault desktop aplikacija mora biti pokrenuta prije korištenja ove funkcije."
   },
   "errorEnableBiometricTitle": {
     "message": "Nije moguće omogućiti biometriju"
@@ -3332,7 +3332,7 @@
     "message": "Biometrija nije omogućena"
   },
   "biometricsNotEnabledDesc": {
-    "message": "Biometrija preglednika zahtijeva prethodno omogućenu biometriju u Bitwarden desktop aplikaciji."
+    "message": "Biometrija preglednika zahtijeva prethodno omogućenu biometriju u myWebVault desktop aplikaciji."
   },
   "biometricsNotSupportedTitle": {
     "message": "Biometrija nije podržana"
@@ -3356,13 +3356,13 @@
     "message": "Biometrija neuspješna"
   },
   "biometricsFailedDesc": {
-    "message": "Biometrija se ne može dovršiti. Pokušaj glavnom lozinkom ili se odjavi i ponovno prijavi. Ako se ovo nastavi, obrati se Bitwarden podršci."
+    "message": "Biometrija se ne može dovršiti. Pokušaj glavnom lozinkom ili se odjavi i ponovno prijavi. Ako se ovo nastavi, obrati se myWebVault podršci."
   },
   "nativeMessagingPermissionErrorTitle": {
     "message": "Permission not provided"
   },
   "nativeMessagingPermissionErrorDesc": {
-    "message": "Without permission to communicate with the Bitwarden Desktop Application we cannot provide biometrics in the browser extension. Please try again."
+    "message": "Without permission to communicate with the myWebVault Desktop Application we cannot provide biometrics in the browser extension. Please try again."
   },
   "nativeMessagingPermissionSidebarTitle": {
     "message": "Permission request error"
@@ -3399,7 +3399,7 @@
     "message": "Izuzete domene"
   },
   "excludedDomainsDesc": {
-    "message": "Bitwarden neće pitati treba li spremiti prijavne podatke za ove domene. Za primjenu promjena, potrebno je osvježiti stranicu."
+    "message": "myWebVault neće pitati treba li spremiti prijavne podatke za ove domene. Za primjenu promjena, potrebno je osvježiti stranicu."
   },
   "blockedDomainsDesc": {
     "message": "Auto-ispuna i druge vezane značajke neće biti ponuđene za ova web mjesta. Potrebno je osvježiti stranicu zaprimjenu postavki."
@@ -3531,24 +3531,24 @@
     "message": "Ilustracija liste rizičnih prijava."
   },
   "welcomeDialogGraphicAlt": {
-    "message": "Ilustracija izgleda stranice Bitwarden trezora."
+    "message": "Ilustracija izgleda stranice myWebVault trezora."
   },
   "generatePasswordSlideDesc": {
-    "message": "Brzo generiraj jake, jedinstvene lozinke koristeći Bitwarden dijalog auto-ispune direktno na stranici.",
+    "message": "Brzo generiraj jake, jedinstvene lozinke koristeći myWebVault dijalog auto-ispune direktno na stranici.",
     "description": "Description of the generate password slide on the at-risk password page carousel"
   },
   "generatePasswordSlideImgAltPeriod": {
-    "message": "Ilustracija Bitwarden dijaloga auto-ispune s prikazom generirane lozinke."
+    "message": "Ilustracija myWebVault dijaloga auto-ispune s prikazom generirane lozinke."
   },
   "updateInBitwarden": {
-    "message": "Ažuriraj u Bitwardenu"
+    "message": "Ažuriraj u myWebVaultu"
   },
   "updateInBitwardenSlideDesc": {
-    "message": "Bitwarden će te pitati treba li ažurirati lozinku u upravitelju lozinki.",
+    "message": "myWebVault će te pitati treba li ažurirati lozinku u upravitelju lozinki.",
     "description": "Description of the update in Bitwarden slide on the at-risk password page carousel"
   },
   "updateInBitwardenSlideImgAltPeriod": {
-    "message": "Ilustracija Bitwarden upita za ažuriranje prijave."
+    "message": "Ilustracija myWebVault upita za ažuriranje prijave."
   },
   "turnOnAutofill": {
     "message": "Uključi auto-ispunu"
@@ -4063,10 +4063,10 @@
     "message": "Greška kod dohvata podataka za auto-ispunu"
   },
   "couldNotDecryptVaultItem": {
-    "message": "Bitwarden could not decrypt the vault item listed below. Contact Bitwarden Customer Support and provide the item ID below to see if it can be recovered."
+    "message": "myWebVault could not decrypt the vault item listed below. Contact myWebVault Customer Support and provide the item ID below to see if it can be recovered."
   },
   "couldNotDecryptVaultItems": {
-    "message": "Bitwarden could not decrypt the vault items listed below. Contact Bitwarden Customer Support and provide the item IDs below to see if they can be recovered."
+    "message": "myWebVault could not decrypt the vault items listed below. Contact myWebVault Customer Support and provide the item IDs below to see if they can be recovered."
   },
   "itemId": {
     "message": "Item ID",
@@ -4176,11 +4176,11 @@
     }
   },
   "forwarderGeneratedBy": {
-    "message": "Generirao Bitwarden.",
+    "message": "Generirao myWebVault.",
     "description": "Displayed with the address on the forwarding service's configuration screen."
   },
   "forwarderGeneratedByWithWebsite": {
-    "message": "Web: $WEBSITE$. Generirao Bitwarden.",
+    "message": "Web: $WEBSITE$. Generirao myWebVault.",
     "description": "Displayed with the address on the forwarding service's configuration screen.",
     "placeholders": {
       "WEBSITE": {
@@ -4378,7 +4378,7 @@
     "message": "Obavijest je poslana na tvoj uređaj."
   },
   "notificationSentDevicePart1": {
-    "message": "Otključaj Bitwarden na svojem uređaju ili na"
+    "message": "Otključaj myWebVault na svojem uređaju ili na"
   },
   "notificationSentDeviceAnchor": {
     "message": "web trezoru"
@@ -4878,15 +4878,15 @@
     "message": "Preskoči na sadržaj"
   },
   "bitwardenOverlayButton": {
-    "message": "Tipka izbornika Bitwarden auto-ispune",
+    "message": "Tipka izbornika myWebVault auto-ispune",
     "description": "Page title for the iframe containing the overlay button"
   },
   "toggleBitwardenVaultOverlay": {
-    "message": "U/isključivanje izbornika Bitwarden auto-ispune",
+    "message": "U/isključivanje izbornika myWebVault auto-ispune",
     "description": "Screen reader and tool tip label for the overlay button"
   },
   "bitwardenVault": {
-    "message": "Izbornik Bitwarden auto-ispune",
+    "message": "Izbornik myWebVault auto-ispune",
     "description": "Page title in overlay"
   },
   "unlockYourAccountToViewMatchingLogins": {
@@ -4958,7 +4958,7 @@
     "description": "Screen reader text (aria-label) for new identity button within inline menu"
   },
   "bitwardenOverlayMenuAvailable": {
-    "message": "Dostupan je Bitwarden izbornik auto-ispune. Pritisni tipku sa strelicom prema dolje za odabir.",
+    "message": "Dostupan je myWebVault izbornik auto-ispune. Pritisni tipku sa strelicom prema dolje za odabir.",
     "description": "Screen reader text for announcing when the overlay opens on the page"
   },
   "turnOn": {
@@ -5377,7 +5377,7 @@
     "description": "Followed by a literal filename (my_passwords.json) rendered as code."
   },
   "importGnomeInstructionsFileHere": {
-    "message": "file here to Bitwarden.",
+    "message": "file here to myWebVault.",
     "description": "Follows the my_passwords.json filename."
   },
   "importPasswordagentInstructions": {
@@ -5849,7 +5849,7 @@
     "message": "Aktivni račun"
   },
   "bitwardenAccount": {
-    "message": "Bitwarden račun"
+    "message": "myWebVault račun"
   },
   "availableAccounts": {
     "message": "Dostupni računi"
@@ -5895,7 +5895,7 @@
     "description": "Label indicating the most common import formats"
   },
   "uriMatchDefaultStrategyHint": {
-    "message": "Otkrivanje podudaranja URI-ja je način na koji Bitwarden identificira prijedloge za auto-ispunu.",
+    "message": "Otkrivanje podudaranja URI-ja je način na koji myWebVault identificira prijedloge za auto-ispunu.",
     "description": "Explains to the user that URI match detection determines how Bitwarden suggests autofill options, and clarifies that this default strategy applies when no specific match detection is set for a login item."
   },
   "regExAdvancedOptionWarning": {
@@ -5939,15 +5939,15 @@
     "description": "Body content for dialog which asks if the user wants to proceed to the browser's keyboard shortcut settings page"
   },
   "overrideDefaultBrowserAutofillTitle": {
-    "message": "Postavi Bitwarden kao zadani upravitelj lozinki?",
+    "message": "Postavi myWebVault kao zadani upravitelj lozinki?",
     "description": "Dialog title facilitating the ability to override a chrome browser's default autofill behavior"
   },
   "overrideDefaultBrowserAutofillDescription": {
-    "message": "Ostavljanje ove postavke isključenom može uzrokovati sukob između prijedloga za auto-ispunu Bitwardena i tvojeg preglednika.",
+    "message": "Ostavljanje ove postavke isključenom može uzrokovati sukob između prijedloga za auto-ispunu myWebVaulta i tvojeg preglednika.",
     "description": "Dialog message facilitating the ability to override a chrome browser's default autofill behavior"
   },
   "overrideDefaultBrowserAutoFillSettings": {
-    "message": "Postavi Bitwarden kao zadani upravitelj lozinki",
+    "message": "Postavi myWebVault kao zadani upravitelj lozinki",
     "description": "Label for the setting that allows overriding the default browser autofill settings"
   },
   "defaultPasswordManagerCalloutTitle": {
@@ -5955,7 +5955,7 @@
     "description": "Title for the callout that prompts users to set Bitwarden as their default password manager"
   },
   "defaultPasswordManagerCalloutDesc": {
-    "message": "You'll be asked to grant a $BROWSER$ browser permission to make Bitwarden your default password manager.",
+    "message": "You'll be asked to grant a $BROWSER$ browser permission to make myWebVault your default password manager.",
     "description": "Description for the callout that prompts users to set Bitwarden as their default password manager",
     "placeholders": {
       "browser": {
@@ -5965,11 +5965,11 @@
     }
   },
   "privacyPermissionAdditionNotGrantedTitle": {
-    "message": "Nije moguće postaviti Bitwarden kao zadani upravitelj lozinki",
+    "message": "Nije moguće postaviti myWebVault kao zadani upravitelj lozinki",
     "description": "Title for the dialog that appears when the user has not granted the extension permission to set privacy settings"
   },
   "privacyPermissionAdditionNotGrantedDescription": {
-    "message": "Za postavljanje Bitwardena kao zadanog upravitelja lozinki moraš pregledniku dati dopuštenje privatnosti.",
+    "message": "Za postavljanje myWebVaulta kao zadanog upravitelja lozinki moraš pregledniku dati dopuštenje privatnosti.",
     "description": "Description for the dialog that appears when the user has not granted the extension permission to set privacy settings"
   },
   "makeDefault": {
@@ -5977,10 +5977,10 @@
     "description": "Button text for the setting that allows overriding the default browser autofill settings"
   },
   "defaultPasswordManagerPromptTitle": {
-    "message": "Make Bitwarden your browser's default password manager"
+    "message": "Make myWebVault your browser's default password manager"
   },
   "defaultPasswordManagerPromptTitleV2": {
-    "message": "Make Bitwarden your default password manager",
+    "message": "Make myWebVault your default password manager",
     "description": "Label for the setting to make Bitwarden the default password manager"
   },
   "defaultPasswordManagerSettingHintV2": {
@@ -5992,13 +5992,13 @@
     "description": "Link text to browser autofill settings in the default password manager setting hint."
   },
   "defaultPasswordManagerPromptStep2AfterAllow": {
-    "message": "from the browser prompt to give Bitwarden permission to change your settings."
+    "message": "from the browser prompt to give myWebVault permission to change your settings."
   },
   "defaultPasswordManagerPromptStep3": {
     "message": "We'll turn off your browser's built-in password manager so you can enjoy a secure login experience."
   },
   "defaultPasswordManagerSuccessToast": {
-    "message": "Made Bitwarden your default browser password manager"
+    "message": "Made myWebVault your default browser password manager"
   },
   "allow": {
     "message": "Allow",
@@ -6406,16 +6406,16 @@
     "message": "Preuzmi privitak"
   },
   "downloadBitwarden": {
-    "message": "Preuzmi Bitwarden"
+    "message": "Preuzmi myWebVault"
   },
   "downloadBitwardenOnAllDevices": {
-    "message": "Preuzmi Bitwarden na svim uređajima"
+    "message": "Preuzmi myWebVault na svim uređajima"
   },
   "getTheMobileApp": {
     "message": "Nabavi mobilnu aplikaciju"
   },
   "getTheMobileAppDesc": {
-    "message": "Pristupi svojim lozinkama bilo gdje s Bitwarden mobilnom aplikacijom."
+    "message": "Pristupi svojim lozinkama bilo gdje s myWebVault mobilnom aplikacijom."
   },
   "getTheDesktopApp": {
     "message": "Nabavi aplikaciju za stolna računala"
@@ -6968,10 +6968,10 @@
     "message": "Biometrijsko otključavanje nije dostupno zbog pogrešno konfiguriranih sistemskih datoteka."
   },
   "biometricsStatusHelptextDesktopDisconnected": {
-    "message": "Biometrijsko otključavanje nije dostupno jer je Bitwarden dekstop aplikacija zatvorena."
+    "message": "Biometrijsko otključavanje nije dostupno jer je myWebVault dekstop aplikacija zatvorena."
   },
   "biometricsStatusHelptextNotEnabledInDesktop": {
-    "message": "Biometrijsko otključavanje nije dostupno jer nije omogućeno za $EMAIL$ u Bitwarden desktop aplikaciji.",
+    "message": "Biometrijsko otključavanje nije dostupno jer nije omogućeno za $EMAIL$ u myWebVault desktop aplikaciji.",
     "placeholders": {
       "email": {
         "content": "$1",
@@ -7003,7 +7003,7 @@
     "description": "Notification message for when a password has been regenerated"
   },
   "saveToBitwarden": {
-    "message": "Spremi u Bitwarden",
+    "message": "Spremi u myWebVault",
     "description": "Confirmation message for saving a login to Bitwarden"
   },
   "spaceCharacterDescriptor": {
@@ -7256,13 +7256,13 @@
     "message": "Use folders to organize vault items. They're just for you — no one else will see or use them."
   },
   "introCarouselLabel": {
-    "message": "Dobrodošli u Bitwarden"
+    "message": "Dobrodošli u myWebVault"
   },
   "securityPrioritized": {
     "message": "Sigurnost je imperativ"
   },
   "securityPrioritizedBody": {
-    "message": "Spremi prijave, kartice i identitete u svoj sigurni trezor. Bitwarden koristi end-to-end enkripciju bez znanja kako bi zaštitio ono što ti je važno."
+    "message": "Spremi prijave, kartice i identitete u svoj sigurni trezor. myWebVault koristi end-to-end enkripciju bez znanja kako bi zaštitio ono što ti je važno."
   },
   "quickLogin": {
     "message": "Brza i jednostavna prijava"
@@ -7280,7 +7280,7 @@
     "message": "Tvoji podaci kada god i gdje god su ti potrebni"
   },
   "secureDevicesBody": {
-    "message": "Spremi neograničen broj lozinki na neograničenom broju uređaja s Bitwarden mobilnom aplikacijom, proširenjem za preglednik i aplikacijom za stolna računala."
+    "message": "Spremi neograničen broj lozinki na neograničenom broju uređaja s myWebVault mobilnom aplikacijom, proširenjem za preglednik i aplikacijom za stolna računala."
   },
   "nudgeBadgeAria": {
     "message": "1 obavijest"
@@ -7289,7 +7289,7 @@
     "message": "Uvezi postojeće lozinke"
   },
   "emptyVaultNudgeBody": {
-    "message": "Koristi uvoz za brzi prijenos prijava u Bitwarden bez ručnog dodavanja."
+    "message": "Koristi uvoz za brzi prijenos prijava u myWebVault bez ručnog dodavanja."
   },
   "emptyVaultNudgeButton": {
     "message": "Uvezi odmah"
@@ -7408,7 +7408,7 @@
     "message": "O ovoj postavci"
   },
   "permitCipherDetailsDescription": {
-    "message": "Bitwarden će koristiti spremljene URI-je za prijavu kako bi identificirao ikonu ili URL za promjenu lozinke koji treba koristiti za poboljšanje tvojeg iskustva. Nikakvi podaci se ne prikupljaju, niti spremaju kada koristiš ovu uslugu."
+    "message": "myWebVault će koristiti spremljene URI-je za prijavu kako bi identificirao ikonu ili URL za promjenu lozinke koji treba koristiti za poboljšanje tvojeg iskustva. Nikakvi podaci se ne prikupljaju, niti spremaju kada koristiš ovu uslugu."
   },
   "showQuickCopyActionsDetailsDescription": {
     "message": "Add 3 quick copy buttons next to items to copy your username, password, or verification code to the clipboard."
@@ -7417,7 +7417,7 @@
     "message": "Nemaš dozvolu za pregled ove stranice. Pokušaj se prijaviti s drugim računom."
   },
   "wasmNotSupported": {
-    "message": "WebAssembly ili nije podržan ili nije omogućen u tvom pregledniku. WebAssembly je potreban za korištenje Bitwarden aplikacije.",
+    "message": "WebAssembly ili nije podržan ili nije omogućen u tvom pregledniku. WebAssembly je potreban za korištenje myWebVault aplikacije.",
     "description": "'WebAssembly' is a technical term and should not be translated."
   },
   "showMore": {
@@ -7505,7 +7505,7 @@
     "message": "Greška: ne mogu dešifrirati"
   },
   "removeMasterPasswordForOrgUserKeyConnector": {
-    "message": "Tvoja organizacija više ne koristi glavne lozinke za prijavu u Bitwarden. Za nastavak, potvrdi orgnaizaciju i domenu."
+    "message": "Tvoja organizacija više ne koristi glavne lozinke za prijavu u myWebVault. Za nastavak, potvrdi orgnaizaciju i domenu."
   },
   "continueWithLogIn": {
     "message": "Nastavi s prijavom"
@@ -7591,7 +7591,7 @@
     "message": "Postavi metodu otključavanja za promjenu radnje nakon isteka vremenskog ograničenja trezora"
   },
   "sessionTimeoutSuppressedByConnectedDevice": {
-    "message": "Upravlja se putem Bitwarden aplikacije na računalu. Za uređivanje, otvori Bitwarden aplikaciju."
+    "message": "Upravlja se putem myWebVault aplikacije na računalu. Za uređivanje, otvori myWebVault aplikaciju."
   },
   "percentageCompleted": {
     "message": "dovršeno $PERCENT$ %",
@@ -7693,7 +7693,7 @@
     "message": "korisnik@bitwarden.com, korisnik@primjer.hr"
   },
   "downloadBitwardenApps": {
-    "message": "Preuzmi Bitwarden aplikaciju"
+    "message": "Preuzmi myWebVault aplikaciju"
   },
   "emailProtected": {
     "message": "Zaštićeno e-poštom"
@@ -7712,13 +7712,13 @@
     "message": "Share unlock with Desktop"
   },
   "sharedUnlockWithDesktopDescription": {
-    "message": "When enabled, unlock state will be shared with the Bitwarden Desktop app."
+    "message": "When enabled, unlock state will be shared with the myWebVault Desktop app."
   },
   "sharedUnlockWithWeb": {
     "message": "Share unlock with web vault"
   },
   "sharedUnlockWithWebDescription": {
-    "message": "When enabled, unlock state will be shared with Bitwarden web vaults."
+    "message": "When enabled, unlock state will be shared with myWebVault web vaults."
   },
   "sharedUnlockUnavailableUntrustedDevice": {
     "message": "Shared unlock is not available because you chose not to remember this device. To enable this setting, try logging in again."
@@ -7727,13 +7727,13 @@
     "message": "New permission needed"
   },
   "sharedUnlockDesktopPermissionDesc": {
-    "message": "To use shared unlock, Bitwarden needs permission to communicate with the desktop app. When you continue, your browser will ask you to approve it."
+    "message": "To use shared unlock, myWebVault needs permission to communicate with the desktop app. When you continue, your browser will ask you to approve it."
   },
   "sharedUnlockDesktopPermissionWarning": {
-    "message": "Bitwarden will lock and reload. After you approve, the extension reloads and will lock your vault."
+    "message": "myWebVault will lock and reload. After you approve, the extension reloads and will lock your vault."
   },
   "biometricPermissionDesc": {
-    "message": "To use biometric unlock, Bitwarden needs permission to communicate with the desktop app. When you continue, your browser will ask you to approve it."
+    "message": "To use biometric unlock, myWebVault needs permission to communicate with the desktop app. When you continue, your browser will ask you to approve it."
   },
   "enterMonth": {
     "message": "Unesi mjesec."

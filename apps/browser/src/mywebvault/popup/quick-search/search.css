@@ -1,0 +1,242 @@
+/* Quick search overlay. Standalone page (no Tailwind/Angular) so it opens instantly. */
+
+:root {
+  --mwv-bg: #ffffff;
+  --mwv-text: #1e1650;
+  --mwv-muted: #6b6690;
+  --mwv-border: #e3dff5;
+  --mwv-selected: #edeafc;
+  --mwv-accent: #4c3bcf;
+  --mwv-tag-bg: #f6f4fb;
+  --mwv-logo-left: #3b2a9e;
+  --mwv-logo-right: #8b7cf6;
+  --mwv-backdrop: rgba(30, 22, 80, 0.28);
+  --mwv-shadow: 0 24px 64px rgba(30, 22, 80, 0.35);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --mwv-bg: #1c1840;
+    --mwv-text: #f6f4fb;
+    --mwv-muted: #aaa3d6;
+    --mwv-border: #332c6b;
+    --mwv-selected: #2c207a;
+    --mwv-accent: #c4bbff;
+    --mwv-tag-bg: #2a2458;
+    --mwv-logo-left: #ffffff;
+    --mwv-logo-right: #c4bbff;
+    --mwv-backdrop: rgba(0, 0, 0, 0.45);
+    --mwv-shadow: 0 24px 64px rgba(0, 0, 0, 0.6);
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background: transparent;
+  font:
+    15px/1.4 Sora,
+    Inter,
+    "Segoe UI",
+    system-ui,
+    -apple-system,
+    sans-serif;
+  color: var(--mwv-text);
+  overflow: hidden;
+}
+
+.backdrop {
+  position: fixed;
+  inset: 0;
+  background: var(--mwv-backdrop);
+  animation: fade-in 120ms ease-out;
+}
+
+.panel {
+  position: fixed;
+  top: 18vh;
+  left: 50%;
+  width: min(640px, calc(100vw - 32px));
+  max-height: 64vh;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  background: var(--mwv-bg);
+  border: 1px solid var(--mwv-border);
+  border-radius: 14px;
+  box-shadow: var(--mwv-shadow);
+  overflow: hidden;
+  animation: pop-in 140ms ease-out;
+}
+
+/* Opened as its own small window (pages where the overlay can't be shown). */
+body.window-mode .backdrop {
+  display: none;
+}
+body.window-mode .panel {
+  inset: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-height: none;
+  height: 100%;
+  transform: none;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  animation: none;
+}
+
+.search-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 18px;
+  border-bottom: 1px solid var(--mwv-border);
+}
+
+.logo {
+  width: 26px;
+  height: 15px;
+  flex: none;
+}
+.logo-left {
+  fill: var(--mwv-logo-left);
+}
+.logo-right {
+  fill: var(--mwv-logo-right);
+}
+
+#quick-search_input {
+  flex: 1;
+  min-width: 0;
+  border: 0;
+  outline: none;
+  background: transparent;
+  color: var(--mwv-text);
+  font: inherit;
+  font-size: 20px;
+}
+#quick-search_input::placeholder {
+  color: var(--mwv-muted);
+}
+
+.results {
+  list-style: none;
+  margin: 0;
+  padding: 6px;
+  overflow-y: auto;
+}
+.results:empty {
+  display: none;
+}
+
+.result {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 12px;
+  border-radius: 9px;
+  cursor: pointer;
+}
+.result[aria-selected="true"] {
+  background: var(--mwv-selected);
+}
+
+.favicon {
+  width: 20px;
+  height: 20px;
+  flex: none;
+  border-radius: 4px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  flex: 1;
+}
+.title,
+.meta {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.title {
+  font-weight: 600;
+}
+.meta {
+  font-size: 12.5px;
+  color: var(--mwv-muted);
+}
+
+.tags {
+  display: flex;
+  gap: 4px;
+  flex: none;
+}
+.tag {
+  font-size: 12px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: var(--mwv-tag-bg);
+  color: var(--mwv-accent);
+}
+
+.status {
+  padding: 18px;
+  text-align: center;
+  color: var(--mwv-muted);
+}
+.status:empty {
+  display: none;
+}
+.status button {
+  margin-top: 12px;
+  padding: 8px 16px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--mwv-accent);
+  color: var(--mwv-bg);
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.footer {
+  padding: 8px 18px;
+  border-top: 1px solid var(--mwv-border);
+  font-size: 12px;
+  color: var(--mwv-muted);
+}
+
+kbd {
+  font: inherit;
+  padding: 0 5px;
+  border: 1px solid var(--mwv-border);
+  border-radius: 4px;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+@keyframes pop-in {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) scale(0.97);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .backdrop,
+  .panel {
+    animation: none;
+  }
+}

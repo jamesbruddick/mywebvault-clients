@@ -65,6 +65,7 @@ import {
   NativeMessagingPermissionDialogComponent,
   NativeMessagingPermissionDialogType,
 } from "../../../key-management/shared-unlock/popup/native-messaging-permission-dialog.component";
+import { BITWARDEN_ACCOUNT_FEATURES } from "../../../mywebvault/features";
 import { BrowserApi } from "../../../platform/browser/browser-api";
 import BrowserPopupUtils from "../../../platform/browser/browser-popup-utils";
 import { PopOutComponent } from "../../../platform/popup/components/pop-out.component";
@@ -104,6 +105,8 @@ import { AuthExtensionRoute } from "../constants/auth-extension-route.constant";
   ],
 })
 export class AccountSecurityComponent implements OnInit, OnDestroy {
+  protected readonly bitwardenAccountFeatures = BITWARDEN_ACCOUNT_FEATURES;
+
   showMasterPasswordOnClientRestartOption = true;
   showChangeMasterPass = true;
   pinEnabled$: Observable<boolean> = of(true);

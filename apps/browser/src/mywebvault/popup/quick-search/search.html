@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="color-scheme" content="light dark" />
+    <title>myWebVault search</title>
+  </head>
+  <body>
+    <div class="backdrop" data-testid="quick-search-backdrop"></div>
+    <div
+      class="panel"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="quick-search_input"
+      data-testid="quick-search-panel"
+    >
+      <div class="search-row">
+        <svg class="logo" viewBox="40 110 320 180" aria-hidden="true">
+          <polygon
+            class="logo-left"
+            points="40,110 102,110 135.5,203.5 169,110 231,110 166.5,290 104.5,290"
+          />
+          <polygon
+            class="logo-right"
+            points="360,110 298,110 264.5,203.5 231,110 169,110 233.5,290 295.5,290"
+          />
+        </svg>
+        <input
+          id="quick-search_input"
+          type="text"
+          autocomplete="off"
+          spellcheck="false"
+          role="combobox"
+          aria-expanded="true"
+          aria-controls="quick-search_results"
+          aria-autocomplete="list"
+        />
+      </div>
+      <ul id="quick-search_results" class="results" role="listbox"></ul>
+      <div class="status" id="quick-search_status" role="status"></div>
+      <div class="footer" id="quick-search_footer"></div>
+    </div>
+  </body>
+</html>

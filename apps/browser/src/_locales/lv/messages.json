@@ -1,20 +1,20 @@
 {
   "appName": {
-    "message": "Bitwarden"
+    "message": "myWebVault"
   },
   "appLogoLabel": {
-    "message": "Bitwarden logotips"
+    "message": "myWebVault logotips"
   },
   "extName": {
-    "message": "Bitwarden paroļu pārvaldnieks",
+    "message": "myWebVault – Bookmark Manager",
     "description": "Extension name, MUST be less than 40 characters (Safari restriction)"
   },
   "extNameBeta": {
-    "message": "Bitwarden Password Manager Beta",
+    "message": "myWebVault – Bookmark Manager Beta",
     "description": "Extension name for the beta channel, MUST be less than 40 characters (Safari restriction)"
   },
   "extDesc": {
-    "message": "Bitwarden viegli aizsargā visas paroles, paroļu atslēgas un jutīgu informāciju mājās, darbā vai ceļā",
+    "message": "Your bookmarks, encrypted and synced everywhere. Built on Bitwarden's open source code.",
     "description": "Extension description, MUST be less than 112 characters (Safari restriction)"
   },
   "loginOrCreateNewAccount": {
@@ -27,7 +27,7 @@
     "message": "Izveidot kontu"
   },
   "newToBitwarden": {
-    "message": "Bitwarden iepriekš nav izmantots?"
+    "message": "myWebVault iepriekš nav izmantots?"
   },
   "logInWithPasskey": {
     "message": "Pieteikties ar piekļuves atslēgu"
@@ -324,22 +324,22 @@
     "message": "Pāriet uz tīmekļa lietotni?"
   },
   "continueToWebAppDesc": {
-    "message": "Vairāk sava Bitwarden konta iespēju var izpētīt tīmekļa vietnē."
+    "message": "Vairāk sava myWebVault konta iespēju var izpētīt tīmekļa vietnē."
   },
   "continueToHelpCenter": {
     "message": "Pāriet uz palīdzības centru?"
   },
   "continueToHelpCenterDesc": {
-    "message": "Vairāk par to, kā izmantot Bitwarden, var uzzināt palīdzības centrā."
+    "message": "Vairāk par to, kā izmantot myWebVault, var uzzināt palīdzības centrā."
   },
   "continueToBrowserExtensionStore": {
     "message": "Turpināt pārlūka paplašinājumu veikalā?"
   },
   "continueToBrowserExtensionStoreDesc": {
-    "message": "Var palīdzēt citiem noskaidrot, vai Bitwarden viņiem der. To var izdarīt pārlūka lietotņu veikalā, atstājot vērtējumu."
+    "message": "Var palīdzēt citiem noskaidrot, vai myWebVault viņiem der. To var izdarīt pārlūka lietotņu veikalā, atstājot vērtējumu."
   },
   "changeMasterPasswordOnWebConfirmation": {
-    "message": "Savu galveno paroli var mainīt Bitwarden tīmekļa lietotnē."
+    "message": "Savu galveno paroli var mainīt myWebVault tīmekļa lietotnē."
   },
   "fingerprintPhrase": {
     "message": "Atpazīšanas vārdkopa",
@@ -356,31 +356,31 @@
     "message": "Atteikties"
   },
   "aboutBitwarden": {
-    "message": "Par Bitwarden"
+    "message": "Par myWebVault"
   },
   "about": {
     "message": "Par"
   },
   "moreFromBitwarden": {
-    "message": "Vairāk no Bitwarden"
+    "message": "Vairāk no myWebVault"
   },
   "continueToBitwardenDotCom": {
     "message": "Pāriet uz bitwarden.com?"
   },
   "bitwardenForBusiness": {
-    "message": "Bitwarden uzņēmējdarbībai"
+    "message": "myWebVault uzņēmējdarbībai"
   },
   "bitwardenAuthenticator": {
-    "message": "Bitwarden autentificētājs"
+    "message": "myWebVault autentificētājs"
   },
   "continueToAuthenticatorPageDesc": {
-    "message": "Bitwarden autentificētājs ļauj glabāt autentificētāja atslēgas un izveidot TOTP kodus divpakāpju apliecināšanas plūsmām. Vairāk var uzzināt tīmekļvietnē bitwarden.com"
+    "message": "myWebVault autentificētājs ļauj glabāt autentificētāja atslēgas un izveidot TOTP kodus divpakāpju apliecināšanas plūsmām. Vairāk var uzzināt tīmekļvietnē bitwarden.com"
   },
   "bitwardenSecretsManager": {
-    "message": "Bitwarden noslēpumu pārvaldnieks"
+    "message": "myWebVault noslēpumu pārvaldnieks"
   },
   "continueToSecretsManagerPageDesc": {
-    "message": "Droša izstrādātāju noslēpumu uzglabāšana, pārvaldīšana un kopīgošana ar Bitwarden noslēpumu pārvaldnieku. Vairāk var uzzināt tīmekļvietnē bitwarden.com."
+    "message": "Droša izstrādātāju noslēpumu uzglabāšana, pārvaldīšana un kopīgošana ar myWebVault noslēpumu pārvaldnieku. Vairāk var uzzināt tīmekļvietnē bitwarden.com."
   },
   "passwordlessDotDev": {
     "message": "Passwordless.dev"
@@ -389,10 +389,10 @@
     "message": "Plūdenu un drošu pieteikšanās pieredžu, kas ir brīvas no ierastajām parolēm, izveidošana ar Passwordless.dev. Vairāk var uzzināt tīmekļvietnē bitwarden.com."
   },
   "freeBitwardenFamilies": {
-    "message": "Bezmaksas Bitwarden ģimenēm"
+    "message": "Bezmaksas myWebVault ģimenēm"
   },
   "freeBitwardenFamiliesPageDesc": {
-    "message": "Tev ir tiesības uz bezmaksas Bitwarden ģimenēm. Šo piedāvājumu šodien var pieņemt tīmekļa lietotnē."
+    "message": "Tev ir tiesības uz bezmaksas myWebVault ģimenēm. Šo piedāvājumu šodien var pieņemt tīmekļa lietotnē."
   },
   "version": {
     "message": "Laidiens"
@@ -458,13 +458,13 @@
     "message": "Palīdzība un atsauksmes"
   },
   "helpCenter": {
-    "message": "Bitwarden palīdzības centrs"
+    "message": "myWebVault palīdzības centrs"
   },
   "communityForums": {
-    "message": "Izpētīt Bitwarden kopienas forumus"
+    "message": "Izpētīt myWebVault kopienas forumus"
   },
   "contactSupport": {
-    "message": "Sazināties ar Bitwarden atbalstu"
+    "message": "Sazināties ar myWebVault atbalstu"
   },
   "sync": {
     "message": "Sinhronizēt"
@@ -486,7 +486,7 @@
     "message": "Automātiski veido spēcīgas, neatkārtojamas paroles visiem pieteikšanās vienumiem."
   },
   "bitWebVaultApp": {
-    "message": "Bitwarden tīmekļa lietotne"
+    "message": "myWebVault tīmekļa lietotne"
   },
   "select": {
     "message": "Izvēlēties"
@@ -846,7 +846,7 @@
     "message": "Lejupielādēt un tad kopīgot nepilnību noteikšānas atskaiti ar"
   },
   "bitwardenSupport": {
-    "message": "Bitwarden atbalsts",
+    "message": "myWebVault atbalsts",
     "description": "Link text following the troubleshooting description sentence. 'Bitwarden' should not be translated."
   },
   "download": {
@@ -1063,10 +1063,10 @@
     "message": "Padarīt divpakāpju apliecināšanu plūdenu"
   },
   "totpHelper": {
-    "message": "Bitwarden var glabāt un aizpildīt divpakāpju apliecinājuma kodus. Atslēga jāievieto starpliktuvē un jāielīmē šajā laukā."
+    "message": "myWebVault var glabāt un aizpildīt divpakāpju apliecinājuma kodus. Atslēga jāievieto starpliktuvē un jāielīmē šajā laukā."
   },
   "totpHelperWithCapture": {
-    "message": "Bitwarden var glabāt un aizpildīt divpakāpju apliecinājuma kodus. Jāizvēlas kameras ikona, lai veiktu tīmekļvietnes autentificētāja kvadrātkoda ekrānuzņēmumu, vai jāievieto starpliktuvē atslēga un jāielīmē šajā laukā."
+    "message": "myWebVault var glabāt un aizpildīt divpakāpju apliecinājuma kodus. Jāizvēlas kameras ikona, lai veiktu tīmekļvietnes autentificētāja kvadrātkoda ekrānuzņēmumu, vai jāievieto starpliktuvē atslēga un jāielīmē šajā laukā."
   },
   "learnMoreAboutAuthenticators": {
     "message": "Uzzināt vairāk par autentificētājiem"
@@ -1156,7 +1156,7 @@
     "message": "Divpakāpju pieteikšanās padara kontu krietni drošāku, pieprasot apstiprināt pieteikšanos ar tādu citu ierīču vai pakalpojumu starpniecību kā drošības atslēga, autentificētāja lietotne, īsziņa, tālruņa zvans vai e-pasts. Divpakāpju pieteikšanos var iespējot bitwarden.com tīmekļa glabātavā. Vai tagad apmeklēt tīmekļvietni?"
   },
   "twoStepLoginConfirmationContent": {
-    "message": "Savu kontu var padarīt drošāku ar divpakāpju pieteikšanās uzstādīšanu Bitwarden tīmekļa lietotnē."
+    "message": "Savu kontu var padarīt drošāku ar divpakāpju pieteikšanās uzstādīšanu myWebVault tīmekļa lietotnē."
   },
   "twoStepLoginConfirmationTitle": {
     "message": "Pāriet uz tīmekļa lietotni?"
@@ -1312,7 +1312,7 @@
     "message": "Pārlēkt uz iestatījumu"
   },
   "notificationAddDesc": {
-    "message": "Vai Bitwarden atcerēties šo paroli?"
+    "message": "Vai myWebVault atcerēties šo paroli?"
   },
   "notificationAddSave": {
     "message": "Jā, saglabāt"
@@ -1348,11 +1348,11 @@
     }
   },
   "notificationLoginSaveConfirmation": {
-    "message": "saglabāts Bitwarden.",
+    "message": "saglabāts myWebVault.",
     "description": "Shown to user after item is saved."
   },
   "notificationLoginUpdatedConfirmation": {
-    "message": "atjaunināts Bitwarden.",
+    "message": "atjaunināts myWebVault.",
     "description": "Shown to user after item is updated."
   },
   "selectItemAriaLabel": {
@@ -1450,13 +1450,13 @@
     "message": "Vaicāt, vai saglabāt jaunas piekļuves atslēgas vai pieteikties ar glabātavā esošajām piekļuves atslēgām. Attiecas uz visiem kontiem, kuri ir pieteikušies."
   },
   "notificationChangeDesc": {
-    "message": "Vai atjaunināt šo paroli Bitwarden?"
+    "message": "Vai atjaunināt šo paroli myWebVault?"
   },
   "notificationChangeSave": {
     "message": "Jā, atjaunināt"
   },
   "notificationUnlockDesc": {
-    "message": "Jāatslēdz Bitwarden glabātava, lai pabeigtu automātiskās aizpildes pieprasījumu."
+    "message": "Jāatslēdz myWebVault glabātava, lai pabeigtu automātiskās aizpildes pieprasījumu."
   },
   "notificationUnlock": {
     "message": "Atslēgt"
@@ -1556,10 +1556,10 @@
     "message": "Šī parole tiks izmantota, lai izgūtu un ievietotu šo datni"
   },
   "accountRestrictedOptionDescription": {
-    "message": "Jāizmanto konta šifrēšanas atslēga, kas iegūta no lietotājvārda un galvenās paroles, lai šifrētu izguvi un atļautu ievietošanu tikai pašreizējā Bitwarden kontā."
+    "message": "Jāizmanto konta šifrēšanas atslēga, kas iegūta no lietotājvārda un galvenās paroles, lai šifrētu izguvi un atļautu ievietošanu tikai pašreizējā myWebVault kontā."
   },
   "passwordProtectedOptionDescription": {
-    "message": "Uzstādīt paroli, lai šifrētu izguvi un tad to ievietotu jebkurā Bitwarden kontā, izmantojot atšifrēšanas paroli."
+    "message": "Uzstādīt paroli, lai šifrētu izguvi un tad to ievietotu jebkurā myWebVault kontā, izmantojot atšifrēšanas paroli."
   },
   "exportTypeHeading": {
     "message": "Izgūšanas veids"
@@ -1588,7 +1588,7 @@
     "message": "Šī izguve šifrē datus ar konta šifrēšanas atslēgu. Ja tā jebkad tiks mainīta, izvadi vajadzētu veikt vēlreiz, jo vairs nebūs iespējams atšifrēt šo datni."
   },
   "encExportAccountWarningDesc": {
-    "message": "Katram Bitwarden kontam ir neatkārtojamas šifrēšanas atslēgas, tādēļ nav iespējams ievietot šifrētu izguvi citā kontā."
+    "message": "Katram myWebVault kontam ir neatkārtojamas šifrēšanas atslēgas, tādēļ nav iespējams ievietot šifrētu izguvi citā kontā."
   },
   "exportMasterPassword": {
     "message": "Ievadīt galveno paroli, lai izgūtu glabātavas saturu."
@@ -1615,7 +1615,7 @@
     "message": "Jauna kopīgota mape"
   },
   "bitwardenForBusinessPageDesc": {
-    "message": "Bitwarden uzņēmējdarbībai nodrošina iespēju kopīgot savas glabātavas vienumus ar citiem, kad tiek izmantota apvienība. Vairāk var uzzināt tīmekļvietnē bitwarden.com."
+    "message": "myWebVault uzņēmējdarbībai nodrošina iespēju kopīgot savas glabātavas vienumus ar citiem, kad tiek izmantota apvienība. Vairāk var uzzināt tīmekļvietnē bitwarden.com."
   },
   "moveToOrganization": {
     "message": "Pārvietot uz apvienību"
@@ -1796,7 +1796,7 @@
     "message": "Iegādāties Premium"
   },
   "premiumPurchaseAlertV2": {
-    "message": "Premium var iegādāties Bitwarden tīmekļa lietotnē sava konta iestatījumos."
+    "message": "Premium var iegādāties myWebVault tīmekļa lietotnē sava konta iestatījumos."
   },
   "premiumFeatures": {
     "message": "Uzlabo uz \"Premium\" un saņem:"
@@ -1988,7 +1988,7 @@
     "message": "Viegla automātiskās aizpildes ieteikumu atrašana"
   },
   "autofillSpotlightDesc": {
-    "message": "Jāizslēdz sava pārlūka automātiskās aizpildes iestatījumi, lai tie nebūtu pretrunā ar Bitwarden."
+    "message": "Jāizslēdz sava pārlūka automātiskās aizpildes iestatījumi, lai tie nebūtu pretrunā ar myWebVault."
   },
   "turnOffBrowserAutofill": {
     "message": "Izslēgt $BROWSER$ automātisko aizpildi",
@@ -2045,7 +2045,7 @@
     "message": "Rādīt automātiskās aizpildes ieteikumuis veidlapu laukos"
   },
   "howDoesBitwardenProtectFromPhishing": {
-    "message": "Kā Bitwarden aizsargā datus no pikšķerēšanas?"
+    "message": "Kā myWebVault aizsargā datus no pikšķerēšanas?"
   },
   "currentWebsite": {
     "message": "Pašreizējā tīmekļvietne"
@@ -3006,7 +3006,7 @@
     "message": "Vāja galvenā parole"
   },
   "weakMasterPasswordDesc": {
-    "message": "Jūsu izvēlētā galvenā parole ir vāja. Jums vajadzētu izmantot drošu galveno paroli (vai paroles vārdkopu), lai pienācīgi aizsargātu savu Bitwarden kontu. Vai tiešām vēlaties izmantot šo galveno paroli?"
+    "message": "Jūsu izvēlētā galvenā parole ir vāja. Jums vajadzētu izmantot drošu galveno paroli (vai paroles vārdkopu), lai pienācīgi aizsargātu savu myWebVault kontu. Vai tiešām vēlaties izmantot šo galveno paroli?"
   },
   "rotateAccountEncKey": {
     "message": "Also rotate my account's encryption key"
@@ -3018,7 +3018,7 @@
     "message": "Are you sure you want to rotate your account's encryption key?"
   },
   "updateEncryptionKeyWarning": {
-    "message": "Pēc šifrēšanas atslēgas atjaunināšanas ir nepieciešams atteikties un tad pieteikties visās Bitwarden lietotnēs, kas pašreiz tiek izmantotas (piemēram, tālruņa lietotnē vai pārlūku paplašinājumā). Ja tas netiks darīts (tā tiek lejupielādēta jaunā šifrēšanas atslēga), dati var tikt bojāti. Tiks veikts automātisks atteikšanās mēģinājums, tomēr tas var notikt ar aizkavi."
+    "message": "Pēc šifrēšanas atslēgas atjaunināšanas ir nepieciešams atteikties un tad pieteikties visās myWebVault lietotnēs, kas pašreiz tiek izmantotas (piemēram, tālruņa lietotnē vai pārlūku paplašinājumā). Ja tas netiks darīts (tā tiek lejupielādēta jaunā šifrēšanas atslēga), dati var tikt bojāti. Tiks veikts automātisks atteikšanās mēģinājums, tomēr tas var notikt ar aizkavi."
   },
   "updateEncryptionKeyAccountExportWarning": {
     "message": "Any account restricted exports you have saved will become invalid."
@@ -3046,10 +3046,10 @@
     "message": "Iestatīt PIN"
   },
   "setYourPinCode": {
-    "message": "Iestatīt PIN kodu Bitwarden atslēgšanai. PIN iestatījumi tiks atiestatīti pēc pilnīgas izrakstīšanās no lietotnes."
+    "message": "Iestatīt PIN kodu myWebVault atslēgšanai. PIN iestatījumi tiks atiestatīti pēc pilnīgas izrakstīšanās no lietotnes."
   },
   "setPinCode": {
-    "message": "Šo PIN var izmantot, lai atslēgtu Bitwarden. PIN tiks atiestatīts pēc pilnīgas atteikšanās lietotnē."
+    "message": "Šo PIN var izmantot, lai atslēgtu myWebVault. PIN tiks atiestatīts pēc pilnīgas atteikšanās lietotnē."
   },
   "pinRequired": {
     "message": "Ir nepieciešams PIN kods."
@@ -3070,7 +3070,7 @@
     "message": "Tiek gaidīts apstiprinājums no darbvirsmas"
   },
   "awaitDesktopDesc": {
-    "message": "Lūgums apstiprināt ar biometriju Bitwarden darbvirsmas lietotnē, lai iespējotu biometriju pārlūkā."
+    "message": "Lūgums apstiprināt ar biometriju myWebVault darbvirsmas lietotnē, lai iespējotu biometriju pārlūkā."
   },
   "lockWithMasterPassOnRestart": {
     "message": "Aizslēgt ar galveno paroli pēc pārlūka atsāknēšanas"
@@ -3194,7 +3194,7 @@
     }
   },
   "topLayerHijackWarning": {
-    "message": "Šī lapa traucē Bitwarden darbību. Bitwarden iekļautā izvēlne ir īslaicīgi atspējot kā drošības mērs."
+    "message": "Šī lapa traucē myWebVault darbību. myWebVault iekļautā izvēlne ir īslaicīgi atspējot kā drošības mērs."
   },
   "setMasterPassword": {
     "message": "Uzstādīt galveno paroli"
@@ -3251,7 +3251,7 @@
     "message": "Jaunā galvenā parole neatbilst nosacījumu prasībām."
   },
   "receiveMarketingEmails": {
-    "message": "Receive updates from Bitwarden in your inbox."
+    "message": "Receive updates from myWebVault in your inbox."
   },
   "unsubscribe": {
     "message": "Atteikt abonēšanu"
@@ -3296,13 +3296,13 @@
     "message": "Savienojums ar pārlūku nav iespējots"
   },
   "desktopIntegrationDisabledDesc": {
-    "message": "Savienojums ar pārlūku nav iespējots Bitwarden darbvirsmas lietotnē. Lūgums iespējot to darbvirsmas lietotnes iestatījumos."
+    "message": "Savienojums ar pārlūku nav iespējots myWebVault darbvirsmas lietotnē. Lūgums iespējot to darbvirsmas lietotnes iestatījumos."
   },
   "startDesktopTitle": {
-    "message": "Palaist Bitwarden darbvirsmas lietotni"
+    "message": "Palaist myWebVault darbvirsmas lietotni"
   },
   "startDesktopDesc": {
-    "message": "Bitwarden darbvirsmas lietotnei ir jābūt sāknētai, pirms šī iespēja var tikt izmantota."
+    "message": "myWebVault darbvirsmas lietotnei ir jābūt sāknētai, pirms šī iespēja var tikt izmantota."
   },
   "errorEnableBiometricTitle": {
     "message": "Nevar iespējot biometriju"
@@ -3356,13 +3356,13 @@
     "message": "Biometrija neizdevās"
   },
   "biometricsFailedDesc": {
-    "message": "Biometriju nevar pabeigt, jāapsver galvenās paroles izmantošana vai atteikšanās. Ja tas turpinās, lūgums sazināties ar Bitwarden atbalstu."
+    "message": "Biometriju nevar pabeigt, jāapsver galvenās paroles izmantošana vai atteikšanās. Ja tas turpinās, lūgums sazināties ar myWebVault atbalstu."
   },
   "nativeMessagingPermissionErrorTitle": {
     "message": "Permission not provided"
   },
   "nativeMessagingPermissionErrorDesc": {
-    "message": "Without permission to communicate with the Bitwarden Desktop Application we cannot provide biometrics in the browser extension. Please try again."
+    "message": "Without permission to communicate with the myWebVault Desktop Application we cannot provide biometrics in the browser extension. Please try again."
   },
   "nativeMessagingPermissionSidebarTitle": {
     "message": "Permission request error"
@@ -3399,7 +3399,7 @@
     "message": "Izņēmuma domēni"
   },
   "excludedDomainsDesc": {
-    "message": "Bitwarden nevaicās saglabāt pieteikšanās datus šiem domēniem. Ir jāpārlādē lapa, lai izmaiņas iedarbotos."
+    "message": "myWebVault nevaicās saglabāt pieteikšanās datus šiem domēniem. Ir jāpārlādē lapa, lai izmaiņas iedarbotos."
   },
   "blockedDomainsDesc": {
     "message": "Automātiskā aizpilde un citas saistītās iespējas šajās tīmekļvietnēs netiks piedāvātas. Ir jāatsvaidzina lapa, lai izmaiņas iedarbotos."
@@ -3531,24 +3531,24 @@
     "message": "Riskam pakļauto pieteikšanās vienumu saraksta attēlojums."
   },
   "welcomeDialogGraphicAlt": {
-    "message": "Illustration of the layout of the Bitwarden vault page."
+    "message": "Illustration of the layout of the myWebVault vault page."
   },
   "generatePasswordSlideDesc": {
     "message": "Riskam pakļauto vienumu vietnē ar automātiskās aizpildes izvēlni var ātri izveidot stipru, neatkārtojamu paroli.",
     "description": "Description of the generate password slide on the at-risk password page carousel"
   },
   "generatePasswordSlideImgAltPeriod": {
-    "message": "Bitwarden automātiskās izvēlnes attēlojums, kurā ir redzama izveidota parole."
+    "message": "myWebVault automātiskās izvēlnes attēlojums, kurā ir redzama izveidota parole."
   },
   "updateInBitwarden": {
-    "message": "Atjaunināt Bitwarden"
+    "message": "Atjaunināt myWebVault"
   },
   "updateInBitwardenSlideDesc": {
-    "message": "Bitwarden tad vaicās atjaunināt paroli paroļu pārvaldniekā.",
+    "message": "myWebVault tad vaicās atjaunināt paroli paroļu pārvaldniekā.",
     "description": "Description of the update in Bitwarden slide on the at-risk password page carousel"
   },
   "updateInBitwardenSlideImgAltPeriod": {
-    "message": "Bitwarden paziņojuma, kas aicina lietotāju atjaunināt pieteikšanās vienumu, attēlojums."
+    "message": "myWebVault paziņojuma, kas aicina lietotāju atjaunināt pieteikšanās vienumu, attēlojums."
   },
   "turnOnAutofill": {
     "message": "Ieslēgt automātisko aizpildi"
@@ -4063,10 +4063,10 @@
     "message": "Kļūda automātiskās aizpildes datu iegūšanā"
   },
   "couldNotDecryptVaultItem": {
-    "message": "Bitwarden could not decrypt the vault item listed below. Contact Bitwarden Customer Support and provide the item ID below to see if it can be recovered."
+    "message": "myWebVault could not decrypt the vault item listed below. Contact myWebVault Customer Support and provide the item ID below to see if it can be recovered."
   },
   "couldNotDecryptVaultItems": {
-    "message": "Bitwarden could not decrypt the vault items listed below. Contact Bitwarden Customer Support and provide the item IDs below to see if they can be recovered."
+    "message": "myWebVault could not decrypt the vault items listed below. Contact myWebVault Customer Support and provide the item IDs below to see if they can be recovered."
   },
   "itemId": {
     "message": "Item ID",
@@ -4176,11 +4176,11 @@
     }
   },
   "forwarderGeneratedBy": {
-    "message": "Izveidoja Bitwarden.",
+    "message": "Izveidoja myWebVault.",
     "description": "Displayed with the address on the forwarding service's configuration screen."
   },
   "forwarderGeneratedByWithWebsite": {
-    "message": "Tīmekļvietne: $WEBSITE$. Izveidoja Bitwarden.",
+    "message": "Tīmekļvietne: $WEBSITE$. Izveidoja myWebVault.",
     "description": "Displayed with the address on the forwarding service's configuration screen.",
     "placeholders": {
       "WEBSITE": {
@@ -4378,7 +4378,7 @@
     "message": "Uz ierīci ir nosūtīts paziņojums."
   },
   "notificationSentDevicePart1": {
-    "message": "Bitwarden jāatslēdz savā ierīcē vai"
+    "message": "myWebVault jāatslēdz savā ierīcē vai"
   },
   "notificationSentDeviceAnchor": {
     "message": "tīmekļa lietotnē"
@@ -4878,15 +4878,15 @@
     "message": "Pāriet uz saturu"
   },
   "bitwardenOverlayButton": {
-    "message": "Bitwarden automātiskās aizpildes izvēlnes poga",
+    "message": "myWebVault automātiskās aizpildes izvēlnes poga",
     "description": "Page title for the iframe containing the overlay button"
   },
   "toggleBitwardenVaultOverlay": {
-    "message": "Pārslēgt Bitwarden automātiskās aizpildes izvēlni",
+    "message": "Pārslēgt myWebVault automātiskās aizpildes izvēlni",
     "description": "Screen reader and tool tip label for the overlay button"
   },
   "bitwardenVault": {
-    "message": "Bitwarden automātiskās aizpildes izvēlne",
+    "message": "myWebVault automātiskās aizpildes izvēlne",
     "description": "Page title in overlay"
   },
   "unlockYourAccountToViewMatchingLogins": {
@@ -4958,7 +4958,7 @@
     "description": "Screen reader text (aria-label) for new identity button within inline menu"
   },
   "bitwardenOverlayMenuAvailable": {
-    "message": "Ir pieejama Bitwarden automātiskās aizpildes izvēlne. Jānospiež poga ar bultu uz leju, lai atlasītu.",
+    "message": "Ir pieejama myWebVault automātiskās aizpildes izvēlne. Jānospiež poga ar bultu uz leju, lai atlasītu.",
     "description": "Screen reader text for announcing when the overlay opens on the page"
   },
   "turnOn": {
@@ -5377,7 +5377,7 @@
     "description": "Followed by a literal filename (my_passwords.json) rendered as code."
   },
   "importGnomeInstructionsFileHere": {
-    "message": "file here to Bitwarden.",
+    "message": "file here to myWebVault.",
     "description": "Follows the my_passwords.json filename."
   },
   "importPasswordagentInstructions": {
@@ -5849,7 +5849,7 @@
     "message": "Pašlaik izmantotais konts"
   },
   "bitwardenAccount": {
-    "message": "Bitwarden konts"
+    "message": "myWebVault konts"
   },
   "availableAccounts": {
     "message": "Pieejamie konti"
@@ -5895,7 +5895,7 @@
     "description": "Label indicating the most common import formats"
   },
   "uriMatchDefaultStrategyHint": {
-    "message": "URI atbilstības noteikšana ir veids, kā Bitwarden atpazīst automātiskās aizpildes ieteikumus.",
+    "message": "URI atbilstības noteikšana ir veids, kā myWebVault atpazīst automātiskās aizpildes ieteikumus.",
     "description": "Explains to the user that URI match detection determines how Bitwarden suggests autofill options, and clarifies that this default strategy applies when no specific match detection is set for a login item."
   },
   "regExAdvancedOptionWarning": {
@@ -5939,15 +5939,15 @@
     "description": "Body content for dialog which asks if the user wants to proceed to the browser's keyboard shortcut settings page"
   },
   "overrideDefaultBrowserAutofillTitle": {
-    "message": "Padarīt Bitwarden par noklusējuma paroļu pārvaldnieku?",
+    "message": "Padarīt myWebVault par noklusējuma paroļu pārvaldnieku?",
     "description": "Dialog title facilitating the ability to override a chrome browser's default autofill behavior"
   },
   "overrideDefaultBrowserAutofillDescription": {
-    "message": "Šīs iespējas neņemšana vērā var radīt nesaderības starp Bitwarden automātiskās aizpildes izvēlni un pārlūka.",
+    "message": "Šīs iespējas neņemšana vērā var radīt nesaderības starp myWebVault automātiskās aizpildes izvēlni un pārlūka.",
     "description": "Dialog message facilitating the ability to override a chrome browser's default autofill behavior"
   },
   "overrideDefaultBrowserAutoFillSettings": {
-    "message": "Padarīt Bitwarden par noklusējuma paroļu pārvaldnieku",
+    "message": "Padarīt myWebVault par noklusējuma paroļu pārvaldnieku",
     "description": "Label for the setting that allows overriding the default browser autofill settings"
   },
   "defaultPasswordManagerCalloutTitle": {
@@ -5955,7 +5955,7 @@
     "description": "Title for the callout that prompts users to set Bitwarden as their default password manager"
   },
   "defaultPasswordManagerCalloutDesc": {
-    "message": "Tiks vaicāts piešķirt pārlūkam $BROWSER$ atļauju padarīt Bitwarden par galveno paroļu pārvaldnieku.",
+    "message": "Tiks vaicāts piešķirt pārlūkam $BROWSER$ atļauju padarīt myWebVault par galveno paroļu pārvaldnieku.",
     "description": "Description for the callout that prompts users to set Bitwarden as their default password manager",
     "placeholders": {
       "browser": {
@@ -5965,11 +5965,11 @@
     }
   },
   "privacyPermissionAdditionNotGrantedTitle": {
-    "message": "Nebija iespējams iestatīt Bitwarden kā noklusējuma paroļu pārvaldnieku",
+    "message": "Nebija iespējams iestatīt myWebVault kā noklusējuma paroļu pārvaldnieku",
     "description": "Title for the dialog that appears when the user has not granted the extension permission to set privacy settings"
   },
   "privacyPermissionAdditionNotGrantedDescription": {
-    "message": "Ir nepieciešams Bitwarden nodrošināt pārlūka privātuma atļaujas, lai iestatītu to kā noklusējuma paroļu pārvaldnieku.",
+    "message": "Ir nepieciešams myWebVault nodrošināt pārlūka privātuma atļaujas, lai iestatītu to kā noklusējuma paroļu pārvaldnieku.",
     "description": "Description for the dialog that appears when the user has not granted the extension permission to set privacy settings"
   },
   "makeDefault": {
@@ -5977,10 +5977,10 @@
     "description": "Button text for the setting that allows overriding the default browser autofill settings"
   },
   "defaultPasswordManagerPromptTitle": {
-    "message": "Padarīt Bitwarden par pārlūka noklusējuma paroļu pārvaldnieku"
+    "message": "Padarīt myWebVault par pārlūka noklusējuma paroļu pārvaldnieku"
   },
   "defaultPasswordManagerPromptTitleV2": {
-    "message": "Padarīt Bitwarden par noklusējuma paroļu pārvaldnieku",
+    "message": "Padarīt myWebVault par noklusējuma paroļu pārvaldnieku",
     "description": "Label for the setting to make Bitwarden the default password manager"
   },
   "defaultPasswordManagerSettingHintV2": {
@@ -5992,13 +5992,13 @@
     "description": "Link text to browser autofill settings in the default password manager setting hint."
   },
   "defaultPasswordManagerPromptStep2AfterAllow": {
-    "message": "pārlūka uzvednē, lai dotu Bitwarden atļauju mainīt iestatījumus."
+    "message": "pārlūka uzvednē, lai dotu myWebVault atļauju mainīt iestatījumus."
   },
   "defaultPasswordManagerPromptStep3": {
     "message": "Mēs izslēgsim pārlūka iebūvēto paroļu pārvaldnieku, lai varētu izbaudīt drošu pieteikšanāš pieredzi."
   },
   "defaultPasswordManagerSuccessToast": {
-    "message": "Bitwarden tika padarīts par pārlūka noklusējuma paroļu pārvaldnieku"
+    "message": "myWebVault tika padarīts par pārlūka noklusējuma paroļu pārvaldnieku"
   },
   "allow": {
     "message": "Atļaut",
@@ -6406,16 +6406,16 @@
     "message": "Lejupielādēt pielikumu"
   },
   "downloadBitwarden": {
-    "message": "Lejupielādē Bitwarden"
+    "message": "Lejupielādē myWebVault"
   },
   "downloadBitwardenOnAllDevices": {
-    "message": "Lejupielādē Bitwarden visās ierīcēs"
+    "message": "Lejupielādē myWebVault visās ierīcēs"
   },
   "getTheMobileApp": {
     "message": "Iegūsti viedierīču lietotni"
   },
   "getTheMobileAppDesc": {
-    "message": "Piekļūsti savām parolēm kustībā ar Bitwarden viedierīču lietotni!"
+    "message": "Piekļūsti savām parolēm kustībā ar myWebVault viedierīču lietotni!"
   },
   "getTheDesktopApp": {
     "message": "Iegūsti darbvirsmas lietotni"
@@ -6968,10 +6968,10 @@
     "message": "Atslēgšana ar biometriju nav pieejama nepareizi konfigurētu sistēmas datņu dēļ."
   },
   "biometricsStatusHelptextDesktopDisconnected": {
-    "message": "Atslēgšana ar biometriju nav pieejama, jo Bitwarden darbvirsmas lietotne ir aizvērta."
+    "message": "Atslēgšana ar biometriju nav pieejama, jo myWebVault darbvirsmas lietotne ir aizvērta."
   },
   "biometricsStatusHelptextNotEnabledInDesktop": {
-    "message": "Atslēgšana ar biometriju nav pieejama, jo tā nav iespējota $EMAIL$ Bitwarden darbvirsmas lietotnē.",
+    "message": "Atslēgšana ar biometriju nav pieejama, jo tā nav iespējota $EMAIL$ myWebVault darbvirsmas lietotnē.",
     "placeholders": {
       "email": {
         "content": "$1",
@@ -7003,7 +7003,7 @@
     "description": "Notification message for when a password has been regenerated"
   },
   "saveToBitwarden": {
-    "message": "Saglabāt Bitwarden",
+    "message": "Saglabāt myWebVault",
     "description": "Confirmation message for saving a login to Bitwarden"
   },
   "spaceCharacterDescriptor": {
@@ -7256,13 +7256,13 @@
     "message": "Use folders to organize vault items. They're just for you — no one else will see or use them."
   },
   "introCarouselLabel": {
-    "message": "Laipni lūdzam Bitwarden"
+    "message": "Laipni lūdzam myWebVault"
   },
   "securityPrioritized": {
     "message": "Drošība pirmajā vietā"
   },
   "securityPrioritizedBody": {
-    "message": "Pieteikšanās vienumu, karšu un identitāšu glabāšana savā drošajā glabātavā. Bitwarden izmanto nulles zināšanu pilnīgu šifrēšanu, lai aizsargātu to, kas Tev ir svarīgs."
+    "message": "Pieteikšanās vienumu, karšu un identitāšu glabāšana savā drošajā glabātavā. myWebVault izmanto nulles zināšanu pilnīgu šifrēšanu, lai aizsargātu to, kas Tev ir svarīgs."
   },
   "quickLogin": {
     "message": "Ātra un vienkārša pieteikšanās"
@@ -7280,7 +7280,7 @@
     "message": "Tavi dati, kad un kur vien tie ir nepieciešami"
   },
   "secureDevicesBody": {
-    "message": "Neierobežotu paroļu skaitu var saglabāt neierobežotā ierīdžu daudzumā ar Bitwarden viedtālruņa, pārlūka un darbvirsmas lietotni."
+    "message": "Neierobežotu paroļu skaitu var saglabāt neierobežotā ierīdžu daudzumā ar myWebVault viedtālruņa, pārlūka un darbvirsmas lietotni."
   },
   "nudgeBadgeAria": {
     "message": "1 paziņojums"
@@ -7289,7 +7289,7 @@
     "message": "Ievietot esošas paroles"
   },
   "emptyVaultNudgeBody": {
-    "message": "Ievietotājs ir izmantojams, lai pieteikšanās vienumus ātri pārnest uz Bitwarden bez pašrocīgas to pievienošanas."
+    "message": "Ievietotājs ir izmantojams, lai pieteikšanās vienumus ātri pārnest uz myWebVault bez pašrocīgas to pievienošanas."
   },
   "emptyVaultNudgeButton": {
     "message": "Ievietot tagad"
@@ -7408,7 +7408,7 @@
     "message": "Par šo iestatījumu"
   },
   "permitCipherDetailsDescription": {
-    "message": "Bitwarden izmantos saglabātos pieteikšanās vienuma URI, lai noteiktu, kuru ikonu vai paroles nomaiņas URL izmantot, lai uzlabotu pieredzi. Šī pakalpojuma izmantošanas laikā nekāda informācija netiek ievākta vai saglabāta."
+    "message": "myWebVault izmantos saglabātos pieteikšanās vienuma URI, lai noteiktu, kuru ikonu vai paroles nomaiņas URL izmantot, lai uzlabotu pieredzi. Šī pakalpojuma izmantošanas laikā nekāda informācija netiek ievākta vai saglabāta."
   },
   "showQuickCopyActionsDetailsDescription": {
     "message": "Add 3 quick copy buttons next to items to copy your username, password, or verification code to the clipboard."
@@ -7417,7 +7417,7 @@
     "message": "Nav atļaujas apskatīt šo lapu. Jāmēģina pieteikties ar citu kontu."
   },
   "wasmNotSupported": {
-    "message": "WebAssembly šajā pārlūkā netiek atbalstīts vai nav iespējots. WebAssebly ir nepieciešams, lai izmantotu Bitwarden lietotni.",
+    "message": "WebAssembly šajā pārlūkā netiek atbalstīts vai nav iespējots. WebAssebly ir nepieciešams, lai izmantotu myWebVault lietotni.",
     "description": "'WebAssembly' is a technical term and should not be translated."
   },
   "showMore": {
@@ -7505,7 +7505,7 @@
     "message": "Error: Cannot decrypt"
   },
   "removeMasterPasswordForOrgUserKeyConnector": {
-    "message": "Apvienība vairs neizmanto galvenās paroles, lai pieteiktos Bitwarden. Lai turpinātu, jāapliecina apvienība un domēns."
+    "message": "Apvienība vairs neizmanto galvenās paroles, lai pieteiktos myWebVault. Lai turpinātu, jāapliecina apvienība un domēns."
   },
   "continueWithLogIn": {
     "message": "Turpināt ar pieteikšanos"
@@ -7591,7 +7591,7 @@
     "message": "Set an unlock method to change your timeout action"
   },
   "sessionTimeoutSuppressedByConnectedDevice": {
-    "message": "Managed by the Bitwarden desktop app. Open the desktop app to edit."
+    "message": "Managed by the myWebVault desktop app. Open the desktop app to edit."
   },
   "percentageCompleted": {
     "message": "$PERCENT$% complete",
@@ -7693,7 +7693,7 @@
     "message": "user@bitwarden.com, user@acme.com"
   },
   "downloadBitwardenApps": {
-    "message": "Download Bitwarden apps"
+    "message": "Download myWebVault apps"
   },
   "emailProtected": {
     "message": "Email protected"
@@ -7712,13 +7712,13 @@
     "message": "Share unlock with Desktop"
   },
   "sharedUnlockWithDesktopDescription": {
-    "message": "When enabled, unlock state will be shared with the Bitwarden Desktop app."
+    "message": "When enabled, unlock state will be shared with the myWebVault Desktop app."
   },
   "sharedUnlockWithWeb": {
     "message": "Share unlock with web vault"
   },
   "sharedUnlockWithWebDescription": {
-    "message": "When enabled, unlock state will be shared with Bitwarden web vaults."
+    "message": "When enabled, unlock state will be shared with myWebVault web vaults."
   },
   "sharedUnlockUnavailableUntrustedDevice": {
     "message": "Shared unlock is not available because you chose not to remember this device. To enable this setting, try logging in again."
@@ -7727,13 +7727,13 @@
     "message": "New permission needed"
   },
   "sharedUnlockDesktopPermissionDesc": {
-    "message": "To use shared unlock, Bitwarden needs permission to communicate with the desktop app. When you continue, your browser will ask you to approve it."
+    "message": "To use shared unlock, myWebVault needs permission to communicate with the desktop app. When you continue, your browser will ask you to approve it."
   },
   "sharedUnlockDesktopPermissionWarning": {
-    "message": "Bitwarden will lock and reload. After you approve, the extension reloads and will lock your vault."
+    "message": "myWebVault will lock and reload. After you approve, the extension reloads and will lock your vault."
   },
   "biometricPermissionDesc": {
-    "message": "To use biometric unlock, Bitwarden needs permission to communicate with the desktop app. When you continue, your browser will ask you to approve it."
+    "message": "To use biometric unlock, myWebVault needs permission to communicate with the desktop app. When you continue, your browser will ask you to approve it."
   },
   "enterMonth": {
     "message": "Enter month."
