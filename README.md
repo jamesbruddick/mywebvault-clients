@@ -64,7 +64,6 @@ You'll need Node.js 24.17 or later and npm 11.
 ```bash
 git clone https://github.com/jamesbruddick/mywebvault-clients.git
 cd mywebvault-clients
-git checkout mywebvault
 npm ci
 
 cd apps/browser
@@ -87,16 +86,10 @@ kept small, usually a switch check or a single import, so upstream security fixe
 The folder's [README](apps/browser/src/mywebvault/README.md) lists every Bitwarden file that was
 touched.
 
-| Branch       | Contents                                    |
-| ------------ | ------------------------------------------- |
-| `mywebvault` | myWebVault                                  |
-| `main`       | An unmodified mirror of `bitwarden/clients` |
-
-To pull in upstream changes:
+To pull in changes from Bitwarden (`bitwarden/clients` is the `upstream` remote):
 
 ```bash
 git fetch upstream
-git checkout mywebvault
 git merge upstream/main
 ```
 
