@@ -103,6 +103,11 @@ module.exports.buildConfig = function buildConfig(params) {
           loader: "sass-loader",
           options: {
             sourceMap: true,
+            sassOptions: {
+              // myWebVault: upstream Bitwarden stylesheets still use @import and the global color/map
+              // functions. These only matter for Dart Sass 3; pick up upstream's migration when it lands.
+              silenceDeprecations: ["import", "global-builtin", "color-functions"],
+            },
           },
         },
       ],
@@ -242,7 +247,13 @@ module.exports.buildConfig = function buildConfig(params) {
       chunkFilename: "chunk-[id].css",
     }),
     new AngularWebpackPlugin({
-      tsconfig: params.tsConfig,
+      // myWebVault: Manifest V2 builds the background page in this compilation too, so it needs the
+      // background entries; in Manifest V3 the service worker has its own build (see below) and
+      // listing them here only produces "part of the TypeScript compilation but it's unused" warnings.
+      tsconfig:
+        manifestVersion == 2
+          ? params.tsConfig.replace(/tsconfig\.build\.json$/, "tsconfig.build.mv2.json")
+          : params.tsConfig,
       entryModule: params.popup.entryModule,
       sourceMap: true,
     }),
@@ -260,6 +271,8 @@ module.exports.buildConfig = function buildConfig(params) {
     name: "main",
     mode: ENV,
     devtool: false,
+    // myWebVault: size hints are for sites downloading over a network; an extension loads from disk.
+    performance: { hints: false },
 
     entry: {
       "popup/polyfills": path.resolve(__dirname, "src/popup/polyfills.ts"),
@@ -500,6 +513,7 @@ module.exports.buildConfig = function buildConfig(params) {
       name: "background",
       mode: ENV,
       devtool: false,
+      performance: { hints: false },
 
       entry: params.background.entry,
       target: target,
