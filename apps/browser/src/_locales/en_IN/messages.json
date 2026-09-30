@@ -14,7 +14,7 @@
     "description": "Extension name for the beta channel, MUST be less than 40 characters (Safari restriction)"
   },
   "extDesc": {
-    "message": "Your bookmarks, encrypted and synced everywhere. Built on Bitwarden's open source code.",
+    "message": "Your bookmarks, encrypted and synced everywhere.",
     "description": "Extension description, MUST be less than 112 characters (Safari restriction)"
   },
   "loginOrCreateNewAccount": {
@@ -66,13 +66,13 @@
     "message": "Email address"
   },
   "masterPass": {
-    "message": "Master password"
+    "message": "Password"
   },
   "masterPassDesc": {
-    "message": "The master password is the password you use to access your vault. It is very important that you do not forget your master password. There is no way to recover the password in the event that you forget it."
+    "message": "Your password is what you use to unlock your myWebVault account. It is very important that you do not forget your password. There is no way to recover the password in the event that you forget it."
   },
   "masterPassHintDesc": {
-    "message": "A master password hint can help you remember your password if you forget it."
+    "message": "A password hint can help you remember your password if you forget it."
   },
   "masterPassHintText": {
     "message": "If you forget your password, the password hint can be sent to your email. $CURRENT$/$MAXIMUM$ character maximum.",
@@ -88,10 +88,10 @@
     }
   },
   "reTypeMasterPass": {
-    "message": "Re-type master password"
+    "message": "Re-type password"
   },
   "masterPassHint": {
-    "message": "Master password hint (optional)"
+    "message": "Password hint (optional)"
   },
   "passwordStrengthScore": {
     "message": "Password strength score $SCORE$",
@@ -115,7 +115,7 @@
     }
   },
   "finishJoiningThisOrganizationBySettingAMasterPassword": {
-    "message": "Finish joining this organisation by setting a master password."
+    "message": "Finish joining this organisation by setting a password."
   },
   "tab": {
     "message": "Tab"
@@ -318,7 +318,7 @@
     "message": "Confirm your identity to continue."
   },
   "changeMasterPassword": {
-    "message": "Change master password"
+    "message": "Change password"
   },
   "continueToWebApp": {
     "message": "Continue to web app?"
@@ -339,7 +339,7 @@
     "message": "Help others find out if myWebVault is right for them. Visit your browser's extension store and leave a rating now."
   },
   "changeMasterPasswordOnWebConfirmation": {
-    "message": "You can change your master password on the myWebVault web app."
+    "message": "You can change your password on the myWebVault web app."
   },
   "fingerprintPhrase": {
     "message": "Fingerprint phrase",
@@ -893,10 +893,10 @@
     }
   },
   "invalidMasterPassword": {
-    "message": "Invalid master password"
+    "message": "Invalid password"
   },
   "invalidMasterPasswordConfirmEmailAndHost": {
-    "message": "Invalid master password. Confirm your email is correct and your account was created on $HOST$.",
+    "message": "Invalid password. Confirm your email is correct and your account was created on $HOST$.",
     "placeholders": {
       "host": {
         "content": "$1",
@@ -968,16 +968,16 @@
     "message": "Security"
   },
   "confirmMasterPassword": {
-    "message": "Confirm master password"
+    "message": "Confirm password"
   },
   "masterPassword": {
-    "message": "Master password"
+    "message": "Password"
   },
   "masterPassImportant": {
-    "message": "Your master password cannot be recovered if you forget it!"
+    "message": "Your password cannot be recovered if you forget it!"
   },
   "masterPassHintLabel": {
-    "message": "Master password hint"
+    "message": "Password hint"
   },
   "errorOccurred": {
     "message": "An error has occurred"
@@ -989,13 +989,13 @@
     "message": "Invalid email address."
   },
   "masterPasswordRequired": {
-    "message": "Master password is required."
+    "message": "Password is required."
   },
   "confirmMasterPasswordRequired": {
-    "message": "Master password retype is required."
+    "message": "Password retype is required."
   },
   "masterPasswordMinlength": {
-    "message": "Master password must be at least $VALUE$ characters long.",
+    "message": "Password must be at least $VALUE$ characters long.",
     "description": "The Master Password must be at least a specific number of characters long.",
     "placeholders": {
       "value": {
@@ -1005,7 +1005,7 @@
     }
   },
   "masterPassDoesntMatch": {
-    "message": "Master password confirmation does not match."
+    "message": "Password confirmation does not match."
   },
   "newAccountCreated": {
     "message": "Your new account has been created! You may now log in."
@@ -1023,7 +1023,7 @@
     "message": "You may close this window"
   },
   "masterPassSent": {
-    "message": "We've sent you an email with your master password hint."
+    "message": "We've sent you an email with your password hint."
   },
   "verificationCodeRequired": {
     "message": "Verification code is required."
@@ -1432,7 +1432,7 @@
     "message": "After changing your password, you will need to log in with your new password. Active sessions on other devices will be logged out within one hour."
   },
   "accountRecoveryUpdateMasterPasswordSubtitle": {
-    "message": "Change your master password to complete account recovery."
+    "message": "Change your password to complete account recovery."
   },
   "enableChangedPasswordNotification": {
     "message": "Ask to update existing login"
@@ -1556,7 +1556,7 @@
     "message": "This password will be used to export and import this file"
   },
   "accountRestrictedOptionDescription": {
-    "message": "Use your account encryption key, derived from your account's username and Master Password, to encrypt the export and restrict import to only the current myWebVault account."
+    "message": "Use your account encryption key, derived from your account's username and password, to encrypt the export and restrict import to only the current myWebVault account."
   },
   "passwordProtectedOptionDescription": {
     "message": "Set a file password to encrypt the export and import it to any myWebVault account using the password for decryption."
@@ -1591,7 +1591,7 @@
     "message": "Account encryption keys are unique to each myWebVault user account, so you can't import an encrypted export into a different account."
   },
   "exportMasterPassword": {
-    "message": "Enter your master password to export your vault data."
+    "message": "Enter your password to export your vault data."
   },
   "shared": {
     "message": "Shared"
@@ -1646,13 +1646,13 @@
     "message": "Update your encryption settings"
   },
   "updateEncryptionSettingsDesc": {
-    "message": "The new recommended encryption settings will improve your account security. Enter your master password to update now."
+    "message": "The new recommended encryption settings will improve your account security. Enter your password to update now."
   },
   "confirmIdentityToContinue": {
     "message": "Confirm your identity to continue"
   },
   "enterYourMasterPassword": {
-    "message": "Enter your master password"
+    "message": "Enter your password"
   },
   "updateSettings": {
     "message": "Update settings"
@@ -3003,10 +3003,10 @@
     "description": "ex. A weak password. Scale: Weak -> Good -> Strong"
   },
   "weakMasterPassword": {
-    "message": "Weak master password"
+    "message": "Weak password"
   },
   "weakMasterPasswordDesc": {
-    "message": "The master password you have chosen is weak. You should use a strong master password (or a passphrase) to properly protect your myWebVault account. Are you sure you want to use this master password?"
+    "message": "The password you have chosen is weak. You should use a strong password (or a passphrase) to properly protect your myWebVault account. Are you sure you want to use this password?"
   },
   "rotateAccountEncKey": {
     "message": "Also rotate my account's encryption key"
@@ -3030,7 +3030,7 @@
     "message": "Impact of rotating your encryption key"
   },
   "changePasswordDelegationMasterPasswordPolicyInEffect": {
-    "message": "One or more organisation policies require the master password to meet the following requirements:"
+    "message": "One or more organisation policies require the password to meet the following requirements:"
   },
   "pin": {
     "message": "PIN",
@@ -3064,7 +3064,7 @@
     "message": "Unlock with biometrics"
   },
   "unlockWithMasterPassword": {
-    "message": "Unlock with master password"
+    "message": "Unlock with password"
   },
   "awaitDesktop": {
     "message": "Awaiting confirmation from desktop"
@@ -3073,10 +3073,10 @@
     "message": "Please confirm using biometrics in the myWebVault Desktop application to enable biometrics for browser."
   },
   "lockWithMasterPassOnRestart": {
-    "message": "Lock with master password on browser restart"
+    "message": "Lock with password on browser restart"
   },
   "lockWithMasterPassOnRestart1": {
-    "message": "Require master password on browser restart"
+    "message": "Require password on browser restart"
   },
   "selectOneCollection": {
     "message": "You must select at least one collection."
@@ -3197,19 +3197,19 @@
     "message": "This page is interfering with the myWebVault experience. The myWebVault inline menu has been temporarily disabled as a safety measure."
   },
   "setMasterPassword": {
-    "message": "Set master password"
+    "message": "Set password"
   },
   "currentMasterPass": {
-    "message": "Current master password"
+    "message": "Current password"
   },
   "newMasterPass": {
-    "message": "New master password"
+    "message": "New password"
   },
   "confirmNewMasterPass": {
-    "message": "Confirm new master password"
+    "message": "Confirm new password"
   },
   "masterPasswordPolicyInEffect": {
-    "message": "One or more organisation policies require your master password to meet the following requirements:"
+    "message": "One or more organisation policies require your password to meet the following requirements:"
   },
   "policyInEffectMinComplexity": {
     "message": "Minimum complexity score of $SCORE$",
@@ -3248,7 +3248,7 @@
     }
   },
   "masterPasswordPolicyRequirementsNotMet": {
-    "message": "Your new master password does not meet the policy requirements."
+    "message": "Your new password does not meet the policy requirements."
   },
   "receiveMarketingEmails": {
     "message": "Receive updates from myWebVault in your inbox."
@@ -3356,7 +3356,7 @@
     "message": "Biometrics failed"
   },
   "biometricsFailedDesc": {
-    "message": "Biometrics cannot be completed, consider using a master password or logging out. If this persists, please contact myWebVault support."
+    "message": "Biometrics cannot be completed, consider using a password or logging out. If this persists, please contact myWebVault support."
   },
   "nativeMessagingPermissionErrorTitle": {
     "message": "Permission not provided"
@@ -3829,13 +3829,13 @@
     "message": "Hide your email address from viewers."
   },
   "passwordPrompt": {
-    "message": "Master password re-prompt"
+    "message": "Password re-prompt"
   },
   "passwordConfirmation": {
-    "message": "Master password confirmation"
+    "message": "Password confirmation"
   },
   "passwordConfirmationDesc": {
-    "message": "This action is protected. To continue, please re-enter your master password to verify your identity."
+    "message": "This action is protected. To continue, please re-enter your password to verify your identity."
   },
   "emailVerificationRequired": {
     "message": "Email Verification Required"
@@ -3847,28 +3847,28 @@
     "message": "You must verify your email to use this feature. You can verify your email in the web vault."
   },
   "masterPasswordSuccessfullySet": {
-    "message": "Master password successfully set"
+    "message": "Password successfully set"
   },
   "updatedMasterPassword": {
-    "message": "Updated Master Password"
+    "message": "Updated Password"
   },
   "updateMasterPassword": {
-    "message": "Update Master Password"
+    "message": "Update Password"
   },
   "updateMasterPasswordWarning": {
-    "message": "Your Master Password was recently changed by an administrator in your organization. In order to access the vault, you must update it now. Proceeding will log you out of your current session, requiring you to log back in. Active sessions on other devices may continue to remain active for up to one hour."
+    "message": "Your Password was recently changed by an administrator in your organization. In order to access the vault, you must update it now. Proceeding will log you out of your current session, requiring you to log back in. Active sessions on other devices may continue to remain active for up to one hour."
   },
   "updateWeakMasterPasswordWarning": {
-    "message": "Your master password does not meet one or more of your organisation policies. In order to access the vault, you must update your master password now. Proceeding will log you out of your current session, requiring you to log back in. Active sessions on other devices may continue to remain active for up to one hour."
+    "message": "Your password does not meet one or more of your organisation policies. In order to access the vault, you must update your password now. Proceeding will log you out of your current session, requiring you to log back in. Active sessions on other devices may continue to remain active for up to one hour."
   },
   "tdeDisabledMasterPasswordRequired": {
-    "message": "Your organisation has disabled trusted device encryption. Please set a master password to access your vault."
+    "message": "Your organisation has disabled trusted device encryption. Please set a password to access your vault."
   },
   "resetPasswordPolicyAutoEnroll": {
     "message": "Automatic Enrollment"
   },
   "resetPasswordAutoEnrollInviteWarning": {
-    "message": "This organization has an enterprise policy that will automatically enroll you in password reset. Enrollment will allow organization administrators to change your master password."
+    "message": "This organization has an enterprise policy that will automatically enroll you in password reset. Enrollment will allow organization administrators to change your password."
   },
   "selectFolder": {
     "message": "Select folder..."
@@ -3878,11 +3878,11 @@
     "description": "Used as a message within the notification bar when no folders are found"
   },
   "orgPermissionsUpdatedMustSetPassword": {
-    "message": "Your organisation permissions were updated, requiring you to set a master password.",
+    "message": "Your organisation permissions were updated, requiring you to set a password.",
     "description": "Used as a card title description on the set password page to explain why the user is there"
   },
   "orgRequiresYouToSetPassword": {
-    "message": "Your organisation requires you to set a master password.",
+    "message": "Your organisation requires you to set a password.",
     "description": "Used as a card title description on the set password page to explain why the user is there"
   },
   "cardMetrics": {
@@ -3994,10 +3994,10 @@
     "message": "Leave Organization"
   },
   "removeMasterPassword": {
-    "message": "Remove Master Password"
+    "message": "Remove Password"
   },
   "removedMasterPassword": {
-    "message": "Master password removed."
+    "message": "Password removed."
   },
   "leaveOrganizationConfirmation": {
     "message": "Are you sure you want to leave this organization?"
@@ -4442,16 +4442,16 @@
     "message": "Over 30 days ago"
   },
   "masterPasswordChanged": {
-    "message": "Master password saved"
+    "message": "Password saved"
   },
   "exposedMasterPassword": {
-    "message": "Exposed Master Password"
+    "message": "Exposed Password"
   },
   "exposedMasterPasswordDesc": {
     "message": "Password found in a data breach. Use a unique password to protect your account. Are you sure you want to use an exposed password?"
   },
   "weakAndExposedMasterPassword": {
-    "message": "Weak and Exposed Master Password"
+    "message": "Weak and Exposed Password"
   },
   "weakAndBreachedMasterPasswordDesc": {
     "message": "Weak password identified and found in a data breach. Use a strong and unique password to protect your account. Are you sure you want to use this password?"
@@ -4463,7 +4463,7 @@
     "message": "Important:"
   },
   "masterPasswordHint": {
-    "message": "Your master password cannot be recovered if you forget it!"
+    "message": "Your password cannot be recovered if you forget it!"
   },
   "characterMinimum": {
     "message": "$LENGTH$ character minimum",
@@ -5013,7 +5013,7 @@
     "message": "Need a different method?"
   },
   "useMasterPassword": {
-    "message": "Use master password"
+    "message": "Use password"
   },
   "usePin": {
     "message": "Use PIN"
@@ -7505,7 +7505,7 @@
     "message": "Error: Cannot decrypt"
   },
   "removeMasterPasswordForOrgUserKeyConnector": {
-    "message": "Your organisation is no longer using master passwords to log into myWebVault. To continue, verify the organisation and domain."
+    "message": "Your organisation is no longer using passwords to log into myWebVault. To continue, verify the organisation and domain."
   },
   "continueWithLogIn": {
     "message": "Continue with log in"
