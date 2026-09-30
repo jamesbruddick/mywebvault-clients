@@ -2,11 +2,10 @@
 
 ## Project Context Files
 
-**Read these files before reviewing to ensure that you fully understand the project and contributing guidelines**
+**Read these files before reviewing to ensure that you fully understand the project**
 
 1. `README.md` (read on demand for project overview)
-2. `CONTRIBUTING.md` (read on demand for contributing guidelines)
-3. @../.github/PULL_REQUEST_TEMPLATE.md
+2. `apps/browser/src/mywebvault/README.md` (myWebVault's code and every Bitwarden file it touches)
 
 ## Critical Rules
 
