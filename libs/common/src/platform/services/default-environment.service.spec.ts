@@ -72,7 +72,7 @@ describe("EnvironmentService", () => {
   };
 
   // myWebVault: the only cloud region is the myWebVault server (see PRODUCTION_REGIONS).
-  const CLOUD = "https://mywebvault-api.jamesbruddick.workers.dev";
+  const CLOUD = "https://mywebvault.jamesbruddick.workers.dev";
   const REGION_SETUP = [
     {
       region: Region.US,

@@ -82,7 +82,7 @@ export const USER_CLOUD_REGION_KEY = new UserKeyDefinition<CloudRegion>(
  * myWebVault: the hosted myWebVault sync server. This is the one place its address is set; change
  * it here (e.g. to https://api.mywebvault.net) when the custom domain goes live.
  */
-export const MYWEBVAULT_CLOUD_URL = "https://mywebvault-api.jamesbruddick.workers.dev";
+export const MYWEBVAULT_CLOUD_URL = "https://mywebvault.jamesbruddick.workers.dev";
 
 /**
  * The production regions available for selection.
