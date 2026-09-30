@@ -120,7 +120,6 @@ async function getSearchData(deps: QuickSearchDependencies): Promise<QuickSearch
       folder: b.folderId ? (folderNames.get(b.folderId) ?? null) : null,
       notes: b.notes,
       favorite: b.favorite,
-      updated: b.updated?.getTime() ?? 0,
     };
   });
   return { state: "unlocked", bookmarks };

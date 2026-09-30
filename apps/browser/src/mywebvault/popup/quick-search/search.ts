@@ -102,7 +102,7 @@ function render() {
   status.textContent =
     bookmarks.length === 0
       ? t("noBookmarksYet")
-      : shown.length === 0
+      : shown.length === 0 && input.value.trim() !== ""
         ? t("quickSearchNoResults")
         : "";
 }

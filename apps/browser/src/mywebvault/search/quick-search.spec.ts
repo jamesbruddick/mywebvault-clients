@@ -8,7 +8,6 @@ function bookmark(overrides: Partial<QuickSearchBookmark>): QuickSearchBookmark 
     folder: null,
     notes: "",
     favorite: false,
-    updated: 0,
     ...overrides,
   };
 }
@@ -17,33 +16,25 @@ const soup = bookmark({
   title: "Soup recipes",
   url: "https://soup.test",
   tags: ["cooking"],
-  updated: 1,
 });
 const news = bookmark({
   title: "Daily news",
   url: "https://news.test",
   tags: ["reading"],
-  updated: 3,
 });
 const guide = bookmark({
   title: "Guide",
   url: "https://docs.test/soup-kitchen",
   folder: "Work",
   notes: "onboarding",
-  updated: 2,
 });
 const all = [soup, news, guide];
 const titles = (list: QuickSearchBookmark[]) => list.map((b) => b.title);
 
 describe("rankBookmarks", () => {
-  it("lists favorites, then the most recently changed, when nothing is typed", () => {
-    const fav = bookmark({ title: "Fav", favorite: true, updated: 0 });
-    expect(titles(rankBookmarks([...all, fav], "  "))).toEqual([
-      "Fav",
-      "Daily news",
-      "Guide",
-      "Soup recipes",
-    ]);
+  it("shows nothing until something is typed", () => {
+    expect(rankBookmarks(all, "")).toEqual([]);
+    expect(rankBookmarks(all, "  ")).toEqual([]);
   });
 
   it("ranks title matches above URL matches", () => {

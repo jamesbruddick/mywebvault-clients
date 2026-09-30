@@ -24,8 +24,6 @@ export interface QuickSearchBookmark {
   folder: string | null;
   notes: string;
   favorite: boolean;
-  /** Unix ms of the last change; recent bookmarks are listed first when nothing is typed. */
-  updated: number;
 }
 
 export type QuickSearchData =
@@ -57,7 +55,7 @@ const MAX_RESULTS = 50;
 /**
  * Filters and orders bookmarks for a query. Every term must match somewhere (title, URL, folder,
  * tags, notes); `#term` matches tags only. Title matches rank above tag, URL and notes matches.
- * With no query, favorites come first, then the most recently changed.
+ * With no query, nothing is shown: results appear only once something is typed.
  */
 export function rankBookmarks(
   bookmarks: QuickSearchBookmark[],
@@ -65,9 +63,7 @@ export function rankBookmarks(
 ): QuickSearchBookmark[] {
   const terms = query.toLowerCase().split(/\s+/).filter(Boolean);
   if (terms.length === 0) {
-    return [...bookmarks]
-      .sort((a, b) => Number(b.favorite) - Number(a.favorite) || b.updated - a.updated)
-      .slice(0, MAX_RESULTS);
+    return [];
   }
 
   const scored: { bookmark: QuickSearchBookmark; score: number }[] = [];
