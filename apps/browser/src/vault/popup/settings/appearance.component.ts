@@ -28,7 +28,6 @@ import {
   SelectModule,
 } from "@bitwarden/components";
 import {
-  PermitCipherDetailsPopoverComponent,
   VaultCopyButtonsService,
   ShowQuickCopyActionsDetailsPopoverComponent,
 } from "@bitwarden/vault";
@@ -55,7 +54,6 @@ import { PopupSizeService } from "../../../platform/popup/layout/popup-size.serv
     SelectModule,
     ReactiveFormsModule,
     CheckboxModule,
-    PermitCipherDetailsPopoverComponent,
     ShowQuickCopyActionsDetailsPopoverComponent,
   ],
 })
